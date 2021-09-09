@@ -1,0 +1,14 @@
+Hello, please enter a string: 
+felipe fernandes melo lima
+You have entered: felipe fernandes melo lima
+Sorted:    aadeeeeeffiilllmmnnoprs
+
+Hello, please enter a string: 
+lucas martins nogueira da gama
+You have entered: lucas martins nogueira da gama
+Sorted:     aaaaaacdeggiilmmnnorrsstuu
+
+Hello, please enter a string: 
+
+Empty string
+(base) ➜  Projects 

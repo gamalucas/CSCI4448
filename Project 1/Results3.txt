@@ -1,0 +1,43 @@
+Hello, please enter the number of elements you want to analyze: 
+20
+Enter the elements of the array: 
+66
+114
+117
+99
+101
+32
+83
+97
+121
+115
+32
+72
+105
+33
+7
+9
+50
+48
+49
+57
+Code: 66   Type: Upper case   ASCII Char: B
+Code: 114   Type: Lower case   ASCII Char: r
+Code: 117   Type: Lower case   ASCII Char: u
+Code: 99   Type: Lower case   ASCII Char: c
+Code: 101   Type: Lower case   ASCII Char: e
+Code: 32   Type: White Space   ASCII Char:  (white space)
+Code: 83   Type: Upper case   ASCII Char: S
+Code: 97   Type: Lower case   ASCII Char: a
+Code: 121   Type: Lower case   ASCII Char: y
+Code: 115   Type: Lower case   ASCII Char: s
+Code: 32   Type: White Space   ASCII Char:  (white space)
+Code: 72   Type: Upper case   ASCII Char: H
+Code: 105   Type: Lower case   ASCII Char: i
+Code: 33   Type: Special Character   ASCII Char: !
+No cases avaiable for code: 7
+No cases avaiable for code: 9
+Code: 50   Type: Digit   ASCII Char: 2
+Code: 48   Type: Digit   ASCII Char: 0
+Code: 49   Type: Digit   ASCII Char: 1
+Code: 57   Type: Digit   ASCII Char: 9
