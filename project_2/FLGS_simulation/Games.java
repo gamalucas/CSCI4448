@@ -1,3 +1,5 @@
+import java.util.List;
+
 abstract class Games{
     double price;
     double height;
@@ -5,20 +7,8 @@ abstract class Games{
     double lenght;
     int inventory;
     int units_sold;
-    int shelf_position;
+    List<Integer> shelf_position;
     String game_name;
-
-    // Constructor Declaration of Class
-    public Games(double price, double height, double width, double lenght, int inventory, int units_sold, int shelf_position, String game_name){
-        this.price = price;
-        this.height = height;
-        this.width = width;
-        this.lenght = lenght;
-        this.inventory = inventory;
-        this.units_sold = units_sold;
-        this.shelf_position = shelf_position;
-        this.game_name = game_name;
-    }
 
     //methods 
     public double get_price(){
@@ -39,9 +29,9 @@ abstract class Games{
     public int get_units_sold(){
         return units_sold;
     }
-    public int gte_shelf_position(){
-        return shelf_position;
-    }
+    // public int get_shelf_position(){
+    //     return shelf_position;
+    // }
     public String get_game_name(){
         return game_name;
     }
@@ -50,9 +40,32 @@ abstract class Games{
         this.price = price;
     }
 
-
-    public static void main(String args[]){
-        Family hello = new Family();
-        hello.msg();
+    public void set_height(double height){
+        this.height = height;
     }
+
+    public void set_width(double width){
+        this.width = width;
+    }
+
+    public void set_lenght(double lenght){
+        this.lenght = lenght;
+    }
+
+    public void set_inventory(int inventory){
+        this.inventory = inventory;
+    }
+
+    public void set_units_sold(int units_sold){
+        this.units_sold = units_sold;
+    }
+
+    // public void set_shelf_position(int shelf_position){
+    //     this.shelf_position = shelf_position;
+    // }
+
+    public void set_game_name(String game_name){
+        this.game_name = game_name;
+    }
+
 }
