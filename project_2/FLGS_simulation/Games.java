@@ -7,8 +7,9 @@ abstract class Games{
     double lenght;
     int inventory;
     int units_sold;
-    List<Integer> shelf_position;
+    int shelf_position;
     String game_name;
+    double pile_height;
 
     //methods 
     public double get_price(){
