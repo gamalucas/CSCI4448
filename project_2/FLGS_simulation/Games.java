@@ -3,13 +3,15 @@ import java.util.List;
 abstract class Games{
     double price;
     double height;
-    double width;
+    Double width;
     double lenght;
     int inventory;
     int units_sold;
     int shelf_position;
     String game_name;
-    double pile_height;
+    Double pile_height;
+    int games_arrival;
+
 
     //methods 
     public double get_price(){
