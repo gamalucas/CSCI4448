@@ -1,0 +1,1076 @@
+﻿Burt the cashier has arrived at day 1
+Good morning! The amount on the cash register is $0.0
+Money was added to the cash register! The balance is now $1000.0
+Burt is vacuuming the store 
+
+
+Burt stacks 3 Catan games in shelf position 1. Game width is: 15.0"
+Burt stacks 3 Connect Four games in shelf position 2. Game width is: 8.0"
+Burt stacks 3 Gloomhaven games in shelf position 3. Game width is: 7.0"
+Burt stacks 3 Clue games in shelf position 4. Game width is: 5.0"
+Burt stacks 3 Netrunner games in shelf position 5. Game width is: 5.0"
+Burt stacks 3 Risk games in shelf position 6. Game width is: 5.0"
+Burt stacks 3 Mousetrap games in shelf position 7. Game width is: 4.0"
+Burt stacks 3 Life games in shelf position 8. Game width is: 3.0"
+Burt stacks 3 Monopoly games in shelf position 9. Game width is: 2.0"
+Burt stacks 3 Candyland games in shelf position 10. Game width is: 2.0"
+Burt stacks 3 Pokémon games in shelf position 11. Game width is: 2.0"
+Burt stacks 3 Magic games in shelf position 12. Game width is: 1.0"
+
+
+Burt opened the store. Welcome!
+3 customer are in store today!
+Burt sold a Connect Four to customer 1 for $27.0
+Burt sold a Mousetrap to customer 1 for $50.0
+Customer 2 did not buy any game.
+Customer 3 did not buy any game.
+
+
+
+
+Burt the cashier is leaving and the store is closed.
+=====================================
+
+
+Ernie the cashier has arrived at day 2
+Good morning! The amount on the cash register is $1077.0
+Ernie is vacuuming the store 
+
+
+Ernie stacks 3 Pokémon games in shelf position 1. Pile height is: 3.0"
+Ernie stacks 3 Magic games in shelf position 2. Pile height is: 6.0"
+Ernie stacks 3 Netrunner games in shelf position 3. Pile height is: 15.0"
+Ernie stacks 3 Candyland games in shelf position 4. Pile height is: 21.0"
+Ernie stacks 2 Mousetrap games in shelf position 5. Pile height is: 24.0"
+Ernie stacks 3 Life games in shelf position 6. Pile height is: 24.0"
+Ernie stacks 3 Gloomhaven games in shelf position 7. Pile height is: 27.0"
+Ernie stacks 3 Monopoly games in shelf position 8. Pile height is: 30.0"
+Ernie stacks 3 Catan games in shelf position 9. Pile height is: 31.5"
+Ernie stacks 2 Connect Four games in shelf position 10. Pile height is: 34.0"
+Ernie stacks 3 Risk games in shelf position 11. Pile height is: 36.0"
+Ernie stacks 3 Clue games in shelf position 12. Pile height is: 45.0"
+
+
+Ernie opened the store. Welcome!
+0 customer are in store today!
+
+
+
+
+Ernie the cashier is leaving and the store is closed.
+=====================================
+
+
+Burt the cashier has arrived at day 3
+Good morning! The amount on the cash register is $1077.0
+Burt is vacuuming the store 
+
+
+Burt stacks 3 Catan games in shelf position 1. Game width is: 15.0"
+Burt stacks 2 Connect Four games in shelf position 2. Game width is: 8.0"
+Burt stacks 3 Gloomhaven games in shelf position 3. Game width is: 7.0"
+Burt stacks 3 Netrunner games in shelf position 4. Game width is: 5.0"
+Burt stacks 3 Risk games in shelf position 5. Game width is: 5.0"
+Burt stacks 3 Clue games in shelf position 6. Game width is: 5.0"
+Burt stacks 2 Mousetrap games in shelf position 7. Game width is: 4.0"
+Burt stacks 3 Life games in shelf position 8. Game width is: 3.0"
+Burt stacks 3 Pokémon games in shelf position 9. Game width is: 2.0"
+Burt stacks 3 Candyland games in shelf position 10. Game width is: 2.0"
+Burt stacks 3 Monopoly games in shelf position 11. Game width is: 2.0"
+Burt stacks 3 Magic games in shelf position 12. Game width is: 1.0"
+
+
+Burt opened the store. Welcome!
+2 customer are in store today!
+Burt sold a Catan to customer 1 for $15.6
+Burt sold a Catan to customer 2 for $15.6
+Burt sold a Connect Four to customer 2 for $27.0
+
+
+
+
+Burt the cashier is leaving and the store is closed.
+=====================================
+
+
+Burt the cashier has arrived at day 4
+Good morning! The amount on the cash register is $1135.1999999999998
+Burt is vacuuming the store 
+
+
+Burt stacks 1 Catan games in shelf position 1. Game width is: 15.0"
+Burt stacks 1 Connect Four games in shelf position 2. Game width is: 8.0"
+Burt stacks 3 Gloomhaven games in shelf position 3. Game width is: 7.0"
+Burt stacks 3 Netrunner games in shelf position 4. Game width is: 5.0"
+Burt stacks 3 Risk games in shelf position 5. Game width is: 5.0"
+Burt stacks 3 Clue games in shelf position 6. Game width is: 5.0"
+Burt stacks 2 Mousetrap games in shelf position 7. Game width is: 4.0"
+Burt stacks 3 Life games in shelf position 8. Game width is: 3.0"
+Burt stacks 3 Pokémon games in shelf position 9. Game width is: 2.0"
+Burt stacks 3 Candyland games in shelf position 10. Game width is: 2.0"
+Burt stacks 3 Monopoly games in shelf position 11. Game width is: 2.0"
+Burt stacks 3 Magic games in shelf position 12. Game width is: 1.0"
+
+
+Burt opened the store. Welcome!
+4 customer are in store today!
+Burt sold a Gloomhaven to customer 1 for $14.5
+Burt sold a Catan to customer 2 for $15.6
+Burt sold a Gloomhaven to customer 2 for $14.5
+Burt sold a Connect Four to customer 3 for $27.0
+Burt sold a Mousetrap to customer 3 for $50.0
+Burt sold a Risk to customer 4 for $11.0
+
+
+Burt bought 3 Catan games for the store.
+Burt bought 3 Connect Four games for the store.
+
+
+Burt the cashier is leaving and the store is closed.
+=====================================
+
+
+Burt the cashier has arrived at day 5
+Three Catan games arrived at the store
+Three Connect Four games arrived at the store
+Good morning! The amount on the cash register is $1203.8999999999996
+Burt is vacuuming the store 
+
+
+Burt stacks 3 Catan games in shelf position 1. Game width is: 15.0"
+Burt stacks 3 Connect Four games in shelf position 2. Game width is: 8.0"
+Burt stacks 1 Gloomhaven games in shelf position 3. Game width is: 7.0"
+Burt stacks 3 Netrunner games in shelf position 4. Game width is: 5.0"
+Burt stacks 2 Risk games in shelf position 5. Game width is: 5.0"
+Burt stacks 3 Clue games in shelf position 6. Game width is: 5.0"
+Burt stacks 1 Mousetrap games in shelf position 7. Game width is: 4.0"
+Burt stacks 3 Life games in shelf position 8. Game width is: 3.0"
+Burt stacks 3 Pokémon games in shelf position 9. Game width is: 2.0"
+Burt stacks 3 Candyland games in shelf position 10. Game width is: 2.0"
+Burt stacks 3 Monopoly games in shelf position 11. Game width is: 2.0"
+Burt stacks 3 Magic games in shelf position 12. Game width is: 1.0"
+
+
+Burt opened the store. Welcome!
+3 customer are in store today!
+Customer 1 did not buy any game.
+Burt sold a Connect Four to customer 2 for $27.0
+Burt sold a Gloomhaven to customer 2 for $14.5
+Burt sold a Connect Four to customer 3 for $27.0
+
+
+Burt bought 3 Gloomhaven games for the store.
+
+
+Burt the cashier is leaving and the store is closed.
+=====================================
+
+
+Burt the cashier has arrived at day 6
+Three Gloomhaven games arrived at the store
+Good morning! The amount on the cash register is $1250.6499999999996
+Burt is vacuuming the store 
+
+
+Burt stacks 3 Catan games in shelf position 1. Game width is: 15.0"
+Burt stacks 1 Connect Four games in shelf position 2. Game width is: 8.0"
+Burt stacks 3 Gloomhaven games in shelf position 3. Game width is: 7.0"
+Burt stacks 3 Netrunner games in shelf position 4. Game width is: 5.0"
+Burt stacks 2 Risk games in shelf position 5. Game width is: 5.0"
+Burt stacks 3 Clue games in shelf position 6. Game width is: 5.0"
+Burt stacks 1 Mousetrap games in shelf position 7. Game width is: 4.0"
+Burt stacks 3 Life games in shelf position 8. Game width is: 3.0"
+Burt stacks 3 Pokémon games in shelf position 9. Game width is: 2.0"
+Burt stacks 3 Candyland games in shelf position 10. Game width is: 2.0"
+Burt stacks 3 Monopoly games in shelf position 11. Game width is: 2.0"
+Burt stacks 3 Magic games in shelf position 12. Game width is: 1.0"
+
+
+Burt opened the store. Welcome!
+2 customer are in store today!
+Burt sold a Gloomhaven to customer 1 for $14.5
+Customer 2 did not buy any game.
+
+
+
+
+Burt the cashier is leaving and the store is closed.
+=====================================
+
+
+Burt the cashier has arrived at day 7
+Good morning! The amount on the cash register is $1265.1499999999996
+Burt is vacuuming the store 
+
+
+Burt stacks 3 Catan games in shelf position 1. Game width is: 15.0"
+Burt stacks 1 Connect Four games in shelf position 2. Game width is: 8.0"
+Burt stacks 2 Gloomhaven games in shelf position 3. Game width is: 7.0"
+Burt stacks 3 Netrunner games in shelf position 4. Game width is: 5.0"
+Burt stacks 2 Risk games in shelf position 5. Game width is: 5.0"
+Burt stacks 3 Clue games in shelf position 6. Game width is: 5.0"
+Burt stacks 1 Mousetrap games in shelf position 7. Game width is: 4.0"
+Burt stacks 3 Life games in shelf position 8. Game width is: 3.0"
+Burt stacks 3 Pokémon games in shelf position 9. Game width is: 2.0"
+Burt stacks 3 Candyland games in shelf position 10. Game width is: 2.0"
+Burt stacks 3 Monopoly games in shelf position 11. Game width is: 2.0"
+Burt stacks 3 Magic games in shelf position 12. Game width is: 1.0"
+
+
+Burt opened the store. Welcome!
+3 customer are in store today!
+Burt sold a Catan to customer 1 for $15.6
+Burt sold a Netrunner to customer 1 for $12.5
+Burt sold a Risk to customer 2 for $11.0
+Burt sold a Clue to customer 3 for $52.0
+
+
+
+
+Burt the cashier is leaving and the store is closed.
+=====================================
+
+
+Ernie the cashier has arrived at day 8
+Good morning! The amount on the cash register is $1356.2499999999995
+Ernie is vacuuming the store 
+
+
+Ernie stacks 3 Pokémon games in shelf position 1. Pile height is: 3.0"
+Ernie stacks 3 Magic games in shelf position 2. Pile height is: 6.0"
+Ernie stacks 2 Netrunner games in shelf position 3. Pile height is: 10.0"
+Ernie stacks 1 Risk games in shelf position 4. Pile height is: 12.0"
+Ernie stacks 1 Mousetrap games in shelf position 5. Pile height is: 12.0"
+Ernie stacks 1 Connect Four games in shelf position 6. Pile height is: 17.0"
+Ernie stacks 2 Gloomhaven games in shelf position 7. Pile height is: 18.0"
+Ernie stacks 2 Catan games in shelf position 8. Pile height is: 21.0"
+Ernie stacks 3 Candyland games in shelf position 9. Pile height is: 21.0"
+Ernie stacks 3 Life games in shelf position 10. Pile height is: 24.0"
+Ernie stacks 2 Clue games in shelf position 11. Pile height is: 30.0"
+Ernie stacks 3 Monopoly games in shelf position 12. Pile height is: 30.0"
+
+
+Ernie opened the store. Welcome!
+3 customer are in store today!
+Ernie sold a Connect Four to customer 1 for $27.0
+Ernie sold a Pokémon to customer 2 for $125.99
+Ernie sold a Catan to customer 2 for $15.6
+Ernie sold a Netrunner to customer 3 for $12.5
+
+
+Ernie bought 3 Connect Four games for the store.
+
+
+Ernie the cashier is leaving and the store is closed.
+=====================================
+
+
+Burt the cashier has arrived at day 9
+Three Connect Four games arrived at the store
+Good morning! The amount on the cash register is $1496.8399999999995
+Burt is vacuuming the store 
+The game Mousetrap is damaged and placed on the Damaged Game Container
+
+
+Burt stacks 1 Catan games in shelf position 1. Game width is: 15.0"
+Burt stacks 3 Connect Four games in shelf position 2. Game width is: 8.0"
+Burt stacks 2 Gloomhaven games in shelf position 3. Game width is: 7.0"
+Burt stacks 1 Netrunner games in shelf position 4. Game width is: 5.0"
+Burt stacks 1 Risk games in shelf position 5. Game width is: 5.0"
+Burt stacks 2 Clue games in shelf position 6. Game width is: 5.0"
+Burt stacks 0 Mousetrap games in shelf position 7. Game width is: 4.0"
+Burt stacks 3 Life games in shelf position 8. Game width is: 3.0"
+Burt stacks 2 Pokémon games in shelf position 9. Game width is: 2.0"
+Burt stacks 3 Candyland games in shelf position 10. Game width is: 2.0"
+Burt stacks 3 Monopoly games in shelf position 11. Game width is: 2.0"
+Burt stacks 3 Magic games in shelf position 12. Game width is: 1.0"
+
+
+Burt opened the store. Welcome!
+2 customer are in store today!
+Burt sold a Connect Four to customer 1 for $27.0
+Burt sold a Netrunner to customer 2 for $12.5
+Burt sold a Candyland to customer 2 for $22.0
+
+
+Burt bought 3 Netrunner games for the store.
+Burt bought 3 Mousetrap games for the store.
+
+
+Burt the cashier is leaving and the store is closed.
+=====================================
+
+
+Burt the cashier has arrived at day 10
+Three Netrunner games arrived at the store
+Three Mousetrap games arrived at the store
+Good morning! The amount on the cash register is $1464.5899999999995
+Burt is vacuuming the store 
+
+
+Burt stacks 1 Catan games in shelf position 1. Game width is: 15.0"
+Burt stacks 2 Connect Four games in shelf position 2. Game width is: 8.0"
+Burt stacks 2 Gloomhaven games in shelf position 3. Game width is: 7.0"
+Burt stacks 3 Netrunner games in shelf position 4. Game width is: 5.0"
+Burt stacks 1 Risk games in shelf position 5. Game width is: 5.0"
+Burt stacks 2 Clue games in shelf position 6. Game width is: 5.0"
+Burt stacks 3 Mousetrap games in shelf position 7. Game width is: 4.0"
+Burt stacks 3 Life games in shelf position 8. Game width is: 3.0"
+Burt stacks 2 Pokémon games in shelf position 9. Game width is: 2.0"
+Burt stacks 2 Candyland games in shelf position 10. Game width is: 2.0"
+Burt stacks 3 Monopoly games in shelf position 11. Game width is: 2.0"
+Burt stacks 3 Magic games in shelf position 12. Game width is: 1.0"
+
+
+Burt opened the store. Welcome!
+0 customer are in store today!
+
+
+
+
+Burt the cashier is leaving and the store is closed.
+=====================================
+
+
+Ernie the cashier has arrived at day 11
+Good morning! The amount on the cash register is $1464.5899999999995
+Ernie is vacuuming the store 
+
+
+Ernie stacks 2 Pokémon games in shelf position 1. Pile height is: 2.0"
+Ernie stacks 3 Magic games in shelf position 2. Pile height is: 6.0"
+Ernie stacks 1 Catan games in shelf position 3. Pile height is: 10.5"
+Ernie stacks 1 Risk games in shelf position 4. Pile height is: 12.0"
+Ernie stacks 2 Candyland games in shelf position 5. Pile height is: 14.0"
+Ernie stacks 3 Netrunner games in shelf position 6. Pile height is: 15.0"
+Ernie stacks 2 Gloomhaven games in shelf position 7. Pile height is: 18.0"
+Ernie stacks 3 Life games in shelf position 8. Pile height is: 24.0"
+Ernie stacks 2 Clue games in shelf position 9. Pile height is: 30.0"
+Ernie stacks 3 Monopoly games in shelf position 10. Pile height is: 30.0"
+Ernie stacks 2 Connect Four games in shelf position 11. Pile height is: 34.0"
+Ernie stacks 3 Mousetrap games in shelf position 12. Pile height is: 36.0"
+
+
+Ernie opened the store. Welcome!
+1 customer are in store today!
+Ernie sold a Netrunner to customer 1 for $12.5
+Ernie sold a Connect Four to customer 1 for $27.0
+
+
+
+
+Ernie the cashier is leaving and the store is closed.
+=====================================
+
+
+Ernie the cashier has arrived at day 12
+Good morning! The amount on the cash register is $1504.0899999999995
+Ernie is vacuuming the store 
+
+
+Ernie stacks 2 Pokémon games in shelf position 1. Pile height is: 2.0"
+Ernie stacks 3 Magic games in shelf position 2. Pile height is: 6.0"
+Ernie stacks 2 Netrunner games in shelf position 3. Pile height is: 10.0"
+Ernie stacks 1 Catan games in shelf position 4. Pile height is: 10.5"
+Ernie stacks 1 Risk games in shelf position 5. Pile height is: 12.0"
+Ernie stacks 2 Candyland games in shelf position 6. Pile height is: 14.0"
+Ernie stacks 1 Connect Four games in shelf position 7. Pile height is: 17.0"
+Ernie stacks 2 Gloomhaven games in shelf position 8. Pile height is: 18.0"
+Ernie stacks 3 Life games in shelf position 9. Pile height is: 24.0"
+Ernie stacks 2 Clue games in shelf position 10. Pile height is: 30.0"
+Ernie stacks 3 Monopoly games in shelf position 11. Pile height is: 30.0"
+Ernie stacks 3 Mousetrap games in shelf position 12. Pile height is: 36.0"
+
+
+Ernie opened the store. Welcome!
+4 customer are in store today!
+Customer 1 did not buy any game.
+Ernie sold a Pokémon to customer 2 for $125.99
+Ernie sold a Candyland to customer 2 for $22.0
+Customer 3 did not buy any game.
+Customer 4 did not buy any game.
+
+
+
+
+Ernie the cashier is leaving and the store is closed.
+=====================================
+
+
+Burt the cashier has arrived at day 13
+Good morning! The amount on the cash register is $1652.0799999999995
+Burt is vacuuming the store 
+
+
+Burt stacks 1 Catan games in shelf position 1. Game width is: 15.0"
+Burt stacks 1 Connect Four games in shelf position 2. Game width is: 8.0"
+Burt stacks 2 Gloomhaven games in shelf position 3. Game width is: 7.0"
+Burt stacks 2 Netrunner games in shelf position 4. Game width is: 5.0"
+Burt stacks 1 Risk games in shelf position 5. Game width is: 5.0"
+Burt stacks 2 Clue games in shelf position 6. Game width is: 5.0"
+Burt stacks 3 Mousetrap games in shelf position 7. Game width is: 4.0"
+Burt stacks 3 Life games in shelf position 8. Game width is: 3.0"
+Burt stacks 1 Pokémon games in shelf position 9. Game width is: 2.0"
+Burt stacks 1 Candyland games in shelf position 10. Game width is: 2.0"
+Burt stacks 3 Monopoly games in shelf position 11. Game width is: 2.0"
+Burt stacks 3 Magic games in shelf position 12. Game width is: 1.0"
+
+
+Burt opened the store. Welcome!
+2 customer are in store today!
+Burt sold a Gloomhaven to customer 1 for $14.5
+Burt sold a Connect Four to customer 2 for $27.0
+Burt sold a Netrunner to customer 2 for $12.5
+
+
+Burt bought 3 Connect Four games for the store.
+
+
+Burt the cashier is leaving and the store is closed.
+=====================================
+
+
+Burt the cashier has arrived at day 14
+Three Connect Four games arrived at the store
+Good morning! The amount on the cash register is $1665.5799999999995
+Burt is vacuuming the store 
+
+
+Burt stacks 1 Catan games in shelf position 1. Game width is: 15.0"
+Burt stacks 3 Connect Four games in shelf position 2. Game width is: 8.0"
+Burt stacks 1 Gloomhaven games in shelf position 3. Game width is: 7.0"
+Burt stacks 1 Netrunner games in shelf position 4. Game width is: 5.0"
+Burt stacks 1 Risk games in shelf position 5. Game width is: 5.0"
+Burt stacks 2 Clue games in shelf position 6. Game width is: 5.0"
+Burt stacks 3 Mousetrap games in shelf position 7. Game width is: 4.0"
+Burt stacks 3 Life games in shelf position 8. Game width is: 3.0"
+Burt stacks 1 Pokémon games in shelf position 9. Game width is: 2.0"
+Burt stacks 1 Candyland games in shelf position 10. Game width is: 2.0"
+Burt stacks 3 Monopoly games in shelf position 11. Game width is: 2.0"
+Burt stacks 3 Magic games in shelf position 12. Game width is: 1.0"
+
+
+Burt opened the store. Welcome!
+3 customer are in store today!
+Burt sold a Risk to customer 1 for $11.0
+Customer 2 did not buy any game.
+Burt sold a Mousetrap to customer 3 for $50.0
+Burt sold a Life to customer 3 for $33.0
+
+
+Burt bought 3 Risk games for the store.
+
+
+Burt the cashier is leaving and the store is closed.
+=====================================
+
+
+Burt the cashier has arrived at day 15
+Three Risk games arrived at the store
+Good morning! The amount on the cash register is $1743.0799999999995
+Burt is vacuuming the store 
+
+
+Burt stacks 1 Catan games in shelf position 1. Game width is: 15.0"
+Burt stacks 3 Connect Four games in shelf position 2. Game width is: 8.0"
+Burt stacks 1 Gloomhaven games in shelf position 3. Game width is: 7.0"
+Burt stacks 1 Netrunner games in shelf position 4. Game width is: 5.0"
+Burt stacks 3 Risk games in shelf position 5. Game width is: 5.0"
+Burt stacks 2 Clue games in shelf position 6. Game width is: 5.0"
+Burt stacks 2 Mousetrap games in shelf position 7. Game width is: 4.0"
+Burt stacks 2 Life games in shelf position 8. Game width is: 3.0"
+Burt stacks 1 Pokémon games in shelf position 9. Game width is: 2.0"
+Burt stacks 1 Candyland games in shelf position 10. Game width is: 2.0"
+Burt stacks 3 Monopoly games in shelf position 11. Game width is: 2.0"
+Burt stacks 3 Magic games in shelf position 12. Game width is: 1.0"
+
+
+Burt opened the store. Welcome!
+4 customer are in store today!
+Burt sold a Risk to customer 1 for $11.0
+Burt sold a Catan to customer 2 for $15.6
+Burt sold a Risk to customer 3 for $11.0
+Burt sold a Clue to customer 3 for $52.0
+Burt sold a Netrunner to customer 4 for $12.5
+
+
+Burt bought 3 Catan games for the store.
+Burt bought 3 Netrunner games for the store.
+
+
+Burt the cashier is leaving and the store is closed.
+=====================================
+
+
+Ernie the cashier has arrived at day 16
+Three Catan games arrived at the store
+Three Netrunner games arrived at the store
+Good morning! The amount on the cash register is $1803.0299999999993
+Ernie is vacuuming the store 
+
+
+Ernie stacks 1 Pokémon games in shelf position 1. Pile height is: 1.0"
+Ernie stacks 3 Magic games in shelf position 2. Pile height is: 6.0"
+Ernie stacks 1 Candyland games in shelf position 3. Pile height is: 7.0"
+Ernie stacks 1 Gloomhaven games in shelf position 4. Pile height is: 9.0"
+Ernie stacks 1 Risk games in shelf position 5. Pile height is: 12.0"
+Ernie stacks 3 Netrunner games in shelf position 6. Pile height is: 15.0"
+Ernie stacks 1 Clue games in shelf position 7. Pile height is: 15.0"
+Ernie stacks 2 Life games in shelf position 8. Pile height is: 16.0"
+Ernie stacks 2 Mousetrap games in shelf position 9. Pile height is: 24.0"
+Ernie stacks 3 Monopoly games in shelf position 10. Pile height is: 30.0"
+Ernie stacks 3 Catan games in shelf position 11. Pile height is: 31.5"
+Ernie stacks 3 Connect Four games in shelf position 12. Pile height is: 51.0"
+
+
+Ernie opened the store. Welcome!
+2 customer are in store today!
+Ernie sold a Candyland to customer 1 for $22.0
+Ernie sold a Gloomhaven to customer 1 for $14.5
+Customer 2 did not buy any game.
+
+
+Ernie bought 3 Candyland games for the store.
+Ernie bought 3 Gloomhaven games for the store.
+
+
+Ernie the cashier is leaving and the store is closed.
+=====================================
+
+
+Ernie the cashier has arrived at day 17
+Three Candyland games arrived at the store
+Three Gloomhaven games arrived at the store
+Good morning! The amount on the cash register is $1784.7799999999993
+Ernie is vacuuming the store 
+
+
+Ernie stacks 1 Pokémon games in shelf position 1. Pile height is: 1.0"
+Ernie stacks 3 Magic games in shelf position 2. Pile height is: 6.0"
+Ernie stacks 1 Risk games in shelf position 3. Pile height is: 12.0"
+Ernie stacks 3 Netrunner games in shelf position 4. Pile height is: 15.0"
+Ernie stacks 1 Clue games in shelf position 5. Pile height is: 15.0"
+Ernie stacks 2 Life games in shelf position 6. Pile height is: 16.0"
+Ernie stacks 3 Candyland games in shelf position 7. Pile height is: 21.0"
+Ernie stacks 2 Mousetrap games in shelf position 8. Pile height is: 24.0"
+Ernie stacks 3 Gloomhaven games in shelf position 9. Pile height is: 27.0"
+Ernie stacks 3 Monopoly games in shelf position 10. Pile height is: 30.0"
+Ernie stacks 3 Catan games in shelf position 11. Pile height is: 31.5"
+Ernie stacks 3 Connect Four games in shelf position 12. Pile height is: 51.0"
+
+
+Ernie opened the store. Welcome!
+2 customer are in store today!
+Ernie sold a Risk to customer 1 for $11.0
+Customer 2 did not buy any game.
+
+
+Ernie bought 3 Risk games for the store.
+
+
+Ernie the cashier is leaving and the store is closed.
+=====================================
+
+
+Burt the cashier has arrived at day 18
+Three Risk games arrived at the store
+Good morning! The amount on the cash register is $1779.2799999999993
+Burt is vacuuming the store 
+
+
+Burt stacks 3 Catan games in shelf position 1. Game width is: 15.0"
+Burt stacks 3 Connect Four games in shelf position 2. Game width is: 8.0"
+Burt stacks 3 Gloomhaven games in shelf position 3. Game width is: 7.0"
+Burt stacks 3 Risk games in shelf position 4. Game width is: 5.0"
+Burt stacks 3 Netrunner games in shelf position 5. Game width is: 5.0"
+Burt stacks 1 Clue games in shelf position 6. Game width is: 5.0"
+Burt stacks 2 Mousetrap games in shelf position 7. Game width is: 4.0"
+Burt stacks 2 Life games in shelf position 8. Game width is: 3.0"
+Burt stacks 1 Pokémon games in shelf position 9. Game width is: 2.0"
+Burt stacks 3 Candyland games in shelf position 10. Game width is: 2.0"
+Burt stacks 3 Monopoly games in shelf position 11. Game width is: 2.0"
+Burt stacks 3 Magic games in shelf position 12. Game width is: 1.0"
+
+
+Burt opened the store. Welcome!
+1 customer are in store today!
+Customer 1 did not buy any game.
+
+
+
+
+Burt the cashier is leaving and the store is closed.
+=====================================
+
+
+Burt the cashier has arrived at day 19
+Good morning! The amount on the cash register is $1779.2799999999993
+Burt is vacuuming the store 
+
+
+Burt stacks 3 Catan games in shelf position 1. Game width is: 15.0"
+Burt stacks 3 Connect Four games in shelf position 2. Game width is: 8.0"
+Burt stacks 3 Gloomhaven games in shelf position 3. Game width is: 7.0"
+Burt stacks 3 Risk games in shelf position 4. Game width is: 5.0"
+Burt stacks 3 Netrunner games in shelf position 5. Game width is: 5.0"
+Burt stacks 1 Clue games in shelf position 6. Game width is: 5.0"
+Burt stacks 2 Mousetrap games in shelf position 7. Game width is: 4.0"
+Burt stacks 2 Life games in shelf position 8. Game width is: 3.0"
+Burt stacks 1 Pokémon games in shelf position 9. Game width is: 2.0"
+Burt stacks 3 Candyland games in shelf position 10. Game width is: 2.0"
+Burt stacks 3 Monopoly games in shelf position 11. Game width is: 2.0"
+Burt stacks 3 Magic games in shelf position 12. Game width is: 1.0"
+
+
+Burt opened the store. Welcome!
+0 customer are in store today!
+
+
+
+
+Burt the cashier is leaving and the store is closed.
+=====================================
+
+
+Burt the cashier has arrived at day 20
+Good morning! The amount on the cash register is $1779.2799999999993
+Burt is vacuuming the store 
+
+
+Burt stacks 3 Catan games in shelf position 1. Game width is: 15.0"
+Burt stacks 3 Connect Four games in shelf position 2. Game width is: 8.0"
+Burt stacks 3 Gloomhaven games in shelf position 3. Game width is: 7.0"
+Burt stacks 3 Risk games in shelf position 4. Game width is: 5.0"
+Burt stacks 3 Netrunner games in shelf position 5. Game width is: 5.0"
+Burt stacks 1 Clue games in shelf position 6. Game width is: 5.0"
+Burt stacks 2 Mousetrap games in shelf position 7. Game width is: 4.0"
+Burt stacks 2 Life games in shelf position 8. Game width is: 3.0"
+Burt stacks 1 Pokémon games in shelf position 9. Game width is: 2.0"
+Burt stacks 3 Candyland games in shelf position 10. Game width is: 2.0"
+Burt stacks 3 Monopoly games in shelf position 11. Game width is: 2.0"
+Burt stacks 3 Magic games in shelf position 12. Game width is: 1.0"
+
+
+Burt opened the store. Welcome!
+2 customer are in store today!
+Customer 1 did not buy any game.
+Burt sold a Catan to customer 2 for $15.6
+Burt sold a Risk to customer 2 for $11.0
+
+
+
+
+Burt the cashier is leaving and the store is closed.
+=====================================
+
+
+Burt the cashier has arrived at day 21
+Good morning! The amount on the cash register is $1805.8799999999992
+Burt is vacuuming the store 
+
+
+Burt stacks 2 Catan games in shelf position 1. Game width is: 15.0"
+Burt stacks 3 Connect Four games in shelf position 2. Game width is: 8.0"
+Burt stacks 3 Gloomhaven games in shelf position 3. Game width is: 7.0"
+Burt stacks 2 Risk games in shelf position 4. Game width is: 5.0"
+Burt stacks 3 Netrunner games in shelf position 5. Game width is: 5.0"
+Burt stacks 1 Clue games in shelf position 6. Game width is: 5.0"
+Burt stacks 2 Mousetrap games in shelf position 7. Game width is: 4.0"
+Burt stacks 2 Life games in shelf position 8. Game width is: 3.0"
+Burt stacks 1 Pokémon games in shelf position 9. Game width is: 2.0"
+Burt stacks 3 Candyland games in shelf position 10. Game width is: 2.0"
+Burt stacks 3 Monopoly games in shelf position 11. Game width is: 2.0"
+Burt stacks 3 Magic games in shelf position 12. Game width is: 1.0"
+
+
+Burt opened the store. Welcome!
+4 customer are in store today!
+Burt sold a Risk to customer 1 for $11.0
+Burt sold a Clue to customer 2 for $52.0
+Customer 3 did not buy any game.
+Burt sold a Risk to customer 4 for $11.0
+
+
+Burt bought 3 Risk games for the store.
+Burt bought 3 Clue games for the store.
+
+
+Burt the cashier is leaving and the store is closed.
+=====================================
+
+
+Ernie the cashier has arrived at day 22
+Three Risk games arrived at the store
+Three Clue games arrived at the store
+Good morning! The amount on the cash register is $1785.3799999999992
+Ernie is vacuuming the store 
+
+
+Ernie stacks 1 Pokémon games in shelf position 1. Pile height is: 1.0"
+Ernie stacks 3 Magic games in shelf position 2. Pile height is: 6.0"
+Ernie stacks 3 Netrunner games in shelf position 3. Pile height is: 15.0"
+Ernie stacks 2 Life games in shelf position 4. Pile height is: 16.0"
+Ernie stacks 2 Catan games in shelf position 5. Pile height is: 21.0"
+Ernie stacks 3 Candyland games in shelf position 6. Pile height is: 21.0"
+Ernie stacks 2 Mousetrap games in shelf position 7. Pile height is: 24.0"
+Ernie stacks 3 Gloomhaven games in shelf position 8. Pile height is: 27.0"
+Ernie stacks 3 Monopoly games in shelf position 9. Pile height is: 30.0"
+Ernie stacks 3 Risk games in shelf position 10. Pile height is: 36.0"
+Ernie stacks 3 Clue games in shelf position 11. Pile height is: 45.0"
+Ernie stacks 3 Connect Four games in shelf position 12. Pile height is: 51.0"
+
+
+Ernie opened the store. Welcome!
+3 customer are in store today!
+Customer 1 did not buy any game.
+Ernie sold a Netrunner to customer 2 for $12.5
+Ernie sold a Catan to customer 2 for $15.6
+Customer 3 did not buy any game.
+
+
+
+
+Ernie the cashier is leaving and the store is closed.
+=====================================
+
+
+Burt the cashier has arrived at day 23
+Good morning! The amount on the cash register is $1813.479999999999
+Burt is vacuuming the store 
+The game Clue is damaged and placed on the Damaged Game Container
+
+
+Burt stacks 1 Catan games in shelf position 1. Game width is: 15.0"
+Burt stacks 3 Connect Four games in shelf position 2. Game width is: 8.0"
+Burt stacks 3 Gloomhaven games in shelf position 3. Game width is: 7.0"
+Burt stacks 2 Netrunner games in shelf position 4. Game width is: 5.0"
+Burt stacks 3 Risk games in shelf position 5. Game width is: 5.0"
+Burt stacks 2 Clue games in shelf position 6. Game width is: 5.0"
+Burt stacks 2 Mousetrap games in shelf position 7. Game width is: 4.0"
+Burt stacks 2 Life games in shelf position 8. Game width is: 3.0"
+Burt stacks 1 Pokémon games in shelf position 9. Game width is: 2.0"
+Burt stacks 3 Candyland games in shelf position 10. Game width is: 2.0"
+Burt stacks 3 Monopoly games in shelf position 11. Game width is: 2.0"
+Burt stacks 3 Magic games in shelf position 12. Game width is: 1.0"
+
+
+Burt opened the store. Welcome!
+4 customer are in store today!
+Customer 1 did not buy any game.
+Burt sold a Connect Four to customer 2 for $27.0
+Burt sold a Risk to customer 2 for $11.0
+Burt sold a Netrunner to customer 3 for $12.5
+Burt sold a Mousetrap to customer 3 for $50.0
+Burt sold a Risk to customer 4 for $11.0
+
+
+
+
+Burt the cashier is leaving and the store is closed.
+=====================================
+
+
+Burt the cashier has arrived at day 24
+Good morning! The amount on the cash register is $1924.979999999999
+Burt is vacuuming the store 
+The game Risk is damaged and placed on the Damaged Game Container
+
+
+Burt stacks 1 Catan games in shelf position 1. Game width is: 15.0"
+Burt stacks 2 Connect Four games in shelf position 2. Game width is: 8.0"
+Burt stacks 3 Gloomhaven games in shelf position 3. Game width is: 7.0"
+Burt stacks 1 Netrunner games in shelf position 4. Game width is: 5.0"
+Burt stacks 0 Risk games in shelf position 5. Game width is: 5.0"
+Burt stacks 2 Clue games in shelf position 6. Game width is: 5.0"
+Burt stacks 1 Mousetrap games in shelf position 7. Game width is: 4.0"
+Burt stacks 2 Life games in shelf position 8. Game width is: 3.0"
+Burt stacks 1 Pokémon games in shelf position 9. Game width is: 2.0"
+Burt stacks 3 Candyland games in shelf position 10. Game width is: 2.0"
+Burt stacks 3 Monopoly games in shelf position 11. Game width is: 2.0"
+Burt stacks 3 Magic games in shelf position 12. Game width is: 1.0"
+
+
+Burt opened the store. Welcome!
+2 customer are in store today!
+Burt sold a Gloomhaven to customer 1 for $14.5
+Customer 2 did not buy any game.
+
+
+Burt bought 3 Risk games for the store.
+
+
+Burt the cashier is leaving and the store is closed.
+=====================================
+
+
+Burt the cashier has arrived at day 25
+Three Risk games arrived at the store
+Good morning! The amount on the cash register is $1922.979999999999
+Burt is vacuuming the store 
+
+
+Burt stacks 1 Catan games in shelf position 1. Game width is: 15.0"
+Burt stacks 2 Connect Four games in shelf position 2. Game width is: 8.0"
+Burt stacks 2 Gloomhaven games in shelf position 3. Game width is: 7.0"
+Burt stacks 1 Netrunner games in shelf position 4. Game width is: 5.0"
+Burt stacks 3 Risk games in shelf position 5. Game width is: 5.0"
+Burt stacks 2 Clue games in shelf position 6. Game width is: 5.0"
+Burt stacks 1 Mousetrap games in shelf position 7. Game width is: 4.0"
+Burt stacks 2 Life games in shelf position 8. Game width is: 3.0"
+Burt stacks 1 Pokémon games in shelf position 9. Game width is: 2.0"
+Burt stacks 3 Candyland games in shelf position 10. Game width is: 2.0"
+Burt stacks 3 Monopoly games in shelf position 11. Game width is: 2.0"
+Burt stacks 3 Magic games in shelf position 12. Game width is: 1.0"
+
+
+Burt opened the store. Welcome!
+3 customer are in store today!
+Customer 1 did not buy any game.
+Burt sold a Catan to customer 2 for $15.6
+Customer 3 did not buy any game.
+
+
+Burt bought 3 Catan games for the store.
+
+
+Burt the cashier is leaving and the store is closed.
+=====================================
+
+
+Ernie the cashier has arrived at day 26
+Three Catan games arrived at the store
+Good morning! The amount on the cash register is $1915.179999999999
+Ernie is vacuuming the store 
+The game Life is damaged and placed on the Damaged Game Container
+
+
+Ernie stacks 1 Pokémon games in shelf position 1. Pile height is: 1.0"
+Ernie stacks 1 Netrunner games in shelf position 2. Pile height is: 5.0"
+Ernie stacks 3 Magic games in shelf position 3. Pile height is: 6.0"
+Ernie stacks 1 Life games in shelf position 4. Pile height is: 8.0"
+Ernie stacks 1 Mousetrap games in shelf position 5. Pile height is: 12.0"
+Ernie stacks 2 Gloomhaven games in shelf position 6. Pile height is: 18.0"
+Ernie stacks 3 Candyland games in shelf position 7. Pile height is: 21.0"
+Ernie stacks 2 Clue games in shelf position 8. Pile height is: 30.0"
+Ernie stacks 3 Monopoly games in shelf position 9. Pile height is: 30.0"
+Ernie stacks 3 Catan games in shelf position 10. Pile height is: 31.5"
+Ernie stacks 2 Connect Four games in shelf position 11. Pile height is: 34.0"
+Ernie stacks 3 Risk games in shelf position 12. Pile height is: 36.0"
+
+
+Ernie opened the store. Welcome!
+3 customer are in store today!
+Customer 1 did not buy any game.
+Customer 2 did not buy any game.
+Ernie sold a Pokémon to customer 3 for $125.99
+
+
+Ernie bought 3 Pokémon games for the store.
+
+
+Ernie the cashier is leaving and the store is closed.
+=====================================
+
+
+Burt the cashier has arrived at day 27
+Three Pokémon games arrived at the store
+Good morning! The amount on the cash register is $1852.184999999999
+Burt is vacuuming the store 
+
+
+Burt stacks 3 Catan games in shelf position 1. Game width is: 15.0"
+Burt stacks 2 Connect Four games in shelf position 2. Game width is: 8.0"
+Burt stacks 2 Gloomhaven games in shelf position 3. Game width is: 7.0"
+Burt stacks 1 Netrunner games in shelf position 4. Game width is: 5.0"
+Burt stacks 2 Clue games in shelf position 5. Game width is: 5.0"
+Burt stacks 3 Risk games in shelf position 6. Game width is: 5.0"
+Burt stacks 1 Mousetrap games in shelf position 7. Game width is: 4.0"
+Burt stacks 1 Life games in shelf position 8. Game width is: 3.0"
+Burt stacks 3 Pokémon games in shelf position 9. Game width is: 2.0"
+Burt stacks 3 Candyland games in shelf position 10. Game width is: 2.0"
+Burt stacks 3 Monopoly games in shelf position 11. Game width is: 2.0"
+Burt stacks 3 Magic games in shelf position 12. Game width is: 1.0"
+
+
+Burt opened the store. Welcome!
+4 customer are in store today!
+Burt sold a Connect Four to customer 1 for $27.0
+Burt sold a Gloomhaven to customer 1 for $14.5
+Burt sold a Connect Four to customer 2 for $27.0
+Burt sold a Monopoly to customer 2 for $42.0
+Burt sold a Catan to customer 3 for $15.6
+Burt sold a Clue to customer 4 for $52.0
+Burt sold a Risk to customer 4 for $11.0
+
+
+Burt bought 3 Connect Four games for the store.
+
+
+Burt the cashier is leaving and the store is closed.
+=====================================
+
+
+Burt the cashier has arrived at day 28
+Three Connect Four games arrived at the store
+Good morning! The amount on the cash register is $2000.784999999999
+Burt is vacuuming the store 
+The game Clue is damaged and placed on the Damaged Game Container
+
+
+Burt stacks 2 Catan games in shelf position 1. Game width is: 15.0"
+Burt stacks 3 Connect Four games in shelf position 2. Game width is: 8.0"
+Burt stacks 1 Gloomhaven games in shelf position 3. Game width is: 7.0"
+Burt stacks 1 Netrunner games in shelf position 4. Game width is: 5.0"
+Burt stacks 0 Clue games in shelf position 5. Game width is: 5.0"
+Burt stacks 2 Risk games in shelf position 6. Game width is: 5.0"
+Burt stacks 1 Mousetrap games in shelf position 7. Game width is: 4.0"
+Burt stacks 1 Life games in shelf position 8. Game width is: 3.0"
+Burt stacks 3 Pokémon games in shelf position 9. Game width is: 2.0"
+Burt stacks 3 Candyland games in shelf position 10. Game width is: 2.0"
+Burt stacks 2 Monopoly games in shelf position 11. Game width is: 2.0"
+Burt stacks 3 Magic games in shelf position 12. Game width is: 1.0"
+
+
+Burt opened the store. Welcome!
+2 customer are in store today!
+Customer 1 did not buy any game.
+Burt sold a Catan to customer 2 for $15.6
+Burt sold a Connect Four to customer 2 for $27.0
+
+
+Burt bought 3 Clue games for the store.
+
+
+Burt the cashier is leaving and the store is closed.
+=====================================
+
+
+Ernie the cashier has arrived at day 29
+Three Clue games arrived at the store
+Good morning! The amount on the cash register is $1965.3849999999989
+Ernie is vacuuming the store 
+
+
+Ernie stacks 3 Pokémon games in shelf position 1. Pile height is: 3.0"
+Ernie stacks 1 Netrunner games in shelf position 2. Pile height is: 5.0"
+Ernie stacks 3 Magic games in shelf position 3. Pile height is: 6.0"
+Ernie stacks 1 Life games in shelf position 4. Pile height is: 8.0"
+Ernie stacks 1 Gloomhaven games in shelf position 5. Pile height is: 9.0"
+Ernie stacks 1 Catan games in shelf position 6. Pile height is: 10.5"
+Ernie stacks 1 Mousetrap games in shelf position 7. Pile height is: 12.0"
+Ernie stacks 2 Monopoly games in shelf position 8. Pile height is: 20.0"
+Ernie stacks 3 Candyland games in shelf position 9. Pile height is: 21.0"
+Ernie stacks 2 Risk games in shelf position 10. Pile height is: 24.0"
+Ernie stacks 2 Connect Four games in shelf position 11. Pile height is: 34.0"
+Ernie stacks 3 Clue games in shelf position 12. Pile height is: 45.0"
+
+
+Ernie opened the store. Welcome!
+0 customer are in store today!
+
+
+
+
+Ernie the cashier is leaving and the store is closed.
+=====================================
+
+
+Burt the cashier has arrived at day 30
+Good morning! The amount on the cash register is $1965.3849999999989
+Burt is vacuuming the store 
+
+
+Burt stacks 1 Catan games in shelf position 1. Game width is: 15.0"
+Burt stacks 2 Connect Four games in shelf position 2. Game width is: 8.0"
+Burt stacks 1 Gloomhaven games in shelf position 3. Game width is: 7.0"
+Burt stacks 1 Netrunner games in shelf position 4. Game width is: 5.0"
+Burt stacks 2 Risk games in shelf position 5. Game width is: 5.0"
+Burt stacks 3 Clue games in shelf position 6. Game width is: 5.0"
+Burt stacks 1 Mousetrap games in shelf position 7. Game width is: 4.0"
+Burt stacks 1 Life games in shelf position 8. Game width is: 3.0"
+Burt stacks 3 Pokémon games in shelf position 9. Game width is: 2.0"
+Burt stacks 2 Monopoly games in shelf position 10. Game width is: 2.0"
+Burt stacks 3 Candyland games in shelf position 11. Game width is: 2.0"
+Burt stacks 3 Magic games in shelf position 12. Game width is: 1.0"
+
+
+Burt opened the store. Welcome!
+4 customer are in store today!
+Burt sold a Catan to customer 1 for $15.6
+Burt sold a Netrunner to customer 1 for $12.5
+Customer 2 did not buy any game.
+Customer 3 did not buy any game.
+Burt sold a Clue to customer 4 for $52.0
+
+
+Burt bought 3 Catan games for the store.
+Burt bought 3 Netrunner games for the store.
+
+
+Burt the cashier is leaving and the store is closed.
+=====================================
+
+
+After 30 days, here is the summary of the store: 
+Games on inventory: 
+Catan: 0 games on inventory.
+Connect Four: 2 games on inventory.
+Gloomhaven: 1 games on inventory.
+Netrunner: 0 games on inventory.
+Risk: 2 games on inventory.
+Clue: 2 games on inventory.
+Mousetrap: 1 games on inventory.
+Life: 1 games on inventory.
+Pokémon: 3 games on inventory.
+Monopoly: 2 games on inventory.
+Candyland: 3 games on inventory.
+Magic: 3 games on inventory.
+
+
+Games sold: 
+Catan: 12 games sold.
+Connect Four: 13 games sold.
+Gloomhaven: 8 games sold.
+Netrunner: 9 games sold.
+Risk: 12 games sold.
+Clue: 5 games sold.
+Mousetrap: 4 games sold.
+Life: 1 games sold.
+Pokémon: 3 games sold.
+Monopoly: 1 games sold.
+Candyland: 3 games sold.
+Magic: 0 games sold.
+
+
+Total sales: 
+Catan: $187.2.
+Connect Four: $351.0.
+Gloomhaven: $116.0.
+Netrunner: $112.5.
+Risk: $132.0.
+Clue: $260.0.
+Mousetrap: $200.0.
+Life: $33.0.
+Pokémon: $377.96999999999997.
+Monopoly: $42.0.
+Candyland: $66.0.
+Magic: $0.0.
+
+
+Damage Container: 
+Catan: 0
+Connect Four: 0
+Gloomhaven: 0
+Netrunner: 0
+Risk: 0
+Clue: 0
+Mousetrap: 0
+Life: 1
+Pokémon: 0
+Monopoly: 0
+Candyland: 0
+Magic: 0
+
+
+Cash Register Blance: 2003.3349999999987
+Times money was added to the registerd: 1

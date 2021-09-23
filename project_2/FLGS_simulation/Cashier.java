@@ -22,7 +22,7 @@ public class Cashier extends Employee{
     Arrive anounces the arrival of an employee and aknowledges the arrival of new games
      */
     public void Arrive(int days, List<Games> shelf){
-        System.out.println(employee_name + " the cahsier has arrived at day " + days);
+        System.out.println(employee_name + " the cashier has arrived at day " + days);
         for (int i = 0; i < shelf.size(); i++){
             if(shelf.get(i).games_arrival > 0){
                 System.out.println("Three " + shelf.get(i).game_name + " games arrived at the store");
@@ -41,7 +41,7 @@ public class Cashier extends Employee{
         if (reg.balance < 100){
             reg.balance = 1000;
             reg.times_added++;
-            System.out.println("Money was added to the chash register! The balance is now $" + reg.balance);
+            System.out.println("Money was added to the cash register! The balance is now $" + reg.balance);
         }
     }
 
