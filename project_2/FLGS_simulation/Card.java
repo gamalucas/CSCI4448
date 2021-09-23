@@ -1,3 +1,8 @@
+/**
+Card is a class that inherits from Games and is responsible for keeping track of the attributes of the card games
+This is an example of INHERITANCE   
+ */
+
 class Card extends Games{
     
     public Card(double price, double height, double width, double lenght, int inventory, int units_sold, int shelf_position, String game_name, double pile_height, int games_arrival){
