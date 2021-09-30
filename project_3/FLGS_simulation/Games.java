@@ -19,20 +19,18 @@ abstract class Games{
 }
 
 abstract class PurchaseDecorator extends Games{
-    public void addSubProduct(){
-        
-    }
+    public abstract double addSubProductCoat(); //this is saying that all other decorator classes must implement a fucntion to add a sub product/
     
 }
 
 class TokenDecorator extends PurchaseDecorator{
-    Games game;
+    Games game; //holding a reference to the game object 
 
     public TokenDecorator(Games game){
-        this.game = game;
+        this.game = game; //whenever this constructor is being used, we are taking a already existed game (Monopoly in this case). This is our base obj and we are holding a reference to it
     }
 
-    public double price(){
+    public double addSubProductCoat(){
         return game.price + 5.55;
     }
 }

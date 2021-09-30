@@ -135,9 +135,9 @@ public class Cashier extends Employee{
                         // System.out.println("Empty shelf");
                     }
                     else if(prob_buying <= 20-decreaser){ 
-                        if(shelf.get(k).game_name == "Monopoly"){
+                        // if(shelf.get(k).game_name == "Monopoly"){
                             
-                        }
+                        // }
                         System.out.println(employee_name + " sold a " + shelf.get(k).game_name + " to customer " + i + " for $" + shelf.get(k).price);
                         shelf.get(k).inventory--; 
                         reg.balance+= shelf.get(k).price;

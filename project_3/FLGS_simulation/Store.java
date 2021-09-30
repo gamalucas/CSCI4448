@@ -27,8 +27,7 @@ class Store{
     Games risk = new Board(11.00,12.00,5.00,8.00,3,0,0,"Risk",0,0);
     Games gloomhaven = new Board(14.50,9.00,7.00,7.00,3,0,0,"Gloomhaven",0,0);
 
-
-
+    //monopoly = new TokenDecorator(monopoly);
 
     public Store(){
         //add all games Objects to the List shelf
