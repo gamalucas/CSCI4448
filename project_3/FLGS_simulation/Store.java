@@ -14,20 +14,20 @@ class Store{
 
     Register register = new Register(); //register
     //games
-    Games monopoly = new Monopoly(42.00,10.00,2.00,16.00,3,0,0,"Monopoly",0,0); //This is an example of POLYMORPHISM
-    Games clue = new Clue(52.00,15.00,5.00,20.00,3,0,0,"Clue",0,0);
-    Games life = new Life(33.00,8.00,3.00,9.00,3,0,0,"Life",0,0);
-    Games mousetrap = new Kids(50.00,12.00,4.00,10.00,3,0,0,"Mousetrap",0,0);
-    Games candyland = new Kids(22.00,7.00,2.00,9.50,3,0,0,"Candyland",0,0);
-    Games connect_Four = new Kids(27.00,17.00,8.00,22.00,3,0,0,"Connect Four",0,0);
-    Games magic = new Card(5.00,2.00,1.00,2.00,3,0,0,"Magic",0,0);
-    Games pokemon = new Card(125.99,1.00,2.00,2.00,3,0,0,"Pokémon",0,0);
-    Games netrunner = new Card(12.50,5.00,5.00,7.00,3,0,0,"Netrunner",0,0);
-    Games catan = new Board(15.60,10.50,15.00,17.00,3,0,0,"Catan",0,0);
-    Games risk = new Board(11.00,12.00,5.00,8.00,3,0,0,"Risk",0,0);
-    Games gloomhaven = new Board(14.50,9.00,7.00,7.00,3,0,0,"Gloomhaven",0,0);
+    Games monopoly = new Monopoly(42.00,10.00,2.00,16.00,3,0,0,"Monopoly",0,0, "Family"); //This is an example of POLYMORPHISM
+    Games clue = new Clue(52.00,15.00,5.00,20.00,3,0,0,"Clue",0,0, "Family");
+    Games life = new Life(33.00,8.00,3.00,9.00,3,0,0,"Life",0,0, "Family");
+    Games mousetrap = new Mousetrap(50.00,12.00,4.00,10.00,3,0,0,"Mousetrap",0,0, "Kids");
+    Games candyland = new Candyland(22.00,7.00,2.00,9.50,3,0,0,"Candyland",0,0, "Kids");
+    Games connect_Four = new Connect_Four(27.00,17.00,8.00,22.00,3,0,0,"Connect Four",0,0, "Kids");
+    Games magic = new Magic(5.00,2.00,1.00,2.00,3,0,0,"Magic",0,0, "Card");
+    Games pokemon = new Pokemon(125.99,1.00,2.00,2.00,3,0,0,"Pokémon",0,0, "Card");
+    Games netrunner = new Netrunner(12.50,5.00,5.00,7.00,3,0,0,"Netrunner",0,0, "Card");
+    Games catan = new Catan(15.60,10.50,15.00,17.00,3,0,0,"Catan",0,0, "Board");
+    Games risk = new Risk(11.00,12.00,5.00,8.00,3,0,0,"Risk",0,0, "Board");
+    Games gloomhaven = new Gloomhaven(14.50,9.00,7.00,7.00,3,0,0,"Gloomhaven",0,0, "Board");
 
-    //monopoly = new TokenDecorator(monopoly);
+    
 
     public Store(){
         //add all games Objects to the List shelf

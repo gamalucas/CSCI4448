@@ -9,14 +9,6 @@ public class Cashier extends Employee{
         employee_name = get_employee_name();
     }
     
-    /*
-    This function is responsible for generetinga a random number. 
-    It was found on the following link: //https://www.baeldung.com/java-generating-random-numbers-in-range
-    */
-    public int getRandomNumber(int min, int max) { 
-        return (int) ((Math.random() * (max - min)) + min);
-    }
-
 
     /**
     Arrive anounces the arrival of an employee and aknowledges the arrival of new games
@@ -51,9 +43,9 @@ public class Cashier extends Employee{
     public void Vacuum(List<Games> shelf, Map<String, Integer> DamageContainer){
         int count = 0;
         System.out.println(employee_name + " is vacuuming the store ");
-        int demagePossibility = getRandomNumber(0, 101); // generate a random number that will reflect in the probability of a employee to break a game while vacumming the store
+        int demagePossibility = Utility.getRandomNumber(0, 101); // generate a random number that will reflect in the probability of a employee to break a game while vacumming the store
         int brokenGame = 0;
-        brokenGame = getRandomNumber(0, 12); //generate a random number from 1 to 12 (because there are 12 fixed game titles). The selected number will represent which game to remove
+        brokenGame = Utility.getRandomNumber(0, 12); //generate a random number from 1 to 12 (because there are 12 fixed game titles). The selected number will represent which game to remove
         if(employee_name == "Burt" & demagePossibility >= 0 & demagePossibility <= 10){
                 while(shelf.get(brokenGame).inventory == 0){ //check if the index game selected are still on inventory, if not, remove the next game on list
                     if(brokenGame == 12){ 
@@ -115,12 +107,13 @@ public class Cashier extends Employee{
     */
     public void Open(List<Games> shelf, Register reg){
         System.out.println(employee_name + " opened the store. Welcome!");
-        int num_customers = getRandomNumber(0, 5); //this variable will hold the number of customers 
+        int num_customers = Utility.getRandomNumber(0, 5); //this variable will hold the number of customers 
         System.out.println(num_customers + " customer are in store today!");
         int prob_buying = 0; //this variable holds the probability of a customer buying a game
         int decreaser = 0; //this is a helper variable, it exists to decrease the probility of a game being bought everytime a customer moves to another shelf.
         int num_game_bought = 0; //this variable will hold how many games a customer bought per day. It exists to avoid a customer buying more than 2 games
         boolean bought_game = false; //variable to check if a customer have bought any game
+        double addOn_price = 0.0;
         for (int i = 1; i <= num_customers; i++){ //loop throught all customer and perform their operations each one per time
             num_game_bought = 0;
                 decreaser = 0;
@@ -130,15 +123,31 @@ public class Cashier extends Employee{
                         break;
                         // k = shelf.size();
                     }
-                    prob_buying = getRandomNumber(0, 101);
+                    prob_buying = Utility.getRandomNumber(1, 101);
                     if(shelf.get(k).inventory == 0){ //in case a user wants to buy a game from a empty shelf, do nothing and move to the next shelf.
                         // System.out.println("Empty shelf");
                     }
                     else if(prob_buying <= 20-decreaser){ 
-                        // if(shelf.get(k).game_name == "Monopoly"){
-                            
-                        // }
-                        System.out.println(employee_name + " sold a " + shelf.get(k).game_name + " to customer " + i + " for $" + shelf.get(k).price);
+                        switch(shelf.get(k).game_name){
+                            case "Monopoly":
+                                if(prob_buying <= 20){  //prob_buying is already from 1 to 20
+                                    Games monopoly = new TokenDecorator(shelf.get(k));
+                                    addOn_price += monopoly.price;
+                                    System.out.println("PRICE ISSSSS: "+addOn_price);
+                                }
+                                break;
+                            case "Magic":
+                            case "Pokémon":
+                            case "Netrunner":
+                                if(prob_buying <= 4){  //prob_buying is already from 1 to 20, 4 = 20%
+                                    new SpecialCardDecorator(shelf.get(k));
+                                }
+                                break;
+                            default:
+                                System.out.println("No games added");
+
+                        }
+                        System.out.println(employee_name + " sold a " + shelf.get(k).game_name + " to customer " + i + " for $" + shelf.get(k).price + addOn_price);
                         shelf.get(k).inventory--; 
                         reg.balance+= shelf.get(k).price;
                         num_game_bought++;
