@@ -37,7 +37,6 @@ class TokenDecorator extends PurchaseDecorator{
     }
 }
 
-
 class SpecialCardDecorator extends PurchaseDecorator{
     Games game; //holding a reference to the game object 
 
@@ -52,7 +51,31 @@ class SpecialCardDecorator extends PurchaseDecorator{
         game.price += (9.99 * num); //increase monopoly price upon token buy request
         System.out.println("CARDSSSSSSS22222222222222: " + game.price);
         return 1.0;
+    }
+}
 
+class SparePartDecorator extends PurchaseDecorator{
+    Games game;
 
+    public SparePartDecorator(Games game){
+        this.game = game; //whenever this constructor is being used, we are taking a already existed game (Monopoly in this case). This is our base obj and we are holding a reference to it
+        addSubProductCost();
+    }
+
+    public double addSubProductCost(){
+        return 1.0;
+    }
+}
+
+class MiniaturesDecorator extends PurchaseDecorator{
+    Games game;
+
+    public MiniaturesDecorator(Games game){
+        this.game = game;
+        addSubProductCost();
+    }
+
+    public double addSubProductCost(){
+        return 1.0;
     }
 }

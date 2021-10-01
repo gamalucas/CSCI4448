@@ -1,5 +1,4 @@
-import java.util.*;  
-
+import java.util.*;
 public class Cashier extends Employee{
 
     String employee_name = "";
@@ -131,9 +130,11 @@ public class Cashier extends Employee{
                         switch(shelf.get(k).game_name){
                             case "Monopoly":
                                 if(prob_buying <= 20){  //prob_buying is already from 1 to 20
-                                    Games monopoly = new TokenDecorator(shelf.get(k));
-                                    addOn_price += monopoly.price;
-                                    System.out.println("PRICE ISSSSS: "+addOn_price);
+                                    Games temp = new TokenDecorator(shelf.get(k));
+                                    addOn_price = temp.price;
+                                    //addOn_price += monopoly.price;
+                                    //Games mono = new TokenDecorator(shelf.get(k));
+                                    System.out.println("PRICE ISSSSS: "+ addOn_price);
                                 }
                                 break;
                             case "Magic":
@@ -143,9 +144,14 @@ public class Cashier extends Employee{
                                     new SpecialCardDecorator(shelf.get(k));
                                 }
                                 break;
+                            case "Mousetrap":
+                                //do something here
+                                break;
+                            case "Gloomhaven":
+                                //do something here
+                                break;
                             default:
                                 System.out.println("No games added");
-
                         }
                         System.out.println(employee_name + " sold a " + shelf.get(k).game_name + " to customer " + i + " for $" + shelf.get(k).price + addOn_price);
                         shelf.get(k).inventory--; 
