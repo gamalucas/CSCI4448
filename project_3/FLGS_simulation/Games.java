@@ -17,10 +17,11 @@ abstract class Games{
     int games_arrival;
     Double total_sales;
     String game_type;
+    Double add_on_price;
 }
 
 abstract class PurchaseDecorator extends Games{
-    public abstract double addSubProductCost(); //this is saying that all other decorator classes must implement a fucntion to add a sub product/
+    public abstract void addSubProductCost(); //this is saying that all other decorator classes must implement a fucntion to add a sub product/
     
 }
 
@@ -32,11 +33,11 @@ class TokenDecorator extends PurchaseDecorator{
         addSubProductCost();
     }
 
-    public double addSubProductCost(){
-        return game.price + 5.59; //increase monopoly price upon token buy request
+    public void addSubProductCost(){
+        game.add_on_price += 5.59; //increase monopoly price upon token buy request
     }
 }
-
+ 
 class SpecialCardDecorator extends PurchaseDecorator{
     Games game; //holding a reference to the game object 
 
@@ -45,12 +46,9 @@ class SpecialCardDecorator extends PurchaseDecorator{
         addSubProductCost();
     }
 
-    public double addSubProductCost(){
+    public void addSubProductCost(){
         int num = Utility.getRandomNumber(1,7);
-        System.out.println("CARDSSSSSSS: " + game.price);
-        game.price += (9.99 * num); //increase monopoly price upon token buy request
-        System.out.println("CARDSSSSSSS22222222222222: " + game.price);
-        return 1.0;
+        game.add_on_price += (9.99 * num); //increase monopoly price upon token buy request
     }
 }
 
@@ -62,8 +60,9 @@ class SparePartDecorator extends PurchaseDecorator{
         addSubProductCost();
     }
 
-    public double addSubProductCost(){
-        return 1.0;
+    public void addSubProductCost(){
+        int num = Utility.getRandomNumber(1, 3);
+        game.add_on_price += (11.99 * num);
     }
 }
 
@@ -75,7 +74,8 @@ class MiniaturesDecorator extends PurchaseDecorator{
         addSubProductCost();
     }
 
-    public double addSubProductCost(){
-        return 1.0;
+    public void addSubProductCost(){
+        int num = Utility.getRandomNumber(1, 4);
+        game.add_on_price += (1.99 * num);
     }
 }

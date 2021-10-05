@@ -2,10 +2,14 @@ import java.util.*;
 public class Cashier extends Employee{
 
     String employee_name = "";
+
+    protected StackBehaviour stackBehaviour;
+
     //Constructor to initialize employee's name
-    public Cashier(String name){ //This is an example of ENCAPSULATION
+    public Cashier(String name, StackBehaviour stackBehaviour){ //This is an example of ENCAPSULATION
         set_employee_name(name);
         employee_name = get_employee_name();
+        this.stackBehaviour = stackBehaviour;
     }
     
 
@@ -67,8 +71,22 @@ public class Cashier extends Employee{
                 }
                 else{
                     brokenGame++;
-                    }
                 }
+            }
+            shelf.get(brokenGame).inventory--; //subtract broken game from inventory
+            count = DamageContainer.get(shelf.get(brokenGame).game_name); //get the current number of a specific broken games
+            DamageContainer.put(shelf.get(brokenGame).game_name, (count+1)); //add broken game to broken container
+            System.out.println("The game " +  shelf.get(brokenGame).game_name + " is damaged and placed on the Damaged Game Container");
+        }
+        else if(employee_name == "Bart" & demagePossibility >= 0 & demagePossibility <= 2){
+            while(shelf.get(brokenGame).inventory == 0){ //check if the index game selected are still on inventory, if not, remove the next game on list
+                if(brokenGame == 12){ 
+                    brokenGame = 0;
+                }
+                else{
+                    brokenGame++;
+                }
+            }
             shelf.get(brokenGame).inventory--; //subtract broken game from inventory
             count = DamageContainer.get(shelf.get(brokenGame).game_name); //get the current number of a specific broken games
             DamageContainer.put(shelf.get(brokenGame).game_name, (count+1)); //add broken game to broken container
@@ -98,7 +116,13 @@ public class Cashier extends Employee{
                 System.out.println("Burt stacks " + shelf.get(i).inventory + " " + shelf.get(i).game_name + " games in shelf position " + (i+1) + ". Game width is: " + shelf.get(i).width + "\"");
             }
         }
+
         System.out.println();
+    }
+
+
+    public void performStack(List<Games> shelf){
+        stackBehaviour.stack(shelf);
     }
 
     /* 
@@ -112,7 +136,7 @@ public class Cashier extends Employee{
         int decreaser = 0; //this is a helper variable, it exists to decrease the probility of a game being bought everytime a customer moves to another shelf.
         int num_game_bought = 0; //this variable will hold how many games a customer bought per day. It exists to avoid a customer buying more than 2 games
         boolean bought_game = false; //variable to check if a customer have bought any game
-        double addOn_price = 0.0;
+        int prob_add_on = 0;
         for (int i = 1; i <= num_customers; i++){ //loop throught all customer and perform their operations each one per time
             num_game_bought = 0;
                 decreaser = 0;
@@ -127,35 +151,63 @@ public class Cashier extends Employee{
                         // System.out.println("Empty shelf");
                     }
                     else if(prob_buying <= 20-decreaser){ 
+                        prob_add_on = Utility.getRandomNumber(1, 101); //calculate the probability of buying a add on
                         switch(shelf.get(k).game_name){
                             case "Monopoly":
-                                if(prob_buying <= 20){  //prob_buying is already from 1 to 20
-                                    Games temp = new TokenDecorator(shelf.get(k));
-                                    addOn_price = temp.price;
-                                    //addOn_price += monopoly.price;
-                                    //Games mono = new TokenDecorator(shelf.get(k));
-                                    System.out.println("PRICE ISSSSS: "+ addOn_price);
+                                if(prob_add_on <= 50){  
+                                    Games temp = shelf.get(k); //temp obj to store add on's value
+                                    temp = new TokenDecorator(temp); //call decorator
+                                    reg.balance += shelf.get(k).price + shelf.get(k).add_on_price; // increase price sale (game price + add on)
+                                    shelf.get(k).add_on_price = 0.0; //set add on price to zero for future use
+                                }
+                                else{ //if no add ons were added, add only game price here
+                                    reg.balance += shelf.get(k).price;
                                 }
                                 break;
+
                             case "Magic":
                             case "Pokémon":
                             case "Netrunner":
-                                if(prob_buying <= 4){  //prob_buying is already from 1 to 20, 4 = 20%
-                                    new SpecialCardDecorator(shelf.get(k));
+                                if(prob_add_on <= 20){
+                                    Games temp = shelf.get(k);
+                                    temp = new SpecialCardDecorator(temp);
+                                    reg.balance += shelf.get(k).price + shelf.get(k).add_on_price; // increase price sale (game price + add on)
+                                    shelf.get(k).add_on_price = 0.0; //set add on price to zero for future use
+                                }
+                                else{ //if no add ons were added, add only game price here
+                                    reg.balance += shelf.get(k).price;
                                 }
                                 break;
+
                             case "Mousetrap":
-                                //do something here
+                                if(prob_add_on <= 30){  
+                                    Games temp = shelf.get(k); //temp obj to store add on's value
+                                    temp = new SparePartDecorator(temp); //call decorator
+                                    reg.balance += shelf.get(k).price + shelf.get(k).add_on_price; // increase price sale (game price + add on)
+                                    shelf.get(k).add_on_price = 0.0; //set add on price to zero for future use
+                                }
+                                else{ //if no add ons were added, add only game price here
+                                    reg.balance += shelf.get(k).price;
+                                }
                                 break;
+
                             case "Gloomhaven":
-                                //do something here
+                                if(prob_add_on <= 20){  
+                                    Games temp = shelf.get(k); //temp obj to store add on's value
+                                    temp = new MiniaturesDecorator(temp); //call decorator
+                                    reg.balance += shelf.get(k).price + shelf.get(k).add_on_price; // increase price sale (game price + add on)
+                                    shelf.get(k).add_on_price = 0.0; //set add on price to zero for future use
+                                }
+                                else{ //if no add ons were added, add only game price here
+                                    reg.balance += shelf.get(k).price;
+                                }
                                 break;
+
                             default:
-                                System.out.println("No games added");
+                                reg.balance+= shelf.get(k).price;
                         }
-                        System.out.println(employee_name + " sold a " + shelf.get(k).game_name + " to customer " + i + " for $" + shelf.get(k).price + addOn_price);
+                        System.out.println(employee_name + " sold a " + shelf.get(k).game_name + " to customer " + i + " for $" + shelf.get(k).price);
                         shelf.get(k).inventory--; 
-                        reg.balance+= shelf.get(k).price;
                         num_game_bought++;
                         shelf.get(k).units_sold++;
                         bought_game = true;
@@ -173,12 +225,21 @@ public class Cashier extends Employee{
     /**
     Order function orders new games if the inventory is empty for that game type
      */
-    public void Order(List<Games> shelf, Register reg){
+    public void Order(List<Games> shelf, Register reg, int cookies_on_store, int cookies_package_order){
         for (int i = 0; i < shelf.size(); i++){ //for every game in the store
             if (shelf.get(i).inventory == 0){ //if the inventory is empty
                 System.out.println(employee_name + " bought 3 " + shelf.get(i).game_name + " games for the store.");
                 shelf.get(i).games_arrival = 3; //let the program know that there is an order for this game type arriving in the morning.
                 reg.balance -= (shelf.get(i).price/2)*3; //charge the store half price for the game
+            }
+        }
+        //Logic to order more cookies
+        if(cookies_on_store == 0){
+            cookies_package_order += 1;
+        }
+        else if(cookies_on_store > 0){
+            if(cookies_package_order > 1){
+                cookies_package_order -= 1;
             }
         }
         System.out.println();

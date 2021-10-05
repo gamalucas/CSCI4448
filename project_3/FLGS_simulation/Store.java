@@ -7,25 +7,31 @@ class Store{
     static List<Games> shelf = new ArrayList(); //The list shelf is an example of emcapsulation because all data stored in this class is protected and, therefore, can only be accesses by the methosd get() and/or set()
     Map<String, Integer> DamageContainer = new HashMap<String, Integer>(); //damaged container
     int days;
+    int cookies_on_store = 0;
+    int cookies_package_order = 1;
+    StackBehaviour stackByHeight = new StackByHeight();
+    StackBehaviour stackByWidthDec = new StackByWidthDec();
     //initializes employees
-    Cashier Burt = new Cashier("Burt"); // The creation of "Burt" is a unique identifier and this is an example of IDENTITY
-    Cashier Ernie = new Cashier("Ernie");
-    Cashier empDay = new Cashier("");
+    Cashier Burt = new Cashier("Burt", stackByWidthDec); // The creation of "Burt" is a unique identifier and this is an example of IDENTITY
+    Cashier Ernie = new Cashier("Ernie", stackByHeight);
+    Cashier Bart = new Cashier("Bart", stackByHeight);
+    Cashier empDay = new Cashier("", stackByHeight);
+    Baker Gonger = new Baker("Gonger", 0.0 , 6.0);
 
     Register register = new Register(); //register
     //games
-    Games monopoly = new Monopoly(42.00,10.00,2.00,16.00,3,0,0,"Monopoly",0,0, "Family"); //This is an example of POLYMORPHISM
-    Games clue = new Clue(52.00,15.00,5.00,20.00,3,0,0,"Clue",0,0, "Family");
-    Games life = new Life(33.00,8.00,3.00,9.00,3,0,0,"Life",0,0, "Family");
-    Games mousetrap = new Mousetrap(50.00,12.00,4.00,10.00,3,0,0,"Mousetrap",0,0, "Kids");
-    Games candyland = new Candyland(22.00,7.00,2.00,9.50,3,0,0,"Candyland",0,0, "Kids");
-    Games connect_Four = new Connect_Four(27.00,17.00,8.00,22.00,3,0,0,"Connect Four",0,0, "Kids");
-    Games magic = new Magic(5.00,2.00,1.00,2.00,3,0,0,"Magic",0,0, "Card");
-    Games pokemon = new Pokemon(125.99,1.00,2.00,2.00,3,0,0,"Pokémon",0,0, "Card");
-    Games netrunner = new Netrunner(12.50,5.00,5.00,7.00,3,0,0,"Netrunner",0,0, "Card");
-    Games catan = new Catan(15.60,10.50,15.00,17.00,3,0,0,"Catan",0,0, "Board");
-    Games risk = new Risk(11.00,12.00,5.00,8.00,3,0,0,"Risk",0,0, "Board");
-    Games gloomhaven = new Gloomhaven(14.50,9.00,7.00,7.00,3,0,0,"Gloomhaven",0,0, "Board");
+    Games monopoly = new Monopoly(42.00,10.00,2.00,16.00,3,0,0,"Monopoly",0,0, "Family", 0.0); //This is an example of POLYMORPHISM
+    Games clue = new Clue(52.00,15.00,5.00,20.00,3,0,0,"Clue",0,0, "Family", 0.0);
+    Games life = new Life(33.00,8.00,3.00,9.00,3,0,0,"Life",0,0, "Family", 0.0);
+    Games mousetrap = new Mousetrap(50.00,12.00,4.00,10.00,3,0,0,"Mousetrap",0,0, "Kids", 0.0);
+    Games candyland = new Candyland(22.00,7.00,2.00,9.50,3,0,0,"Candyland",0,0, "Kids", 0.0);
+    Games connect_Four = new Connect_Four(27.00,17.00,8.00,22.00,3,0,0,"Connect Four",0,0, "Kids", 0.0);
+    Games magic = new Magic(5.00,2.00,1.00,2.00,3,0,0,"Magic",0,0, "Card", 0.0);
+    Games pokemon = new Pokemon(125.99,1.00,2.00,2.00,3,0,0,"Pokémon",0,0, "Card", 0.0);
+    Games netrunner = new Netrunner(12.50,5.00,5.00,7.00,3,0,0,"Netrunner",0,0, "Card", 0.0);
+    Games catan = new Catan(15.60,10.50,15.00,17.00,3,0,0,"Catan",0,0, "Board", 0.0);
+    Games risk = new Risk(11.00,12.00,5.00,8.00,3,0,0,"Risk",0,0, "Board", 0.0);
+    Games gloomhaven = new Gloomhaven(14.50,9.00,7.00,7.00,3,0,0,"Gloomhaven",0,0, "Board", 0.0);
 
     
 
@@ -60,32 +66,29 @@ class Store{
         days = 0;
     }
 
-/**
-Chooses the employee of the day based on a boolean random variable
- */
-    public boolean choose_employee(){
-        return ThreadLocalRandom.current().nextBoolean();
-    }
-
 
     /*
     start_day function will initialize the program and call all needed functions inside Cashier.java. It also makes the selection of the employee that will be working on the given day.
     */
     public void start_day(){
-        boolean employeeOption = choose_employee(); //true for Burt and false for Ernie
+        int employee_prob =  Utility.getRandomNumber(1, 4);
         days++;
-        if(employeeOption == true){
+        if(employee_prob == 1){
             empDay = Burt;
         }
-        else if(employeeOption == false){
+        else if(employee_prob == 2){
             empDay = Ernie;
         }
-        empDay.Arrive(days, shelf);  
+        else{
+            empDay = Bart;
+        }
+        empDay.Arrive(days, shelf);
+        Gonger.cookie_drop_off(cookies_on_store, register, cookies_package_order);
         empDay.Count(register);
         empDay.Vacuum(shelf, DamageContainer);
         empDay.Stack(shelf);
         empDay.Open(shelf, register);
-        empDay.Order(shelf, register);
+        empDay.Order(shelf, register, cookies_on_store, cookies_package_order);
         empDay.Close();
         
     }
