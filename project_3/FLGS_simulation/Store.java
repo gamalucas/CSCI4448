@@ -11,11 +11,12 @@ class Store{
     int cookies_package_order = 1;
     StackBehaviour stackByHeight = new StackByHeight();
     StackBehaviour stackByWidthDec = new StackByWidthDec();
+    StackBehaviour stackByBart = new StackByBart();
     //initializes employees
     Cashier Burt = new Cashier("Burt", stackByWidthDec); // The creation of "Burt" is a unique identifier and this is an example of IDENTITY
     Cashier Ernie = new Cashier("Ernie", stackByHeight);
-    Cashier Bart = new Cashier("Bart", stackByHeight);
-    Cashier empDay = new Cashier("", stackByHeight);
+    Cashier Bart = new Cashier("Bart", stackByBart);
+    Cashier empDay;
     Baker Gonger = new Baker("Gonger", 0.0 , 6.0);
 
     Register register = new Register(); //register
@@ -86,7 +87,8 @@ class Store{
         Gonger.cookie_drop_off(cookies_on_store, register, cookies_package_order);
         empDay.Count(register);
         empDay.Vacuum(shelf, DamageContainer);
-        empDay.Stack(shelf);
+        // empDay.Stack(shelf);
+        empDay.performStack(shelf);
         empDay.Open(shelf, register);
         empDay.Order(shelf, register, cookies_on_store, cookies_package_order);
         empDay.Close();
@@ -120,14 +122,14 @@ class Store{
         System.out.println("Times money was added to the registerd: " + register.times_added);
         
     }
-    public static void main(String args[]){
-        Store FLGS = new Store();
-        for (int i = 1; i <= 30; i++){
-            FLGS.start_day();
-            System.out.println("=====================================");
-            System.out.println();
-        }
-        FLGS.printMessages();
+    // public static void main(String args[]){
+    //     Store FLGS = new Store();
+    //     for (int i = 1; i <= 30; i++){
+    //         FLGS.start_day();
+    //         System.out.println("=====================================");
+    //         System.out.println();
+    //     }
+    //     FLGS.printMessages();
        
-    }
+    // }
 }
