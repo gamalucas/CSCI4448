@@ -7,9 +7,12 @@ class Store{
     static List<Games> shelf = new ArrayList(); //The list shelf is an example of emcapsulation because all data stored in this class is protected and, therefore, can only be accesses by the methosd get() and/or set()
     Map<String, Integer> DamageContainer = new HashMap<String, Integer>(); //damaged container
     int days;
-    StackBehaviour stackByHeight = new StackByHeight();
+
+    // Instantiates the 
+    StackBehaviour stackByHeight = new StackByHeight(); //
     StackBehaviour stackByWidthDec = new StackByWidthDec();
     StackBehaviour stackByBart = new StackByBart();
+
     //initializes employees
     Cashier Burt = new Cashier("Burt", stackByWidthDec); // The creation of "Burt" is a unique identifier and this is an example of IDENTITY
     Cashier Ernie = new Cashier("Ernie", stackByHeight);

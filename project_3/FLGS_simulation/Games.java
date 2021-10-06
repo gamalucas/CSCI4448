@@ -20,6 +20,9 @@ abstract class Games{
     Double add_on_price;
 }
 
+/*
+    The class PurchaseDecorator and all the classes that extends it is an example of DECORATOR pattern. 
+*/
 abstract class PurchaseDecorator extends Games{
     public abstract void addSubProductCost(); //this is saying that all other decorator classes must implement a fucntion to add a sub product/
     
