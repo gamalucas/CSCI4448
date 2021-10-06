@@ -1,3 +1,6 @@
+/**
+ * Class cashier is dedicated to the functions of the Cashier of the day
+ */
 import java.util.*;
 public class Cashier extends Employee implements Subject{
 
@@ -61,13 +64,18 @@ public class Cashier extends Employee implements Subject{
         }
     }
 
-
+    /**
+     * Handles all the logic for damaging games in vacuum for each emplyee and the cookie mosnter
+     * @param shelf
+     * @param DamageContainer
+     * @param its_cookie_monster
+     */
     public void DamageGames(List<Games> shelf, Map<String, Integer> DamageContainer, boolean its_cookie_monster){
         int count = 0;
         int demagePossibility = Utility.getRandomNumber(0, 101); // generate a random number that will reflect in the probability of a employee to break a game while vacumming the store
         int brokenGame = 0;
         brokenGame = Utility.getRandomNumber(0, 12); //generate a random number from 1 to 12 (because there are 12 fixed game titles). The selected number will represent which game to remove
-        if(employee_name == "Burt" & demagePossibility >= 0 & demagePossibility <= 10){
+        if(employee_name == "Burt" & demagePossibility >= 0 & demagePossibility <= 10){ //logic for Burt
                 while(shelf.get(brokenGame).inventory == 0){ //check if the index game selected are still on inventory, if not, remove the next game on list
                     if(brokenGame == 11){ 
                         brokenGame = 0;
@@ -76,14 +84,13 @@ public class Cashier extends Employee implements Subject{
                         brokenGame++;
                     }
                 }
-            
             shelf.get(brokenGame).inventory--; //subtract broken game from inventory
-            count = DamageContainer.get(shelf.get(brokenGame).game_name);
-            DamageContainer.put(shelf.get(brokenGame).game_name, count++);
+            count = DamageContainer.get(shelf.get(brokenGame).game_name); //number of damaged games
+            DamageContainer.put(shelf.get(brokenGame).game_name, count++); // adds broken game to the demaged container
             announcement = ("The game " +  shelf.get(brokenGame).game_name + " is damaged and placed on the Damaged Game Container");
             notifyObservers(announcement);
         }
-        else if(employee_name == "Ernie" & demagePossibility >= 0 & demagePossibility <= 5){
+        else if(employee_name == "Ernie" & demagePossibility >= 0 & demagePossibility <= 5){ //logic for Ernie
             while(shelf.get(brokenGame).inventory == 0){ //check if the index game selected are still on inventory, if not, remove the next game on list
                 if(brokenGame == 11){ 
                     brokenGame = 0;
@@ -98,7 +105,7 @@ public class Cashier extends Employee implements Subject{
             announcement = ("The game " +  shelf.get(brokenGame).game_name + " is damaged and placed on the Damaged Game Container");
             notifyObservers(announcement);
         }
-        else if(employee_name == "Bart" & demagePossibility >= 0 & demagePossibility <= 2){
+        else if(employee_name == "Bart" & demagePossibility >= 0 & demagePossibility <= 2){ //logic ofr Bart
             while(shelf.get(brokenGame).inventory == 0){ //check if the index game selected are still on inventory, if not, remove the next game on list
                 if(brokenGame == 11){ 
                     brokenGame = 0;
@@ -113,7 +120,7 @@ public class Cashier extends Employee implements Subject{
             announcement = ("The game " +  shelf.get(brokenGame).game_name + " is damaged and placed on the Damaged Game Container");
             notifyObservers(announcement);
         }
-        else if(its_cookie_monster == true){
+        else if(its_cookie_monster == true){ // logic for the cookie monster
             demagePossibility = Utility.getRandomNumber(1, 7);
             for (int i = 0; i < demagePossibility; i++){
                 while(shelf.get(brokenGame).inventory == 0){ //check if the index game selected are still on inventory, if not, remove the next game on list
@@ -176,8 +183,8 @@ public class Cashier extends Employee implements Subject{
         int cookies_tracker_day = 0;
         for (int i = 1; i <= num_customers; i++){ //loop throught all customer and perform their operations each one per time
             prob_cooking_monster = Utility.getRandomNumber(1, 101);
-            if(prob_cooking_monster == 1){
-                if(cookie.cookies_in_store == 0){
+            if(prob_cooking_monster == 1){ //check is the customer is a cookie monster
+                if(cookie.cookies_in_store == 0){ // no cookies at the store
                     announcement = (employee_name + " said that a cookie monster sadly left the store because there are no cookies.");
                     notifyObservers(announcement);
                     its_cookie_monster = false;
@@ -190,7 +197,7 @@ public class Cashier extends Employee implements Subject{
             decreaser = 0;
             bought_game = false;
             prob_buying_cookie = Utility.getRandomNumber(1, 101);
-            if(its_cookie_monster == true){
+            if(its_cookie_monster == true){ // if it is the cookie monster
                 announcement = (employee_name + " said that a cookie monster visited the store. Oh no!");
                 notifyObservers(announcement);
                 cookie.cookies_stolen += cookie.cookies_in_store;
@@ -198,18 +205,18 @@ public class Cashier extends Employee implements Subject{
                 DamageGames(shelf, DamageContainer, true);
                 its_cookie_monster = false;
             }
-            else{
+            else{ // no cookie mosnter
                 if(prob_buying_cookie >= 50){ //prob bigger than 50 means that customer will buy a cookie
                     prob_buying_cookie = Utility.getRandomNumber(1, 4); //calculate how many cookies customer will buy
                     if(prob_buying_cookie <= cookie.cookies_in_store){
                         cookie.cookies_in_store -= prob_buying_cookie;
                         reg.balance += cookie.price * prob_buying_cookie;
-                        bought_cookies = 20;
+                        bought_cookies = 20; // increse the chance by 20%
                         announcement = (employee_name + " sold " + prob_buying_cookie + " cookies today");
                         cookies_tracker_day += prob_buying_cookie;
                         notifyObservers(announcement);
                     }
-                    else if(cookie.cookies_in_store <= 0){
+                    else if(cookie.cookies_in_store <= 0){ // if there are no cookies in the store decrease the chance by 10% 
                         bought_cookies = -10;
                     }
                     else{

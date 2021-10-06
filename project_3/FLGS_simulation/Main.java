@@ -1,3 +1,6 @@
+/**
+ * Main function. Responsible for starting the program by creating and object of store and looping 30 times calling start day
+ */
 public class Main{
     public static void main(String args[]){
         Store FLGS = new Store();

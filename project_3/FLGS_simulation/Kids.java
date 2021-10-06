@@ -22,6 +22,9 @@ class Kids extends Games{
 }
 
 
+/** 
+ * Foollowing three classes are the games of the category Kids
+*/
 class Mousetrap extends Kids{
     public Mousetrap(double price, double height, double width, double lenght, int inventory, int units_sold, int shelf_position, String game_name, double pile_height, int games_arrival, String game_type, double add_on_price){
         super(price, height, width, lenght, inventory, units_sold, shelf_position, game_name, pile_height, games_arrival, game_type, add_on_price);       

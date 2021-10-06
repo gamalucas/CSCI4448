@@ -1,3 +1,7 @@
+/**
+ * Class to keep track of the cookies
+ */
+
 public class Cookies{
     int cookies_in_store;
     int cookies_package_order;

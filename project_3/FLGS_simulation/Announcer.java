@@ -13,19 +13,19 @@ public class Announcer extends Employee implements Observer{
     public Announcer(String name, Subject cashier, Subject baker){ //This is an example of ENCAPSULATION
         set_employee_name(name);
         employee_name = get_employee_name();
-        cashier.registerObserver(this);
-        baker.registerObserver(this);
+        cashier.registerObserver(this); //register the cashier of the day as an observer
+        baker.registerObserver(this); //registers the baker as an observer
     }
 
-    public void arrive(int day){
+    public void arrive(int day){ // Guys arrival
         System.out.println(employee_name + " arrived on day " + day);
     }
 
-    public void announce(){
+    public void announce(){ //prints whatver message is passed to it to the terminal
         System.out.println("Guy says: " + announcement);
     }
 
-    public void close(){
+    public void close(){ // Guys exit
         System.out.println(employee_name + " is leaving the store.");
     }
 

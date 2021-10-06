@@ -1,3 +1,7 @@
+/**
+ * Class is dedicated to the functions of the Baker
+ */
+
 import java.util.*;
 
 public class Baker extends Employee implements Subject{
@@ -29,6 +33,11 @@ public class Baker extends Employee implements Subject{
         observers_list.forEach(o -> o.update(announcement));
     }
 
+    /**
+     * responsible for dropping off the cookies at the store every day
+     * @param cookies
+     * @param reg
+     */
     public void cookie_drop_off(Cookies cookies, Register reg){
         announcement = ("Gonger the baker has arrived a the store");
         notifyObservers(announcement);
