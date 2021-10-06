@@ -1,6 +1,5 @@
 import java.util.*;
 
-
 /**
 Class that implements StackBehaviour for the implementation of the STRATEGY Pattern. This implements the stack behaviour of Burt
  */

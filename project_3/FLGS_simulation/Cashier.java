@@ -143,12 +143,12 @@ public class Cashier extends Employee implements Subject{
         System.out.println();
     }
 
-
+    
     /**
     * Calls for the right stack based on the cachier of the day. Part of the implementation of the STRATEGY Pattern.
     */
     public void performStack(List<Games> shelf){
-        stackBehaviour.stack(shelf); // calls stack with the cachier of the day's stack strategy
+        stackBehaviour.stack(shelf);// calls stack with the cachier of the day's stack strategy
         for (int i = 0; i < shelf.size(); i++){
             announcement = (employee_name + " stacks " + shelf.get(i).inventory + " " + shelf.get(i).game_name + " games in shelf position " + (i+1) + ". Game width is: " + shelf.get(i).width + "\"");
             notifyObservers(announcement);
