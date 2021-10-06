@@ -1,3 +1,8 @@
+/*
+    This class is an exmaple of OBSERVER pattern. 
+    It subscribes from other classes and prints out messages
+*/
+
 import java.util.*;
 
 public class Announcer extends Employee implements Observer{

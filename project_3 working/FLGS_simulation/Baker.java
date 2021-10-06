@@ -13,6 +13,9 @@ public class Baker extends Employee implements Subject{
         employee_name = get_employee_name();
     }
 
+    /*
+        The following 3 methos ara an exmaple of OBSERVER pattern. 
+    */
     public void registerObserver(Observer o){
         observers_list.add(o);
     }

@@ -12,8 +12,10 @@ public interface Utility {
         return (int) ((Math.random() * (max - min)) + min);
     }
 
-
-    // https://stackoverflow.com/questions/9832919/generate-poisson-arrival-in-java
+    /*
+    This function is responsible for generetinga a poisson random number. 
+    It was found on the following link: https://stackoverflow.com/questions/9832919/generate-poisson-arrival-in-java
+    */
     static int getPoissonRandom(double mean) {
         Random r = new Random();
         double L = Math.exp(-mean);
