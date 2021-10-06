@@ -1,6 +1,6 @@
 // The work on this file is based on the work of Bruce Montgomery
 // import java.text.NumberFormat;
-// import java.util.*;  
+import java.util.*;  
 
 public interface Utility {
 
@@ -10,6 +10,20 @@ public interface Utility {
     */
     static int getRandomNumber(int min, int max) { 
         return (int) ((Math.random() * (max - min)) + min);
+    }
+
+
+    // https://stackoverflow.com/questions/9832919/generate-poisson-arrival-in-java
+    static int getPoissonRandom(double mean) {
+        Random r = new Random();
+        double L = Math.exp(-mean);
+        int k = 0;
+        double p = 1.0;
+        do {
+            p = p * r.nextDouble();
+            k++;
+        } while (p > L);
+        return k - 1;
     }
 
 }

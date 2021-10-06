@@ -22,8 +22,8 @@ public class StackByBart implements StackBehaviour{
                 }
             }
         }
-        for (int i = 0; i < shelf.size(); i++){
-            System.out.println("Bart stacks " + shelf.get(i).inventory + " " + shelf.get(i).game_name + " games in shelf position " + (i+1) + ". Game width is: " + shelf.get(i).width + "\"");
-        }
+        // for (int i = 0; i < shelf.size(); i++){
+        //     System.out.println("Bart stacks " + shelf.get(i).inventory + " " + shelf.get(i).game_name + " games in shelf position " + (i+1) + ". Game width is: " + shelf.get(i).width + "\"");
+        // }
     }
 }

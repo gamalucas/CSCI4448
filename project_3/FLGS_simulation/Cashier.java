@@ -1,9 +1,10 @@
 import java.util.*;
-public class Cashier extends Employee{
+public class Cashier extends Employee implements Subject{
 
     String employee_name = "";
-
     protected StackBehaviour stackBehaviour;
+    private List<Observer> observers_list = new ArrayList(); 
+    String announcement;
 
     //Constructor to initialize employee's name
     public Cashier(String name, StackBehaviour stackBehaviour){ //This is an example of ENCAPSULATION
@@ -11,16 +12,31 @@ public class Cashier extends Employee{
         employee_name = get_employee_name();
         this.stackBehaviour = stackBehaviour;
     }
+
+    public void registerObserver(Observer o){
+        observers_list.add(o);
+    }
+
+    @Override
+    public void removeObserver() {
+        observers_list.clear();
+    }
+
+    public void notifyObservers(String announcement){
+        observers_list.forEach(o -> o.update(announcement));
+    }
     
 
     /**
     Arrive anounces the arrival of an employee and aknowledges the arrival of new games
      */
     public void Arrive(int days, List<Games> shelf){
-        System.out.println(employee_name + " the cashier has arrived at day " + days);
+        announcement = (employee_name + " the cashier has arrived.");
+        notifyObservers(announcement);
         for (int i = 0; i < shelf.size(); i++){
             if(shelf.get(i).games_arrival > 0){
-                System.out.println("Three " + shelf.get(i).game_name + " games arrived at the store");
+                announcement = ("Three " + shelf.get(i).game_name + " games arrived at the store");
+                notifyObservers(announcement);
                 shelf.get(i).inventory += 3;
                 shelf.get(i).games_arrival = 0;
             }
@@ -32,26 +48,25 @@ public class Cashier extends Employee{
     Count is resposible for counting the money in the register and adding more if the balance is bellow 100. As well as keeping track of how many times money was added.
      */
     public void Count(Register reg){
-        System.out.println("Good morning! The amount on the cash register is $" + reg.balance);
+        announcement = ("Good morning! The amount on the cash register is $" + reg.balance);
+        notifyObservers(announcement);
         if (reg.balance < 100){
             reg.balance = 1000;
             reg.times_added++;
-            System.out.println("Money was added to the cash register! The balance is now $" + reg.balance);
+            announcement = ("Money was added to the cash register! The balance is now $" + reg.balance);
+            notifyObservers(announcement);
         }
     }
 
-    /*
-    Vacuum function controls employees behaviour when they are vacuumin the store. It generates the probability of a game being broken by the employee.  When broken, this function removes the game from the inventory and place it on the damage container.
-    */
-    public void Vacuum(List<Games> shelf, Map<String, Integer> DamageContainer){
+
+    public void DamageGames(List<Games> shelf, Map<String, Integer> DamageContainer, boolean its_cookie_monster){
         int count = 0;
-        System.out.println(employee_name + " is vacuuming the store ");
         int demagePossibility = Utility.getRandomNumber(0, 101); // generate a random number that will reflect in the probability of a employee to break a game while vacumming the store
         int brokenGame = 0;
         brokenGame = Utility.getRandomNumber(0, 12); //generate a random number from 1 to 12 (because there are 12 fixed game titles). The selected number will represent which game to remove
         if(employee_name == "Burt" & demagePossibility >= 0 & demagePossibility <= 10){
                 while(shelf.get(brokenGame).inventory == 0){ //check if the index game selected are still on inventory, if not, remove the next game on list
-                    if(brokenGame == 12){ 
+                    if(brokenGame == 11){ 
                         brokenGame = 0;
                     }
                     else{
@@ -62,11 +77,12 @@ public class Cashier extends Employee{
             shelf.get(brokenGame).inventory--; //subtract broken game from inventory
             count = DamageContainer.get(shelf.get(brokenGame).game_name);
             DamageContainer.put(shelf.get(brokenGame).game_name, count++);
-            System.out.println("The game " +  shelf.get(brokenGame).game_name + " is damaged and placed on the Damaged Game Container");
+            announcement = ("The game " +  shelf.get(brokenGame).game_name + " is damaged and placed on the Damaged Game Container");
+            notifyObservers(announcement);
         }
         else if(employee_name == "Ernie" & demagePossibility >= 0 & demagePossibility <= 5){
             while(shelf.get(brokenGame).inventory == 0){ //check if the index game selected are still on inventory, if not, remove the next game on list
-                if(brokenGame == 12){ 
+                if(brokenGame == 11){ 
                     brokenGame = 0;
                 }
                 else{
@@ -76,11 +92,12 @@ public class Cashier extends Employee{
             shelf.get(brokenGame).inventory--; //subtract broken game from inventory
             count = DamageContainer.get(shelf.get(brokenGame).game_name); //get the current number of a specific broken games
             DamageContainer.put(shelf.get(brokenGame).game_name, (count+1)); //add broken game to broken container
-            System.out.println("The game " +  shelf.get(brokenGame).game_name + " is damaged and placed on the Damaged Game Container");
+            announcement = ("The game " +  shelf.get(brokenGame).game_name + " is damaged and placed on the Damaged Game Container");
+            notifyObservers(announcement);
         }
         else if(employee_name == "Bart" & demagePossibility >= 0 & demagePossibility <= 2){
             while(shelf.get(brokenGame).inventory == 0){ //check if the index game selected are still on inventory, if not, remove the next game on list
-                if(brokenGame == 12){ 
+                if(brokenGame == 11){ 
                     brokenGame = 0;
                 }
                 else{
@@ -90,57 +107,113 @@ public class Cashier extends Employee{
             shelf.get(brokenGame).inventory--; //subtract broken game from inventory
             count = DamageContainer.get(shelf.get(brokenGame).game_name); //get the current number of a specific broken games
             DamageContainer.put(shelf.get(brokenGame).game_name, (count+1)); //add broken game to broken container
-            System.out.println("The game " +  shelf.get(brokenGame).game_name + " is damaged and placed on the Damaged Game Container");
+            announcement = ("The game " +  shelf.get(brokenGame).game_name + " is damaged and placed on the Damaged Game Container");
+            notifyObservers(announcement);
         }
-        System.out.println();
-    }
-
-    /**
-    Stack is resposible for arranging the games in the shelf according to the empoloyee of the day
-     */
-    public void Stack(List<Games> shelf){
-        if(employee_name == "Ernie"){
-            for (int i = 0; i < shelf.size(); i++){
-                shelf.get(i).pile_height = shelf.get(i).height * shelf.get(i).inventory; //determines the pile height of each game to be stacked
-            } 
-            Comparator<Games> compareByPH = (Games o1, Games o2) -> o1.pile_height.compareTo( o2.pile_height ); //sets comparator to comapre pile heights
-            Collections.sort(shelf, compareByPH); //sorts shelf based on pile height
-            for (int i = 0; i < shelf.size(); i++){
-                System.out.println("Ernie stacks " + shelf.get(i).inventory + " " + shelf.get(i).game_name + " games in shelf position " + (i+1) + ". Pile height is: " + shelf.get(i).pile_height + "\"");
+        else if(its_cookie_monster == true){
+            demagePossibility = Utility.getRandomNumber(1, 7);
+            for (int i = 0; i < demagePossibility; i++){
+                while(shelf.get(brokenGame).inventory == 0){ //check if the index game selected are still on inventory, if not, remove the next game on list
+                    if(brokenGame == 11){ 
+                        brokenGame = 0;
+                    }
+                    else{
+                        brokenGame++;
+                    }
+                }
+                shelf.get(brokenGame).inventory--;
+                count = DamageContainer.get(shelf.get(brokenGame).game_name); //get the current number of a specific broken games
+                DamageContainer.put(shelf.get(brokenGame).game_name, (count+1)); //add broken game to broken container
+                announcement = ("The game " +  shelf.get(brokenGame).game_name + " was damaged by the cookie monster and placed on the Damaged Game Container");
+                notifyObservers(announcement);
             }
         }
-        else if(employee_name == "Burt"){
-            Comparator<Games> compareByWidth = (Games o1, Games o2) -> o1.width.compareTo( o2.width );//sets comparator to comapre pile heights
-            Collections.sort(shelf, compareByWidth.reversed());  //sorts shelf based on pile height
-            for (int i = 0; i < shelf.size(); i++){
-                System.out.println("Burt stacks " + shelf.get(i).inventory + " " + shelf.get(i).game_name + " games in shelf position " + (i+1) + ". Game width is: " + shelf.get(i).width + "\"");
-            }
-        }
-
-        System.out.println();
     }
 
+    /*
+    Vacuum function controls employees behaviour when they are vacuumin the store. It generates the probability of a game being broken by the employee.  When broken, this function removes the game from the inventory and place it on the damage container.
+    */
+    public void Vacuum(List<Games> shelf, Map<String, Integer> DamageContainer){
+        announcement = (employee_name + " is vacuuming the store ");
+        notifyObservers(announcement);
+        DamageGames(shelf, DamageContainer, false);
+        System.out.println();
+    }
 
     public void performStack(List<Games> shelf){
         stackBehaviour.stack(shelf);
+        for (int i = 0; i < shelf.size(); i++){
+            announcement = (employee_name + " stacks " + shelf.get(i).inventory + " " + shelf.get(i).game_name + " games in shelf position " + (i+1) + ". Game width is: " + shelf.get(i).width + "\"");
+            notifyObservers(announcement);
+        }
     }
 
     /* 
     The Open function is one of the most important functios of the program. It handdles all customer behaviour on the story, including buying a game. It also exists to keep in track of key variables, such as total amount on register, total games sold, etc. 
     */
-    public void Open(List<Games> shelf, Register reg){
-        System.out.println(employee_name + " opened the store. Welcome!");
-        int num_customers = Utility.getRandomNumber(0, 5); //this variable will hold the number of customers 
-        System.out.println(num_customers + " customer are in store today!");
+    public void Open(List<Games> shelf, Register reg, Cookies cookie, Map<String, Integer> DamageContainer, int days){
+        announcement = (employee_name + " opened the store. Welcome!");
+        notifyObservers(announcement);
+        int num_customers = 1 + Utility.getPoissonRandom(3); //this variable will hold the number of customers 
+        announcement = (num_customers + " customer are in store today!");
+        notifyObservers(announcement);
         int prob_buying = 0; //this variable holds the probability of a customer buying a game
+        int prob_buying_cookie = 0;
+        int prob_cooking_monster = 0;
         int decreaser = 0; //this is a helper variable, it exists to decrease the probility of a game being bought everytime a customer moves to another shelf.
         int num_game_bought = 0; //this variable will hold how many games a customer bought per day. It exists to avoid a customer buying more than 2 games
         boolean bought_game = false; //variable to check if a customer have bought any game
+        boolean its_cookie_monster = false;
+        int bought_cookies = 0;
         int prob_add_on = 0;
+        int cookies_tracker_day = 0;
         for (int i = 1; i <= num_customers; i++){ //loop throught all customer and perform their operations each one per time
+            prob_cooking_monster = Utility.getRandomNumber(1, 101);
+            if(prob_cooking_monster == 1){
+                if(cookie.cookies_in_store == 0){
+                    announcement = (employee_name + " said that a cookie monster sadly left the store because there are no cookies.");
+                    notifyObservers(announcement);
+                    its_cookie_monster = false;
+                }
+                else{
+                    its_cookie_monster = true;
+                }
+            }
             num_game_bought = 0;
-                decreaser = 0;
-                bought_game = false;
+            decreaser = 0;
+            bought_game = false;
+            prob_buying_cookie = Utility.getRandomNumber(1, 101);
+            if(its_cookie_monster == true){
+                announcement = (employee_name + " said that a cookie monster visited the store. Oh no!");
+                notifyObservers(announcement);
+                cookie.cookies_stolen += cookie.cookies_in_store;
+                cookie.cookies_in_store = 0;
+                DamageGames(shelf, DamageContainer, true);
+                its_cookie_monster = false;
+            }
+            else{
+                if(prob_buying_cookie >= 50){ //prob bigger than 50 means that customer will buy a cookie
+                    prob_buying_cookie = Utility.getRandomNumber(1, 4); //calculate how many cookies customer will buy
+                    if(prob_buying_cookie <= cookie.cookies_in_store){
+                        cookie.cookies_in_store -= prob_buying_cookie;
+                        reg.balance += cookie.price * prob_buying_cookie;
+                        bought_cookies = 20;
+                        announcement = (employee_name + " sold " + prob_buying_cookie + " cookies today");
+                        cookies_tracker_day += prob_buying_cookie;
+                        notifyObservers(announcement);
+                    }
+                    else if(cookie.cookies_in_store <= 0){
+                        bought_cookies = -10;
+                    }
+                    else{
+                        reg.balance += cookie.price * cookie.cookies_in_store;
+                        bought_cookies = 20;
+                        announcement = (employee_name + " sold " + cookie.cookies_in_store + " cookies today");
+                        notifyObservers(announcement);
+                        cookies_tracker_day += cookie.cookies_in_store;
+                        cookie.cookies_in_store = 0;
+                    }
+                }
                 for(int k = 0; k < shelf.size(); k++){ //loop throught all shelfs a single customer will take a look
                     if(num_game_bought >= 2){
                         break;
@@ -150,7 +223,7 @@ public class Cashier extends Employee{
                     if(shelf.get(k).inventory == 0){ //in case a user wants to buy a game from a empty shelf, do nothing and move to the next shelf.
                         // System.out.println("Empty shelf");
                     }
-                    else if(prob_buying <= 20-decreaser){ 
+                    else if(prob_buying <= 20-decreaser + bought_cookies){ 
                         prob_add_on = Utility.getRandomNumber(1, 101); //calculate the probability of buying a add on
                         switch(shelf.get(k).game_name){
                             case "Monopoly":
@@ -164,7 +237,7 @@ public class Cashier extends Employee{
                                     reg.balance += shelf.get(k).price;
                                 }
                                 break;
-
+    
                             case "Magic":
                             case "Pokémon":
                             case "Netrunner":
@@ -178,7 +251,7 @@ public class Cashier extends Employee{
                                     reg.balance += shelf.get(k).price;
                                 }
                                 break;
-
+    
                             case "Mousetrap":
                                 if(prob_add_on <= 30){  
                                     Games temp = shelf.get(k); //temp obj to store add on's value
@@ -190,7 +263,7 @@ public class Cashier extends Employee{
                                     reg.balance += shelf.get(k).price;
                                 }
                                 break;
-
+    
                             case "Gloomhaven":
                                 if(prob_add_on <= 20){  
                                     Games temp = shelf.get(k); //temp obj to store add on's value
@@ -202,11 +275,12 @@ public class Cashier extends Employee{
                                     reg.balance += shelf.get(k).price;
                                 }
                                 break;
-
+    
                             default:
                                 reg.balance+= shelf.get(k).price;
                         }
-                        System.out.println(employee_name + " sold a " + shelf.get(k).game_name + " to customer " + i + " for $" + shelf.get(k).price);
+                        announcement = (employee_name + " sold a " + shelf.get(k).game_name + " to customer " + i + " for $" + shelf.get(k).price);
+                        notifyObservers(announcement);
                         shelf.get(k).inventory--; 
                         num_game_bought++;
                         shelf.get(k).units_sold++;
@@ -215,9 +289,12 @@ public class Cashier extends Employee{
                     decreaser = decreaser + 2;
                 }
                 if(bought_game == false){
-                    System.out.println("Customer " + i + " did not buy any game.");
+                    announcement = ("Customer " + i + " did not buy any game.");
+                    notifyObservers(announcement);
                 }
+            }
         }
+        cookie.cookie_tracker[days] = cookies_tracker_day;
         System.out.println();
     }
     
@@ -225,21 +302,22 @@ public class Cashier extends Employee{
     /**
     Order function orders new games if the inventory is empty for that game type
      */
-    public void Order(List<Games> shelf, Register reg, int cookies_on_store, int cookies_package_order){
+    public void Order(List<Games> shelf, Register reg, Cookies cookie){
         for (int i = 0; i < shelf.size(); i++){ //for every game in the store
             if (shelf.get(i).inventory == 0){ //if the inventory is empty
-                System.out.println(employee_name + " bought 3 " + shelf.get(i).game_name + " games for the store.");
+                announcement = (employee_name + " bought 3 " + shelf.get(i).game_name + " games for the store.");
+                notifyObservers(announcement);
                 shelf.get(i).games_arrival = 3; //let the program know that there is an order for this game type arriving in the morning.
                 reg.balance -= (shelf.get(i).price/2)*3; //charge the store half price for the game
             }
         }
         //Logic to order more cookies
-        if(cookies_on_store == 0){
-            cookies_package_order += 1;
+        if(cookie.cookies_in_store == 0){
+            cookie.cookies_package_order += 1;
         }
-        else if(cookies_on_store > 0){
-            if(cookies_package_order > 1){
-                cookies_package_order -= 1;
+        else if(cookie.cookies_in_store > 0){
+            if(cookie.cookies_package_order > 1){
+                cookie.cookies_package_order -= 1;
             }
         }
         System.out.println();
@@ -251,6 +329,8 @@ Close Function anounces the store is closing
 This is an example of a COHESION as this method has one clearly defined purpose
  */
     public void Close(){
-        System.out.println(employee_name + " the cashier is leaving and the store is closed.");
+        announcement = (employee_name + " the cashier is leaving the store.");
+        notifyObservers(announcement);
+        removeObserver();
     }
 }

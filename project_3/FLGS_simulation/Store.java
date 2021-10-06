@@ -1,5 +1,5 @@
 import java.util.*;  
-import java.util.concurrent.ThreadLocalRandom;
+// import java.util.concurrent.ThreadLocalRandom;
 
 class Store{
     // Initializes the objects of the store
@@ -7,8 +7,6 @@ class Store{
     static List<Games> shelf = new ArrayList(); //The list shelf is an example of emcapsulation because all data stored in this class is protected and, therefore, can only be accesses by the methosd get() and/or set()
     Map<String, Integer> DamageContainer = new HashMap<String, Integer>(); //damaged container
     int days;
-    int cookies_on_store = 0;
-    int cookies_package_order = 1;
     StackBehaviour stackByHeight = new StackByHeight();
     StackBehaviour stackByWidthDec = new StackByWidthDec();
     StackBehaviour stackByBart = new StackByBart();
@@ -17,9 +15,12 @@ class Store{
     Cashier Ernie = new Cashier("Ernie", stackByHeight);
     Cashier Bart = new Cashier("Bart", stackByBart);
     Cashier empDay;
-    Baker Gonger = new Baker("Gonger", 0.0 , 6.0);
+    Baker Gonger = new Baker("Gonger", 0.0);
+    Announcer Guy;
 
+    Cookies cookies = new Cookies();
     Register register = new Register(); //register
+    
     //games
     Games monopoly = new Monopoly(42.00,10.00,2.00,16.00,3,0,0,"Monopoly",0,0, "Family", 0.0); //This is an example of POLYMORPHISM
     Games clue = new Clue(52.00,15.00,5.00,20.00,3,0,0,"Clue",0,0, "Family", 0.0);
@@ -83,15 +84,17 @@ class Store{
         else{
             empDay = Bart;
         }
+        Guy = new Announcer("Guy", empDay, Gonger);
+        Guy.arrive(days);
         empDay.Arrive(days, shelf);
-        Gonger.cookie_drop_off(cookies_on_store, register, cookies_package_order);
         empDay.Count(register);
+        Gonger.cookie_drop_off(cookies, register);
         empDay.Vacuum(shelf, DamageContainer);
-        // empDay.Stack(shelf);
         empDay.performStack(shelf);
-        empDay.Open(shelf, register);
-        empDay.Order(shelf, register, cookies_on_store, cookies_package_order);
+        empDay.Open(shelf, register, cookies, DamageContainer, days);
+        empDay.Order(shelf, register, cookies);
         empDay.Close();
+        Guy.close();
         
     }
 
@@ -119,17 +122,19 @@ class Store{
         }
         System.out.println();
         System.out.println("Cash Register Blance: " + register.balance);
-        System.out.println("Times money was added to the registerd: " + register.times_added);
+        System.out.println("Times money was added to the registerd: " + register.times_added); 
+
+        System.out.println("List of cookies sold per day: ");
+        int sum = 0;
+        for(int i = 0; i < 30; i++){
+            System.out.println("Day [" + (i+1) + "] " + cookies.cookie_tracker[i] + " cookies sold");
+            sum += cookies.cookie_tracker[i];
+        }  
         
+        System.out.println("Total number of cookies sold: " + sum);
+
+        System.out.println("The cookie moster stole: " + cookies.cookies_stolen);
+
+        System.out.println("Total amount of money paid to Gonger: " + Gonger.baker_register);
     }
-    // public static void main(String args[]){
-    //     Store FLGS = new Store();
-    //     for (int i = 1; i <= 30; i++){
-    //         FLGS.start_day();
-    //         System.out.println("=====================================");
-    //         System.out.println();
-    //     }
-    //     FLGS.printMessages();
-       
-    // }
 }
