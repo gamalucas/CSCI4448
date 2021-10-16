@@ -1,0 +1,1 @@
+On project three to run the game store simulation you have to downaload the VisualStudio extension Debugger for Java. Then simply click on the play button, choose the file you want to run (in this case, the main file) and it the simulation will run.
