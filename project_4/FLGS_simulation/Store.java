@@ -23,6 +23,8 @@ class Store{
 
     Cookies cookies = new Cookies();
     Register register = new Register(); //register
+    CircularLinkedList name_list = new CircularLinkedList();
+
     
     //games
     Games monopoly = new Monopoly(42.00,10.00,2.00,16.00,3,0,0,"Monopoly",0,0, "Family", 0.0); //This is an example of POLYMORPHISM
@@ -68,6 +70,7 @@ class Store{
         DamageContainer.put("Catan", 0);
         DamageContainer.put("Risk", 0);
         DamageContainer.put("Gloomhaven", 0);
+        name_list.CreateCircularLinkedList(name_list);
         days = 0;
     }
 
@@ -173,5 +176,9 @@ class Store{
         System.out.println("The cookie moster stole: " + cookies.cookies_stolen);
 
         System.out.println("Total amount of money paid to Gonger: " + Gonger.baker_register);
+
+
+
+        name_list.traverseList();
     }
 }
