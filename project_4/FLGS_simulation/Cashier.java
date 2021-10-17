@@ -166,6 +166,11 @@ public class Cashier extends Employee implements Subject{
     The Open function is one of the most important functios of the program. It handdles all customer behaviour on the story, including buying a game. It also exists to keep in track of key variables, such as total amount on register, total games sold, etc. 
     */
     public void Open(List<Games> shelf, Register reg, Cookies cookie, Map<String, Integer> DamageContainer, int days){
+        
+        
+        //Family_Gamer customer1 = new Family_Gamer("name", 1);
+        
+        
         announcement = (employee_name + " opened the store. Welcome!");
         notifyObservers(announcement);
         int num_customers = 1 + Utility.getPoissonRandom(3); //this variable will hold the number of customers 
