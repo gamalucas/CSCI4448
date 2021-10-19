@@ -20,10 +20,11 @@ class Store{
     boolean robbed = false;
     boolean just_robbed = false;
     int rob_prob;
+    static int count_names = 0; //variable to keep in track of how many times we are calling nameSelector and also to help us move through the circular list
 
     Cookies cookies = new Cookies();
     Register register = new Register(); //register
-    CircularLinkedList name_list = new CircularLinkedList();
+    static CircularLinkedList name_list = new CircularLinkedList();
 
     
     //games
@@ -72,6 +73,12 @@ class Store{
         DamageContainer.put("Gloomhaven", 0);
         name_list.CreateCircularLinkedList(name_list);
         days = 0;
+    }
+
+    static public String find_name(){
+        String name = name_list.nameSelector(count_names);
+        count_names++;
+        return name;
     }
 
     public void robbed(){
@@ -179,6 +186,6 @@ class Store{
 
 
 
-        name_list.traverseList();
+        // name_list.traverseList();
     }
 }

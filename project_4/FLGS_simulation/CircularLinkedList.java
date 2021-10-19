@@ -1,5 +1,5 @@
 public class CircularLinkedList {
-
+    
     public class Node {
         String name;
         Node nextNode;
@@ -90,8 +90,14 @@ public class CircularLinkedList {
         }
     }
 
-    public String nameSelector(Node current) {
-        current = current.nextNode;
+    // Node current = head;
+    public String nameSelector(int count) {
+        int num = 0;
+        Node current = head;
+        while(num != count){
+            current = current.nextNode;
+            num++;
+        }
         return current.name;
     }
 }

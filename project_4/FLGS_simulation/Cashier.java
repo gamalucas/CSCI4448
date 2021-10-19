@@ -183,51 +183,53 @@ public class Cashier extends Employee implements Subject{
         int cookies_tracker_day = 0;
         int prob_customer_appear = 0; //this variable will hold the probability of a customer to appear on store
         int num_customers = 0; //this variable hold how many customers will appear each day
-        Customers todays_customers_arr[]; //array that will hold all customers of the day 
-        todays_customers_arr = new Customers[5]; //allocating memory for 5 objects 
+        List<Customers> todays_customers_list = new ArrayList();
+
 
         //create customers
         prob_customer_appear = Utility.getRandomNumber(1, 101);
         if(prob_customer_appear <= 35){ //chance of a Family Gamer appear is of 35%
             Customers_Creator_abs create_customer_family = new Customer_Creator();
             Customers family_gamer = create_customer_family.create_customer("Family_Gamer");
+            // System.out.println("FAMILY: " + family_gamer.name);
             num_customers += 1;
-            for (int i = 0; i <= todays_customers_arr.length; i++){ //save customer in the array - save on the next available spot
-                if(todays_customers_arr[i] == null){
-                    todays_customers_arr[i] = family_gamer;
-                }
-            }
+            todays_customers_list.add(family_gamer);
         }
         prob_customer_appear = Utility.getRandomNumber(1, 101);
         if(prob_customer_appear <= 25){ //chance of a Family Gamer appear is of 25%
             Customers_Creator_abs create_customer_kid = new Customer_Creator();
             Customers kid_gamer = create_customer_kid.create_customer("Kid_Gamer");
             num_customers += 1;
+            todays_customers_list.add(kid_gamer);
         }
         prob_customer_appear = Utility.getRandomNumber(1, 101);
         if(prob_customer_appear <= 75){ //chance of a Card Gamer appear is of 75%
             Customers_Creator_abs create_customer_card = new Customer_Creator();
             Customers card_gamer = create_customer_card.create_customer("Card_Gamer");
             num_customers += 1;
+            todays_customers_list.add(card_gamer);
         }
         prob_customer_appear = Utility.getRandomNumber(1, 101);
         if(prob_customer_appear <= 60){ //chance of a Board Gamer appear is of 60%
             Customers_Creator_abs create_customer_board = new Customer_Creator();
             Customers board_gamer = create_customer_board.create_customer("Board_Gamer");
             num_customers += 1;
+            todays_customers_list.add(board_gamer);
         }
+
         prob_customer_appear = Utility.getRandomNumber(1, 101);
         if(prob_customer_appear <= 2){ //chance of a Cookie Monster appear is of 22%
             Customers_Creator_abs create_customer_monster = new Customer_Creator();
             Customers cookie_monster = create_customer_monster.create_customer("Cookie_Monster");
             num_customers += 1;
+            todays_customers_list.add(cookie_monster);
             its_cookie_monster = true;
         }
 
-        announcement = (num_customers + " customer are in store today!");
+        announcement = (todays_customers_list.size() + " customer are in store today!");
         notifyObservers(announcement);
 
-        for (int i = 1; i <= num_customers; i++){ //loop throught all customer and perform their operations each one per time
+        for (int i = 0; i <= todays_customers_list.size(); i++){ //loop throught all customer and perform their operations each one per time
             if(its_cookie_monster == true && cookie.cookies_in_store == 0){ //check is the customer is a cookie monster and if there are no cookies at the store
                 announcement = (employee_name + " said that a cookie monster sadly left the store because there are no cookies.");
                 notifyObservers(announcement);
@@ -271,12 +273,16 @@ public class Cashier extends Employee implements Subject{
                 for(int k = 0; k < shelf.size(); k++){ //loop throught all shelfs a single customer will take a look
                     if(num_game_bought >= 2){
                         break;
-                        // k = shelf.size();
                     }
                     prob_buying = Utility.getRandomNumber(1, 101);
                     if(shelf.get(k).inventory == 0){ //in case a user wants to buy a game from a empty shelf, do nothing and move to the next shelf.
                         // System.out.println("Empty shelf");
                     }
+
+                    //else if(shelf.get(k).game_type == todays_customers_list.get(i).game_type){
+                        
+                    // }
+
                     else if(prob_buying <= 20-decreaser + bought_cookies){ 
                         prob_add_on = Utility.getRandomNumber(1, 101); //calculate the probability of buying a add on
                         switch(shelf.get(k).game_name){
@@ -348,6 +354,7 @@ public class Cashier extends Employee implements Subject{
                 }
             }
         }
+        todays_customers_list.clear(); //clear list after one day
         cookie.cookie_tracker[days] = cookies_tracker_day;
         System.out.println();
     }
