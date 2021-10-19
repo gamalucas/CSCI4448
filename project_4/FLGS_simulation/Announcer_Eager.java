@@ -5,16 +5,24 @@
 
 import java.util.*;
 
-public class Announcer extends Employee implements Observer{
+public class Announcer_Eager extends Employee implements Observer{
+    private static Announcer_Eager eager_announcer = new Announcer_Eager(); // this is an example of Eager Instatiation - SINGLETON Pattern
     String employee_name = "";
     private String announcement;
 
+    private Announcer_Eager() {}
 
-    public Announcer(String name, Subject cashier, Subject baker){ //This is an example of ENCAPSULATION
+
+    public void Announcer_set(String name, Subject cashier, Subject baker){ //This is an example of ENCAPSULATION
         set_employee_name(name);
         employee_name = get_employee_name();
         cashier.registerObserver(this); //register the cashier of the day as an observer
         baker.registerObserver(this); //registers the baker as an observer
+    }
+
+    public static synchronized Announcer_Eager get_instance(){
+        return eager_announcer;
+
     }
 
     public void arrive(int day){ // Guys arrival

@@ -1,3 +1,7 @@
+/**
+This class is part of the FACTORY PATTERN
+It separates customers by type of gamer and create them accordingly
+ */
 public class Customer_Creator extends Customers_Creator_abs{
     @Override
     protected Customers create_customer(String type){

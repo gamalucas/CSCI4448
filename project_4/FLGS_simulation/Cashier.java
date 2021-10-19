@@ -173,7 +173,6 @@ public class Cashier extends Employee implements Subject{
 
         int prob_buying = 0; //this variable holds the probability of a customer buying a game
         int prob_buying_cookie = 0;
-        int prob_cooking_monster = 0;
         int decreaser = 0; //this is a helper variable, it exists to decrease the probility of a game being bought everytime a customer moves to another shelf.
         int num_game_bought = 0; //this variable will hold how many games a customer bought per day. It exists to avoid a customer buying more than 2 games
         boolean bought_game = false; //variable to check if a customer have bought any game
@@ -182,38 +181,33 @@ public class Cashier extends Employee implements Subject{
         int prob_add_on = 0;
         int cookies_tracker_day = 0;
         int prob_customer_appear = 0; //this variable will hold the probability of a customer to appear on store
-        int num_customers = 0; //this variable hold how many customers will appear each day
         List<Customers> todays_customers_list = new ArrayList();
+        int prob_bonus_type = 0; //this variable will hold the probability increase of a customer buying a game of its type (ex: Board gamer buying a board game) 
 
 
-        //create customers
+        //create customers - Applying FACTORY Pattern
         prob_customer_appear = Utility.getRandomNumber(1, 101);
         if(prob_customer_appear <= 35){ //chance of a Family Gamer appear is of 35%
             Customers_Creator_abs create_customer_family = new Customer_Creator();
             Customers family_gamer = create_customer_family.create_customer("Family_Gamer");
-            // System.out.println("FAMILY: " + family_gamer.name);
-            num_customers += 1;
             todays_customers_list.add(family_gamer);
         }
         prob_customer_appear = Utility.getRandomNumber(1, 101);
         if(prob_customer_appear <= 25){ //chance of a Family Gamer appear is of 25%
             Customers_Creator_abs create_customer_kid = new Customer_Creator();
             Customers kid_gamer = create_customer_kid.create_customer("Kid_Gamer");
-            num_customers += 1;
             todays_customers_list.add(kid_gamer);
         }
         prob_customer_appear = Utility.getRandomNumber(1, 101);
         if(prob_customer_appear <= 75){ //chance of a Card Gamer appear is of 75%
             Customers_Creator_abs create_customer_card = new Customer_Creator();
             Customers card_gamer = create_customer_card.create_customer("Card_Gamer");
-            num_customers += 1;
             todays_customers_list.add(card_gamer);
         }
         prob_customer_appear = Utility.getRandomNumber(1, 101);
         if(prob_customer_appear <= 60){ //chance of a Board Gamer appear is of 60%
             Customers_Creator_abs create_customer_board = new Customer_Creator();
             Customers board_gamer = create_customer_board.create_customer("Board_Gamer");
-            num_customers += 1;
             todays_customers_list.add(board_gamer);
         }
 
@@ -221,7 +215,6 @@ public class Cashier extends Employee implements Subject{
         if(prob_customer_appear <= 2){ //chance of a Cookie Monster appear is of 22%
             Customers_Creator_abs create_customer_monster = new Customer_Creator();
             Customers cookie_monster = create_customer_monster.create_customer("Cookie_Monster");
-            num_customers += 1;
             todays_customers_list.add(cookie_monster);
             its_cookie_monster = true;
         }
@@ -229,7 +222,7 @@ public class Cashier extends Employee implements Subject{
         announcement = (todays_customers_list.size() + " customer are in store today!");
         notifyObservers(announcement);
 
-        for (int i = 0; i <= todays_customers_list.size(); i++){ //loop throught all customer and perform their operations each one per time
+        for (int i = 0; i < todays_customers_list.size(); i++){ //loop throught all customer and perform their operations each one per time
             if(its_cookie_monster == true && cookie.cookies_in_store == 0){ //check is the customer is a cookie monster and if there are no cookies at the store
                 announcement = (employee_name + " said that a cookie monster sadly left the store because there are no cookies.");
                 notifyObservers(announcement);
@@ -237,6 +230,7 @@ public class Cashier extends Employee implements Subject{
             }
             num_game_bought = 0;
             decreaser = 0;
+            prob_bonus_type = 0;
             bought_game = false;
             prob_buying_cookie = Utility.getRandomNumber(1, 101);
             if(its_cookie_monster == true){ // if it is the cookie monster
@@ -271,19 +265,26 @@ public class Cashier extends Employee implements Subject{
                     }
                 }
                 for(int k = 0; k < shelf.size(); k++){ //loop throught all shelfs a single customer will take a look
+                    prob_bonus_type = 0;
                     if(num_game_bought >= 2){
                         break;
                     }
-                    prob_buying = Utility.getRandomNumber(1, 101);
+                    prob_buying = Utility.getRandomNumber(1, 101); 
+                    if(shelf.get(k).game_type == todays_customers_list.get(i).type && shelf.get(k).inventory != 0){ //check if the game placed on the shelf that the customer is looking at is of same type. That check exists so we can later increase the probability of a customer buying a game of same type 
+                        if(shelf.get(k).game_name == todays_customers_list.get(i).game0){ //game0, game10, and game20 are randomly assigned in the Custonmer class
+                            prob_bonus_type = 0; //games pre-registered as game0 will have 0% of increase to the total probability of buying a game
+                        }
+                        else if(shelf.get(k).game_name == todays_customers_list.get(i).game10){
+                            prob_bonus_type = 10; //games pre-registered as game10 will have 10% of increase to the total probability of buying a game
+                        }
+                        else{
+                            prob_bonus_type = 20; //games pre-registered as game20 will have 20% of increase to the total probability of buying a game
+                        }
+                    }
                     if(shelf.get(k).inventory == 0){ //in case a user wants to buy a game from a empty shelf, do nothing and move to the next shelf.
                         // System.out.println("Empty shelf");
                     }
-
-                    //else if(shelf.get(k).game_type == todays_customers_list.get(i).game_type){
-                        
-                    // }
-
-                    else if(prob_buying <= 20-decreaser + bought_cookies){ 
+                    else if(prob_buying <= ((20-decreaser) + bought_cookies + prob_bonus_type)){ 
                         prob_add_on = Utility.getRandomNumber(1, 101); //calculate the probability of buying a add on
                         switch(shelf.get(k).game_name){
                             case "Monopoly":
@@ -339,7 +340,7 @@ public class Cashier extends Employee implements Subject{
                             default:
                                 reg.balance+= shelf.get(k).price;
                         }
-                        announcement = (employee_name + " sold a " + shelf.get(k).game_name + " to customer " + i + " for $" + shelf.get(k).price);
+                        announcement = (employee_name + " sold a " + shelf.get(k).game_name + " to customer " + i + " (" + todays_customers_list.get(i).name + ") for $" + shelf.get(k).price);
                         notifyObservers(announcement);
                         shelf.get(k).inventory--; 
                         num_game_bought++;
@@ -349,7 +350,7 @@ public class Cashier extends Employee implements Subject{
                     decreaser = decreaser + 2;
                 }
                 if(bought_game == false){
-                    announcement = ("Customer " + i + " did not buy any game.");
+                    announcement = ("Customer " + i + " (" + todays_customers_list.get(i).name + ") did not buy any game.");
                     notifyObservers(announcement);
                 }
             }

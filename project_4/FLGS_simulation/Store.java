@@ -16,7 +16,9 @@ class Store{
     Cashier Bart = new Cashier("Bart", stackByBart);
     Cashier empDay;
     Baker Gonger = new Baker("Gonger", 0.0);
-    Announcer Guy;
+    Announcer_Lazy Lazy_Guy;
+    Announcer_Eager Eager_Guy;
+    int rand_announcer = Utility.getRandomNumber(1, 3);
     boolean robbed = false;
     boolean just_robbed = false;
     int rob_prob;
@@ -120,8 +122,15 @@ class Store{
             else{
                 empDay = Bart;
             }
-            Guy = new Announcer("Guy", empDay, Gonger);
-            Guy.arrive(days);
+            if(rand_announcer ==1){
+                Lazy_Guy = Announcer_Lazy.get_instance("Guy", empDay, Gonger); // this is an example of Lazy Instatiation - SINGLETON Pattern
+                Lazy_Guy.arrive(days);
+            }
+            else{
+                Eager_Guy = Announcer_Eager.get_instance();
+                Eager_Guy.Announcer_set("Guy", empDay, Gonger);
+                Eager_Guy.arrive(days);
+            }
             empDay.Arrive(days, shelf);
             empDay.Count(register);
             Gonger.cookie_drop_off(cookies, register);
@@ -130,7 +139,9 @@ class Store{
             empDay.Open(shelf, register, cookies, DamageContainer, days);
             empDay.Order(shelf, register, cookies);
             empDay.Close();
-            Guy.close();
+            if(rand_announcer == 1){
+                Lazy_Guy.close();
+            }
             if(robbed == false){
                 rob_prob = Utility.getRandomNumber(1, 31);
                 if (rob_prob == 1){

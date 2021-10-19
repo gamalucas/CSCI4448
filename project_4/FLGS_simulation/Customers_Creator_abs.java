@@ -1,3 +1,6 @@
+/** 
+Part of the FACOTRY PATTERN implementation
+*/
 public abstract class Customers_Creator_abs {
     public Customers takeCustomers(String type){
         Customers customer = create_customer(type);
