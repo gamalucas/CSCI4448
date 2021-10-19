@@ -1,39 +1,37 @@
 public abstract class Customers {
     String name;
-    int chance_to_appear;
 
-    public Customers(String name, int chance_to_appear){
+    public Customers(String name){
         this.name = name;
-        this.chance_to_appear = chance_to_appear;
     }
 }
 
 class Family_Gamer extends Customers{
-    public Family_Gamer(String name, int chance_to_appear){
-        super(name, chance_to_appear);
+    public Family_Gamer(String name){
+        super(name);
     }
 }
 
 class Kid_Gamer extends Customers{
-    public Kid_Gamer(String name, int chance_to_appear){
-        super(name, chance_to_appear);
+    public Kid_Gamer(String name){
+        super(name);
     }
 }
 
 class Card_Gamer extends Customers{
-    public Card_Gamer(String name, int chance_to_appear){
-        super(name, chance_to_appear);
+    public Card_Gamer(String name){
+        super(name);
     }
 }
 
 class Board_Gamer extends Customers{
-    public Board_Gamer(String name, int chance_to_appear){
-        super(name, chance_to_appear);
+    public Board_Gamer(String name){
+        super(name);
     }
 }
 
 class Cookie_Monster extends Customers{
-    public Cookie_Monster(String name, int chance_to_appear){
-        super(name, chance_to_appear);
+    public Cookie_Monster(String name){
+        super(name);
     }
 }
