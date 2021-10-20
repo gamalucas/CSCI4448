@@ -8,7 +8,7 @@ public class Cashier extends Employee implements Subject{
     protected StackBehaviour stackBehaviour;
     private List<Observer> observers_list = new ArrayList(); 
     String announcement;
-    private List<Take_Command> command_list = new ArrayList<Take_Command>(); 
+    static List<Take_Command> command_list = new ArrayList(); 
     
 
     //Constructor to initialize employee's name
@@ -42,7 +42,9 @@ public class Cashier extends Employee implements Subject{
         for (Take_Command command : command_list) {
             command.execute_command(game_name, cus_name);
         }
+        System.out.println("HELLO: " + command_list);
         command_list.clear();
+        System.out.println("HELLO: " + command_list);
     }
 
     /**
@@ -205,7 +207,8 @@ public class Cashier extends Employee implements Subject{
         int command_requests = 0;//this variable will hold how many times a customer is asking a demonstrator to perform an action.
         int demonstrator_used = 0; //this variable will hold  the percentage increase in the probability of a customer buying a game (in case Demonstrator was used) 
         int game_type_num = 0; //this variable will help us to keep in track of which game the customer is being presented by the Demonstrator
-
+        List<String> demonstrator_bonus_list = new ArrayList(); 
+        int demonstrator_bonus = 0;
         //create customers - Applying FACTORY Pattern
         prob_customer_appear = Utility.getRandomNumber(1, 101);
         if(prob_customer_appear <= 35){ //chance of a Family Gamer appear is of 35%
@@ -240,10 +243,14 @@ public class Cashier extends Employee implements Subject{
             its_cookie_monster = true;
         }
 
-        announcement = (todays_customers_list.size() + " customer are in store today!");
+        announcement = (todays_customers_list.size() + " customers are in store today!");
         notifyObservers(announcement);
 
         for (int i = 0; i < todays_customers_list.size(); i++){ //loop throught all customer and perform their operations each one per time
+            if(its_cookie_monster == true){
+                announcement = (employee_name + " said that a cookie monster sadly left the store because there are no cookies.");
+                notifyObservers(announcement);
+            }
             if(its_cookie_monster == true && cookie.cookies_in_store == 0){ //check is the customer is a cookie monster and if there are no cookies at the store
                 announcement = (employee_name + " said that a cookie monster sadly left the store because there are no cookies.");
                 notifyObservers(announcement);
@@ -255,7 +262,6 @@ public class Cashier extends Employee implements Subject{
             prob_bonus_type = 0;
             bought_game = false;
             command_requests = 0;
-            demonstrator_used = 0;
 
             prob_buying_cookie = Utility.getRandomNumber(1, 101);
             if(its_cookie_monster == true){ // if it is the cookie monster
@@ -280,8 +286,9 @@ public class Cashier extends Employee implements Subject{
                             if(shelf.get(l).game_type  == todays_customers_list.get(i).type && shelf.get(l).inventory != 0 && game_type_num == 1){
                                 add_command_list(demonstrate);
                                 run_command(shelf.get(l).game_name, todays_customers_list.get(i).name);
-                                demonstrator_used = 10;
+                                command_list.clear();
                                 command_requests++;
+                                demonstrator_bonus_list.add(shelf.get(l).game_name);
                                 break;
                             }
                             else if(shelf.get(l).game_type == todays_customers_list.get(i).type && shelf.get(l).inventory != 0 && game_type_num != 1){
@@ -295,8 +302,9 @@ public class Cashier extends Employee implements Subject{
                             if(shelf.get(l).game_type  == todays_customers_list.get(i).type && shelf.get(l).inventory != 0){
                                 add_command_list(recommend);
                                 run_command(shelf.get(l).game_name, todays_customers_list.get(i).name);
-                                demonstrator_used = 10;
+                                command_list.clear();
                                 command_requests++;
+                                demonstrator_bonus_list.add(shelf.get(l).game_name);
                                 break;
                             }
                         }
@@ -307,8 +315,9 @@ public class Cashier extends Employee implements Subject{
                             if(shelf.get(l).game_type  == todays_customers_list.get(i).type && shelf.get(l).inventory != 0){
                                 add_command_list(explain);
                                 run_command(shelf.get(l).game_name, todays_customers_list.get(i).name);
-                                demonstrator_used = 10;
+                                command_list.clear();
                                 command_requests++;
+                                demonstrator_bonus_list.add(shelf.get(l).game_name);
                                 break;
                             }
                         }
@@ -342,9 +351,6 @@ public class Cashier extends Employee implements Subject{
                     if(num_game_bought >= 2){
                         break;
                     }
-
-                    
-
                     prob_buying = Utility.getRandomNumber(1, 101); 
                     if(shelf.get(k).game_type == todays_customers_list.get(i).type && shelf.get(k).inventory != 0){ //check if the game placed on the shelf that the customer is looking at is of same type. That check exists so we can later increase the probability of a customer buying a game of same type 
                         if(shelf.get(k).game_name == todays_customers_list.get(i).game0){ //game0, game10, and game20 are randomly assigned in the Custonmer class
@@ -357,10 +363,15 @@ public class Cashier extends Employee implements Subject{
                             prob_bonus_type = 20; //games pre-registered as game20 will have 20% of increase to the total probability of buying a game
                         }
                     }
+                    for (int y = 0; y < demonstrator_bonus_list.size(); y++){
+                        if (demonstrator_bonus_list.get(y) == shelf.get(k).game_name){
+                            demonstrator_bonus = demonstrator_bonus + 10;
+                        }
+                    }
                     if(shelf.get(k).inventory == 0){ //in case a user wants to buy a game from a empty shelf, do nothing and move to the next shelf.
                         // System.out.println("Empty shelf");
                     }
-                    else if(prob_buying <= ((20-decreaser) + bought_cookies + prob_bonus_type + demonstrator_used)){ 
+                    else if(prob_buying <= ((20-decreaser) + bought_cookies + prob_bonus_type + demonstrator_bonus)){ 
                         prob_add_on = Utility.getRandomNumber(1, 101); //calculate the probability of buying a add on
                         switch(shelf.get(k).game_name){
                             case "Monopoly":
@@ -430,6 +441,10 @@ public class Cashier extends Employee implements Subject{
                     notifyObservers(announcement);
                 }
             }
+            demonstrator_bonus_list.clear();
+            demonstrator_bonus = 0;
+            command_list.clear();
+
         }
         todays_customers_list.clear(); //clear list after one day
         cookie.cookie_tracker[days] = cookies_tracker_day;

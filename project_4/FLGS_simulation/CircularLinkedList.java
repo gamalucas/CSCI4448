@@ -98,7 +98,6 @@ public class CircularLinkedList {
             current = current.nextNode;
             num++;
         }
-        System.out.println(head);
         return current.name;
     }
 }
