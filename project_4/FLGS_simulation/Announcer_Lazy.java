@@ -14,16 +14,18 @@ public class Announcer_Lazy extends Employee implements Observer{
     private String announcement;
 
 
-    private Announcer_Lazy(String name, Subject cashier, Subject baker){ //This is an example of ENCAPSULATION
+    private Announcer_Lazy(String name, Subject cashier, Subject baker, Subject demonstrator){ //This is an example of ENCAPSULATION
         set_employee_name(name);
         employee_name = get_employee_name();
         cashier.registerObserver(this); //register the cashier of the day as an observer
         baker.registerObserver(this); //registers the baker as an observer
+        demonstrator.registerObserver(this); //registers the demonstrator as an observer
     }
 
-    public static synchronized Announcer_Lazy get_instance(String name, Subject cashier, Subject baker){
+
+    public static synchronized Announcer_Lazy get_instance(String name, Subject cashier, Subject baker, Subject demonstrator){
         if(lazy_announcer == null){
-            lazy_announcer = new Announcer_Lazy(name, cashier, baker);
+            lazy_announcer = new Announcer_Lazy(name, cashier, baker, demonstrator);
         }
         return lazy_announcer;
     }

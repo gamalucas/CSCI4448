@@ -28,6 +28,8 @@ class Store{
     Register register = new Register(); //register
     static CircularLinkedList name_list = new CircularLinkedList();
 
+    Demonstrator demonstrator;
+
     
     //games
     Games monopoly = new Monopoly(42.00,10.00,2.00,16.00,3,0,0,"Monopoly",0,0, "Family", 0.0); //This is an example of POLYMORPHISM
@@ -75,6 +77,7 @@ class Store{
         DamageContainer.put("Gloomhaven", 0);
         name_list.CreateCircularLinkedList(name_list);
         days = 0;
+        demonstrator = new Demonstrator("Jon");
     }
 
     static public String find_name(){
@@ -123,12 +126,12 @@ class Store{
                 empDay = Bart;
             }
             if(rand_announcer ==1){
-                Lazy_Guy = Announcer_Lazy.get_instance("Guy", empDay, Gonger); // this is an example of Lazy Instatiation - SINGLETON Pattern
+                Lazy_Guy = Announcer_Lazy.get_instance("Guy", empDay, Gonger, demonstrator); // this is an example of Lazy Instatiation - SINGLETON Pattern
                 Lazy_Guy.arrive(days);
             }
             else{
                 Eager_Guy = Announcer_Eager.get_instance();
-                Eager_Guy.Announcer_set("Guy", empDay, Gonger);
+                Eager_Guy.Announcer_set("Guy", empDay, Gonger, demonstrator);
                 Eager_Guy.arrive(days);
             }
             empDay.Arrive(days, shelf);
@@ -136,7 +139,7 @@ class Store{
             Gonger.cookie_drop_off(cookies, register);
             empDay.Vacuum(shelf, DamageContainer);
             empDay.performStack(shelf);
-            empDay.Open(shelf, register, cookies, DamageContainer, days);
+            empDay.Open(shelf, register, cookies, DamageContainer, days, demonstrator);
             empDay.Order(shelf, register, cookies);
             empDay.Close();
             if(rand_announcer == 1){
@@ -156,7 +159,7 @@ class Store{
         }
     }
 
-//prints the final messages of the game
+    //prints the final messages of the game
     public void printMessages(){
         System.out.println("After 30 days, here is the summary of the store: ");
         System.out.println("Games on inventory: ");
