@@ -41,10 +41,9 @@ public class Cashier extends Employee implements Subject{
     public void run_command(String game_name, String cus_name){
         for (Take_Command command : command_list) {
             command.execute_command(game_name, cus_name);
+            break;
         }
-        System.out.println("HELLO: " + command_list);
         command_list.clear();
-        System.out.println("HELLO: " + command_list);
     }
 
     /**
@@ -205,7 +204,6 @@ public class Cashier extends Employee implements Subject{
         int prob_bonus_type = 0; //this variable will hold the probability increase of a customer buying a game of its type (ex: Board gamer buying a board game) 
         int prob_asking_demonstrator = 0; //this variable will hold the probability of a customer asking the Demonstrator to perform task
         int command_requests = 0;//this variable will hold how many times a customer is asking a demonstrator to perform an action.
-        int demonstrator_used = 0; //this variable will hold  the percentage increase in the probability of a customer buying a game (in case Demonstrator was used) 
         int game_type_num = 0; //this variable will help us to keep in track of which game the customer is being presented by the Demonstrator
         List<String> demonstrator_bonus_list = new ArrayList(); 
         int demonstrator_bonus = 0;
@@ -247,8 +245,13 @@ public class Cashier extends Employee implements Subject{
         notifyObservers(announcement);
 
         for (int i = 0; i < todays_customers_list.size(); i++){ //loop throught all customer and perform their operations each one per time
-            if(its_cookie_monster == true){
-                announcement = (employee_name + " said that a cookie monster sadly left the store because there are no cookies.");
+            if(its_cookie_monster == true){ // make the announcer run if a cookie monster appear
+                announcement = (employee_name + " said that a cookie monster is approaching the store.");
+                notifyObservers(announcement);
+                announcement = (employee_name + " said that the demonstrator  " + demonstrator.employee_name + " : AAAAAAAAAH a cookie monster! Imma run!" );
+                notifyObservers(announcement);
+                demonstrator.employee_name = demonstrator.give_name();
+                announcement = (employee_name + " said that a new Demonstrator (" + demonstrator.employee_name + ") is coming to store!");
                 notifyObservers(announcement);
             }
             if(its_cookie_monster == true && cookie.cookies_in_store == 0){ //check is the customer is a cookie monster and if there are no cookies at the store
@@ -284,9 +287,9 @@ public class Cashier extends Employee implements Subject{
                     if(prob_asking_demonstrator <= 25 && command_requests <= 3){ //if true, customer will ask Demonstrator to demonstrate a game
                         for(int l = 0; l < shelf.size(); l++){ //get a game to be demonstrated 
                             if(shelf.get(l).game_type  == todays_customers_list.get(i).type && shelf.get(l).inventory != 0 && game_type_num == 1){
-                                add_command_list(demonstrate);
-                                run_command(shelf.get(l).game_name, todays_customers_list.get(i).name);
-                                command_list.clear();
+                                add_command_list(demonstrate); // COMMAND PATTERN implementation
+                                run_command(shelf.get(l).game_name, todays_customers_list.get(i).name); // COMMAND PATTERN implementation
+                                command_list.clear(); // COMMAND PATTERN implementation
                                 command_requests++;
                                 demonstrator_bonus_list.add(shelf.get(l).game_name);
                                 break;
@@ -299,26 +302,32 @@ public class Cashier extends Employee implements Subject{
                     prob_asking_demonstrator = Utility.getRandomNumber(1, 101); //generate prob of involking the demonstrator 
                     if(prob_asking_demonstrator <= 30 && command_requests <= 3){ //if true, customer will ask Demonstrator to recommend a game
                         for(int l = 0; l < shelf.size(); l++){ //get a game to be demonstrated 
-                            if(shelf.get(l).game_type  == todays_customers_list.get(i).type && shelf.get(l).inventory != 0){
-                                add_command_list(recommend);
-                                run_command(shelf.get(l).game_name, todays_customers_list.get(i).name);
-                                command_list.clear();
+                            if(shelf.get(l).game_type  == todays_customers_list.get(i).type && shelf.get(l).inventory != 0 && game_type_num == 1){
+                                add_command_list(recommend);// COMMAND PATTERN implementation
+                                run_command(shelf.get(l).game_name, todays_customers_list.get(i).name);// COMMAND PATTERN implementation
+                                command_list.clear();// COMMAND PATTERN implementation
                                 command_requests++;
                                 demonstrator_bonus_list.add(shelf.get(l).game_name);
                                 break;
                             }
+                            else if(shelf.get(l).game_type == todays_customers_list.get(i).type && shelf.get(l).inventory != 0 && game_type_num != 1){
+                                game_type_num--;
+                            }
                         }
                     }
                     prob_asking_demonstrator = Utility.getRandomNumber(1, 101); //generate prob of involking the demonstrator 
-                    if(prob_asking_demonstrator <= 20 && command_requests <= 3){ //if true, customer will ask Demonstrator to recommend a game
+                    if(prob_asking_demonstrator <= 20 && command_requests <= 3){ //if true, customer will ask Demonstrator to explain a game
                         for(int l = 0; l < shelf.size(); l++){ //get a game to be demonstrated 
-                            if(shelf.get(l).game_type  == todays_customers_list.get(i).type && shelf.get(l).inventory != 0){
-                                add_command_list(explain);
-                                run_command(shelf.get(l).game_name, todays_customers_list.get(i).name);
-                                command_list.clear();
+                            if(shelf.get(l).game_type  == todays_customers_list.get(i).type && shelf.get(l).inventory != 0 && game_type_num == 1){
+                                add_command_list(explain);// COMMAND PATTERN implementation
+                                run_command(shelf.get(l).game_name, todays_customers_list.get(i).name);// COMMAND PATTERN implementation
+                                command_list.clear();// COMMAND PATTERN implementation
                                 command_requests++;
                                 demonstrator_bonus_list.add(shelf.get(l).game_name);
                                 break;
+                            }
+                            else if(shelf.get(l).game_type == todays_customers_list.get(i).type && shelf.get(l).inventory != 0 && game_type_num != 1){
+                                game_type_num--;
                             }
                         }
                     }
@@ -448,8 +457,6 @@ public class Cashier extends Employee implements Subject{
         }
         todays_customers_list.clear(); //clear list after one day
         cookie.cookie_tracker[days] = cookies_tracker_day;
-        announcement = (demonstrator.employee_name + " the demonstrator is leaving the store!");
-        notifyObservers(announcement);
         System.out.println();
     }
     

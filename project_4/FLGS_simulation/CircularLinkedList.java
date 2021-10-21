@@ -1,3 +1,6 @@
+/**
+Class is reponsible for naming Customers and Demonstrator
+ */
 public class CircularLinkedList {
     
     public class Node {
@@ -90,7 +93,7 @@ public class CircularLinkedList {
         }
     }
 
-    // Node current = head;
+    // selects the name of customers and employees
     public String nameSelector(int count) {
         int num = 0;
         Node current = head;

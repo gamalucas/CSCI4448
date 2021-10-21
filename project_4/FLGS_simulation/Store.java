@@ -77,7 +77,15 @@ class Store{
         DamageContainer.put("Gloomhaven", 0);
         name_list.CreateCircularLinkedList(name_list);
         days = 0;
-        demonstrator = new Demonstrator("Jon");
+        demonstrator = new Demonstrator();
+
+        if(rand_announcer ==1){
+            Lazy_Guy = Announcer_Lazy.get_instance("Guy", Gonger, demonstrator); // this is an example of Lazy Instatiation - SINGLETON Pattern
+        }
+        else{
+            Eager_Guy = Announcer_Eager.get_instance();
+            Eager_Guy.Announcer_set("Guy", Gonger, demonstrator); // this is an example of Eager Instatiation - SINGLETON Pattern
+        }
     }
 
     static public String find_name(){
@@ -86,6 +94,7 @@ class Store{
         return name;
     }
 
+    //implements procedure if store is robbed
     public void robbed(){
         System.out.println("Oh no! The store was robbed. They took all of games, money and cookies!");
         robbed = true;
@@ -126,12 +135,11 @@ class Store{
                 empDay = Bart;
             }
             if(rand_announcer ==1){
-                Lazy_Guy = Announcer_Lazy.get_instance("Guy", empDay, Gonger, demonstrator); // this is an example of Lazy Instatiation - SINGLETON Pattern
+                Lazy_Guy.Emp_set(empDay);
                 Lazy_Guy.arrive(days);
             }
             else{
-                Eager_Guy = Announcer_Eager.get_instance();
-                Eager_Guy.Announcer_set("Guy", empDay, Gonger, demonstrator);
+                Eager_Guy.Emp_set(empDay);
                 Eager_Guy.arrive(days);
             }
             empDay.Arrive(days, shelf);
@@ -140,10 +148,14 @@ class Store{
             empDay.Vacuum(shelf, DamageContainer);
             empDay.performStack(shelf);
             empDay.Open(shelf, register, cookies, DamageContainer, days, demonstrator);
+            demonstrator.finish_day();
             empDay.Order(shelf, register, cookies);
             empDay.Close();
             if(rand_announcer == 1){
                 Lazy_Guy.close();
+            }
+            else{
+                Eager_Guy.close();
             }
             if(robbed == false){
                 rob_prob = Utility.getRandomNumber(1, 31);

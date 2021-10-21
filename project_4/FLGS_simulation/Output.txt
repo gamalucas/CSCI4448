@@ -21,29 +21,14 @@ Guy says: Bart stacks 3 Candyland games in shelf position 10. Game width is: 2.0
 Guy says: Bart stacks 3 Pokémon games in shelf position 11. Game width is: 2.0"
 Guy says: Bart stacks 3 Magic games in shelf position 12. Game width is: 1.0"
 Guy says: Bart opened the store. Welcome!
-Guy says: 8 customer are in store today!
-Guy says: Bart sold 3 cookies today
-Guy says: Bart sold a Connect Four to customer 1 for $27.0
-Guy says: Bart sold a Gloomhaven to customer 1 for $14.5
-Guy says: Bart sold a Connect Four to customer 2 for $27.0
-Guy says: Bart sold a Clue to customer 2 for $52.0
-Guy says: Bart sold 1 cookies today
-Guy says: Bart sold a Mousetrap to customer 3 for $50.0
-Guy says: Bart sold a Life to customer 3 for $33.0
-Guy says: Bart sold a Catan to customer 4 for $15.6
-Guy says: Bart sold a Connect Four to customer 4 for $27.0
-Guy says: Bart sold 1 cookies today
-Guy says: Bart sold a Gloomhaven to customer 5 for $14.5
-Guy says: Bart sold a Risk to customer 5 for $11.0
-Guy says: Bart sold a Gloomhaven to customer 6 for $14.5
-Guy says: Bart sold a Clue to customer 6 for $52.0
-Guy says: Bart sold 2 cookies today
-Guy says: Customer 7 did not buy any game.
-Guy says: Bart sold a Risk to customer 8 for $11.0
-Guy says: Bart sold a Candyland to customer 8 for $22.0
+Guy says: Alice the demonstrator arrived at the store!
+Guy says: 2 customers are in store today!
+Guy says: Bart sold a Life to Bob for $33.0
+Guy says: Bart sold a Candyland to Bob for $22.0
+Guy says: Alice is recommending Risk to Devin
+Guy says: Bart sold a Life to Devin for $33.0
 
-Guy says: Bart bought 3 Connect Four games for the store.
-Guy says: Bart bought 3 Gloomhaven games for the store.
+Guy says: Alice the demonstrator is leaving the store!
 
 Guy says: Bart the cashier is leaving the store.
 Guy is leaving the store.
@@ -51,45 +36,34 @@ Guy is leaving the store.
 
 Guy arrived on day 2
 Guy says: Burt the cashier has arrived.
-Guy says: Three Connect Four games arrived at the store
-Guy says: Three Gloomhaven games arrived at the store
-Guy says: Good morning! The amount on the cash register is $1320.82
-Guy says: Gonger the baker has arrived a the store
-Guy says: Gonger droped off 1 cookie packeges.
-Guy says: Gonger received $36.0
-Guy says: Gonger is leaving the store for today.
+Guy says: Good morning! The amount on the cash register is $1052.0
 Guy says: Burt is vacuuming the store 
 
-Guy says: Burt stacks 2 Catan games in shelf position 1. Game width is: 15.0"
+Guy says: Burt stacks 3 Catan games in shelf position 1. Game width is: 15.0"
 Guy says: Burt stacks 3 Connect Four games in shelf position 2. Game width is: 8.0"
 Guy says: Burt stacks 3 Gloomhaven games in shelf position 3. Game width is: 7.0"
-Guy says: Burt stacks 1 Clue games in shelf position 4. Game width is: 5.0"
+Guy says: Burt stacks 3 Clue games in shelf position 4. Game width is: 5.0"
 Guy says: Burt stacks 3 Netrunner games in shelf position 5. Game width is: 5.0"
-Guy says: Burt stacks 1 Risk games in shelf position 6. Game width is: 5.0"
-Guy says: Burt stacks 2 Mousetrap games in shelf position 7. Game width is: 4.0"
-Guy says: Burt stacks 2 Life games in shelf position 8. Game width is: 3.0"
+Guy says: Burt stacks 3 Risk games in shelf position 6. Game width is: 5.0"
+Guy says: Burt stacks 3 Mousetrap games in shelf position 7. Game width is: 4.0"
+Guy says: Burt stacks 1 Life games in shelf position 8. Game width is: 3.0"
 Guy says: Burt stacks 3 Monopoly games in shelf position 9. Game width is: 2.0"
 Guy says: Burt stacks 2 Candyland games in shelf position 10. Game width is: 2.0"
 Guy says: Burt stacks 3 Pokémon games in shelf position 11. Game width is: 2.0"
 Guy says: Burt stacks 3 Magic games in shelf position 12. Game width is: 1.0"
 Guy says: Burt opened the store. Welcome!
-Guy says: 5 customer are in store today!
-Guy says: Burt sold 3 cookies today
-Guy says: Burt sold a Catan to customer 1 for $15.6
-Guy says: Burt sold a Connect Four to customer 1 for $27.0
-Guy says: Burt sold 2 cookies today
-Guy says: Burt sold a Connect Four to customer 2 for $27.0
-Guy says: Burt sold a Gloomhaven to customer 2 for $14.5
-Guy says: Burt sold a Catan to customer 3 for $15.6
-Guy says: Burt sold a Risk to customer 3 for $11.0
-Guy says: Burt sold a Clue to customer 4 for $52.0
-Guy says: Burt sold a Netrunner to customer 4 for $12.5
-Guy says: Burt sold a Gloomhaven to customer 5 for $14.5
-Guy says: Burt sold a Life to customer 5 for $33.0
+Guy says: Alice the demonstrator arrived at the store!
+Guy says: 3 customers are in store today!
+Guy says: Alice is recommending Clue to Lucas
+Guy says: Alice is explaning Clue to Lucas
+Guy says: Burt sold a Gloomhaven to Lucas for $14.5
+Guy says: Burt sold a Mousetrap to Lucas for $50.0
+Guy says: Burt sold a Netrunner to Felipe for $12.5
+Guy says: Alice is recommending Gloomhaven to Bruce Montgomery
+Guy says: Alice is explaning Catan to Bruce Montgomery
+Guy says: Customer 2 (Bruce Montgomery) did not buy any game.
 
-Guy says: Burt bought 3 Catan games for the store.
-Guy says: Burt bought 3 Clue games for the store.
-Guy says: Burt bought 3 Risk games for the store.
+Guy says: Alice the demonstrator is leaving the store!
 
 Guy says: Burt the cashier is leaving the store.
 Guy is leaving the store.
@@ -97,19 +71,12 @@ Guy is leaving the store.
 
 Guy arrived on day 3
 Guy says: Burt the cashier has arrived.
-Guy says: Three Catan games arrived at the store
-Guy says: Three Clue games arrived at the store
-Guy says: Three Risk games arrived at the store
-Guy says: Good morning! The amount on the cash register is $1421.6099999999997
-Guy says: Gonger the baker has arrived a the store
-Guy says: Gonger droped off 1 cookie packeges.
-Guy says: Gonger received $36.0
-Guy says: Gonger is leaving the store for today.
+Guy says: Good morning! The amount on the cash register is $1116.98
 Guy says: Burt is vacuuming the store 
 
 Guy says: Burt stacks 3 Catan games in shelf position 1. Game width is: 15.0"
-Guy says: Burt stacks 1 Connect Four games in shelf position 2. Game width is: 8.0"
-Guy says: Burt stacks 1 Gloomhaven games in shelf position 3. Game width is: 7.0"
+Guy says: Burt stacks 3 Connect Four games in shelf position 2. Game width is: 8.0"
+Guy says: Burt stacks 2 Gloomhaven games in shelf position 3. Game width is: 7.0"
 Guy says: Burt stacks 3 Clue games in shelf position 4. Game width is: 5.0"
 Guy says: Burt stacks 2 Netrunner games in shelf position 5. Game width is: 5.0"
 Guy says: Burt stacks 3 Risk games in shelf position 6. Game width is: 5.0"
@@ -120,10 +87,19 @@ Guy says: Burt stacks 2 Candyland games in shelf position 10. Game width is: 2.0
 Guy says: Burt stacks 3 Pokémon games in shelf position 11. Game width is: 2.0"
 Guy says: Burt stacks 3 Magic games in shelf position 12. Game width is: 1.0"
 Guy says: Burt opened the store. Welcome!
-Guy says: 2 customer are in store today!
-Guy says: Customer 1 did not buy any game.
-Guy says: Customer 2 did not buy any game.
+Guy says: Alice the demonstrator arrived at the store!
+Guy says: 2 customers are in store today!
+Guy says: Alice is demonstrating Magic to Zach
+Guy says: Burt sold a Netrunner to Zach for $12.5
+Guy says: Burt sold a Candyland to Zach for $22.0
+Guy says: Alice is recommending Risk to Murray Cox
+Guy says: Alice is explaning Catan to Murray Cox
+Guy says: Burt sold 1 cookies today
+Guy says: Burt sold a Netrunner to Murray Cox for $12.5
+Guy says: Burt sold a Risk to Murray Cox for $11.0
 
+Guy says: Alice the demonstrator is leaving the store!
+Guy says: Burt bought 3 Netrunner games for the store.
 
 Guy says: Burt the cashier is leaving the store.
 Guy is leaving the store.
@@ -131,209 +107,186 @@ Guy is leaving the store.
 
 Guy arrived on day 4
 Guy says: Ernie the cashier has arrived.
-Guy says: Good morning! The amount on the cash register is $1385.6099999999997
-Guy says: Gonger the baker has arrived a the store
-Guy says: Gonger droped off 1 cookie packeges.
-Guy says: Gonger received $36.0
-Guy says: Gonger is leaving the store for today.
+Guy says: Three Netrunner games arrived at the store
+Guy says: Good morning! The amount on the cash register is $1126.23
 Guy says: Ernie is vacuuming the store 
 
 Guy says: Ernie stacks 3 Pokémon games in shelf position 1. Game width is: 2.0"
 Guy says: Ernie stacks 3 Magic games in shelf position 2. Game width is: 1.0"
-Guy says: Ernie stacks 1 Life games in shelf position 3. Game width is: 3.0"
-Guy says: Ernie stacks 1 Gloomhaven games in shelf position 4. Game width is: 7.0"
-Guy says: Ernie stacks 2 Netrunner games in shelf position 5. Game width is: 5.0"
-Guy says: Ernie stacks 2 Candyland games in shelf position 6. Game width is: 2.0"
-Guy says: Ernie stacks 1 Connect Four games in shelf position 7. Game width is: 8.0"
+Guy says: Ernie stacks 1 Candyland games in shelf position 3. Game width is: 2.0"
+Guy says: Ernie stacks 1 Life games in shelf position 4. Game width is: 3.0"
+Guy says: Ernie stacks 3 Netrunner games in shelf position 5. Game width is: 5.0"
+Guy says: Ernie stacks 2 Gloomhaven games in shelf position 6. Game width is: 7.0"
+Guy says: Ernie stacks 2 Risk games in shelf position 7. Game width is: 5.0"
 Guy says: Ernie stacks 2 Mousetrap games in shelf position 8. Game width is: 4.0"
 Guy says: Ernie stacks 3 Monopoly games in shelf position 9. Game width is: 2.0"
 Guy says: Ernie stacks 3 Catan games in shelf position 10. Game width is: 15.0"
-Guy says: Ernie stacks 3 Risk games in shelf position 11. Game width is: 5.0"
-Guy says: Ernie stacks 3 Clue games in shelf position 12. Game width is: 5.0"
+Guy says: Ernie stacks 3 Clue games in shelf position 11. Game width is: 5.0"
+Guy says: Ernie stacks 3 Connect Four games in shelf position 12. Game width is: 8.0"
 Guy says: Ernie opened the store. Welcome!
-Guy says: 1 customer are in store today!
-Guy says: Ernie sold a Candyland to customer 1 for $22.0
+Guy says: Alice the demonstrator arrived at the store!
+Guy says: 1 customers are in store today!
+Guy says: Alice is demonstrating Gloomhaven to Rachel Cox
+Guy says: Alice is recommending Gloomhaven to Rachel Cox
+Guy says: Ernie sold 3 cookies today
+Guy says: Ernie sold a Magic to Rachel Cox for $5.0
+Guy says: Ernie sold a Life to Rachel Cox for $33.0
 
+Guy says: Alice the demonstrator is leaving the store!
+Guy says: Ernie bought 3 Life games for the store.
 
 Guy says: Ernie the cashier is leaving the store.
 Guy is leaving the store.
 =====================================
 
 Guy arrived on day 5
-Guy says: Burt the cashier has arrived.
-Guy says: Good morning! The amount on the cash register is $1371.6099999999997
-Guy says: Gonger the baker has arrived a the store
-Guy says: Gonger droped off 1 cookie packeges.
-Guy says: Gonger received $36.0
-Guy says: Gonger is leaving the store for today.
-Guy says: Burt is vacuuming the store 
-Guy says: The game Catan is damaged and placed on the Damaged Game Container
-
-Guy says: Burt stacks 2 Catan games in shelf position 1. Game width is: 15.0"
-Guy says: Burt stacks 1 Connect Four games in shelf position 2. Game width is: 8.0"
-Guy says: Burt stacks 1 Gloomhaven games in shelf position 3. Game width is: 7.0"
-Guy says: Burt stacks 2 Netrunner games in shelf position 4. Game width is: 5.0"
-Guy says: Burt stacks 3 Risk games in shelf position 5. Game width is: 5.0"
-Guy says: Burt stacks 3 Clue games in shelf position 6. Game width is: 5.0"
-Guy says: Burt stacks 2 Mousetrap games in shelf position 7. Game width is: 4.0"
-Guy says: Burt stacks 1 Life games in shelf position 8. Game width is: 3.0"
-Guy says: Burt stacks 3 Pokémon games in shelf position 9. Game width is: 2.0"
-Guy says: Burt stacks 1 Candyland games in shelf position 10. Game width is: 2.0"
-Guy says: Burt stacks 3 Monopoly games in shelf position 11. Game width is: 2.0"
-Guy says: Burt stacks 3 Magic games in shelf position 12. Game width is: 1.0"
-Guy says: Burt opened the store. Welcome!
-Guy says: 3 customer are in store today!
-Guy says: Burt sold a Gloomhaven to customer 1 for $14.5
-Guy says: Burt sold 1 cookies today
-Guy says: Burt sold a Risk to customer 2 for $11.0
-Guy says: Burt sold a Life to customer 2 for $33.0
-Guy says: Burt sold a Catan to customer 3 for $15.6
-Guy says: Burt sold a Risk to customer 3 for $11.0
-
-Guy says: Burt bought 3 Gloomhaven games for the store.
-Guy says: Burt bought 3 Life games for the store.
-
-Guy says: Burt the cashier is leaving the store.
-Guy is leaving the store.
-=====================================
-
-Guy arrived on day 6
 Guy says: Ernie the cashier has arrived.
-Guy says: Three Gloomhaven games arrived at the store
 Guy says: Three Life games arrived at the store
-Guy says: Good morning! The amount on the cash register is $1355.4599999999996
-Guy says: Gonger the baker has arrived a the store
-Guy says: Gonger droped off 1 cookie packeges.
-Guy says: Gonger received $36.0
-Guy says: Gonger is leaving the store for today.
+Guy says: Good morning! The amount on the cash register is $1096.73
 Guy says: Ernie is vacuuming the store 
 
 Guy says: Ernie stacks 3 Pokémon games in shelf position 1. Game width is: 2.0"
-Guy says: Ernie stacks 3 Magic games in shelf position 2. Game width is: 1.0"
+Guy says: Ernie stacks 2 Magic games in shelf position 2. Game width is: 1.0"
 Guy says: Ernie stacks 1 Candyland games in shelf position 3. Game width is: 2.0"
-Guy says: Ernie stacks 2 Netrunner games in shelf position 4. Game width is: 5.0"
-Guy says: Ernie stacks 1 Catan games in shelf position 5. Game width is: 15.0"
-Guy says: Ernie stacks 1 Risk games in shelf position 6. Game width is: 5.0"
-Guy says: Ernie stacks 1 Connect Four games in shelf position 7. Game width is: 8.0"
+Guy says: Ernie stacks 3 Netrunner games in shelf position 4. Game width is: 5.0"
+Guy says: Ernie stacks 2 Gloomhaven games in shelf position 5. Game width is: 7.0"
+Guy says: Ernie stacks 3 Life games in shelf position 6. Game width is: 3.0"
+Guy says: Ernie stacks 2 Risk games in shelf position 7. Game width is: 5.0"
 Guy says: Ernie stacks 2 Mousetrap games in shelf position 8. Game width is: 4.0"
-Guy says: Ernie stacks 3 Life games in shelf position 9. Game width is: 3.0"
-Guy says: Ernie stacks 3 Gloomhaven games in shelf position 10. Game width is: 7.0"
-Guy says: Ernie stacks 3 Monopoly games in shelf position 11. Game width is: 2.0"
-Guy says: Ernie stacks 3 Clue games in shelf position 12. Game width is: 5.0"
+Guy says: Ernie stacks 3 Monopoly games in shelf position 9. Game width is: 2.0"
+Guy says: Ernie stacks 3 Catan games in shelf position 10. Game width is: 15.0"
+Guy says: Ernie stacks 3 Clue games in shelf position 11. Game width is: 5.0"
+Guy says: Ernie stacks 3 Connect Four games in shelf position 12. Game width is: 8.0"
 Guy says: Ernie opened the store. Welcome!
-Guy says: 6 customer are in store today!
-Guy says: Ernie sold a Life to customer 1 for $33.0
+Guy says: Alice the demonstrator arrived at the store!
+Guy says: 4 customers are in store today!
+Guy says: Alice is demonstrating Monopoly to Dwight
+Guy says: Alice is recommending Life to Dwight
 Guy says: Ernie sold 1 cookies today
-Guy says: Ernie sold a Candyland to customer 2 for $22.0
-Guy says: Ernie sold a Risk to customer 2 for $11.0
-Guy says: Ernie sold 2 cookies today
-Guy says: Ernie sold a Gloomhaven to customer 3 for $14.5
+Guy says: Ernie sold a Magic to Dwight for $5.0
+Guy says: Ernie sold a Gloomhaven to Dwight for $14.5
 Guy says: Ernie sold 3 cookies today
-Guy says: Ernie sold a Magic to customer 4 for $5.0
-Guy says: Ernie sold a Netrunner to customer 4 for $12.5
+Guy says: Ernie sold a Candyland to Max for $22.0
+Guy says: Ernie sold a Mousetrap to Max for $50.0
 Guy says: Ernie sold 3 cookies today
-Guy says: Ernie sold a Pokémon to customer 5 for $125.99
-Guy says: Ernie sold a Magic to customer 5 for $5.0
-Guy says: Ernie sold a Pokémon to customer 6 for $125.99
-Guy says: Ernie sold a Magic to customer 6 for $5.0
+Guy says: Ernie sold a Pokémon to Roshan for $125.99
+Guy says: Ernie sold a Magic to Roshan for $5.0
+Guy says: Ernie sold a Netrunner to Gayathri for $12.5
+Guy says: Ernie sold a Life to Gayathri for $33.0
 
+Guy says: Alice the demonstrator is leaving the store!
 Guy says: Ernie bought 3 Magic games for the store.
 Guy says: Ernie bought 3 Candyland games for the store.
-Guy says: Ernie bought 3 Risk games for the store.
 
 Guy says: Ernie the cashier is leaving the store.
 Guy is leaving the store.
 =====================================
 
-Guy arrived on day 7
+Guy arrived on day 6
 Guy says: Burt the cashier has arrived.
 Guy says: Three Magic games arrived at the store
 Guy says: Three Candyland games arrived at the store
-Guy says: Three Risk games arrived at the store
-Guy says: Good morning! The amount on the cash register is $1686.4299999999996
-Guy says: Gonger the baker has arrived a the store
-Guy says: Gonger droped off 1 cookie packeges.
-Guy says: Gonger received $36.0
-Guy says: Gonger is leaving the store for today.
+Guy says: Good morning! The amount on the cash register is $1350.2
 Guy says: Burt is vacuuming the store 
 
-Guy says: Burt stacks 1 Catan games in shelf position 1. Game width is: 15.0"
-Guy says: Burt stacks 1 Connect Four games in shelf position 2. Game width is: 8.0"
-Guy says: Burt stacks 2 Gloomhaven games in shelf position 3. Game width is: 7.0"
-Guy says: Burt stacks 1 Netrunner games in shelf position 4. Game width is: 5.0"
-Guy says: Burt stacks 3 Risk games in shelf position 5. Game width is: 5.0"
+Guy says: Burt stacks 3 Catan games in shelf position 1. Game width is: 15.0"
+Guy says: Burt stacks 3 Connect Four games in shelf position 2. Game width is: 8.0"
+Guy says: Burt stacks 1 Gloomhaven games in shelf position 3. Game width is: 7.0"
+Guy says: Burt stacks 2 Netrunner games in shelf position 4. Game width is: 5.0"
+Guy says: Burt stacks 2 Risk games in shelf position 5. Game width is: 5.0"
 Guy says: Burt stacks 3 Clue games in shelf position 6. Game width is: 5.0"
-Guy says: Burt stacks 2 Mousetrap games in shelf position 7. Game width is: 4.0"
+Guy says: Burt stacks 1 Mousetrap games in shelf position 7. Game width is: 4.0"
 Guy says: Burt stacks 2 Life games in shelf position 8. Game width is: 3.0"
-Guy says: Burt stacks 1 Pokémon games in shelf position 9. Game width is: 2.0"
+Guy says: Burt stacks 2 Pokémon games in shelf position 9. Game width is: 2.0"
 Guy says: Burt stacks 3 Candyland games in shelf position 10. Game width is: 2.0"
 Guy says: Burt stacks 3 Monopoly games in shelf position 11. Game width is: 2.0"
 Guy says: Burt stacks 3 Magic games in shelf position 12. Game width is: 1.0"
 Guy says: Burt opened the store. Welcome!
-Guy says: 6 customer are in store today!
-Guy says: Burt sold a Netrunner to customer 1 for $12.5
+Guy says: Alice the demonstrator arrived at the store!
+Guy says: 2 customers are in store today!
 Guy says: Burt sold 3 cookies today
-Guy says: Burt sold a Connect Four to customer 2 for $27.0
-Guy says: Burt sold a Clue to customer 2 for $52.0
-Guy says: Burt sold a Risk to customer 3 for $11.0
-Guy says: Burt sold 1 cookies today
-Guy says: Burt sold a Risk to customer 4 for $11.0
-Guy says: Burt sold a Monopoly to customer 4 for $42.0
-Guy says: Burt sold 2 cookies today
-Guy says: Burt sold a Catan to customer 5 for $15.6
-Guy says: Burt sold a Life to customer 5 for $33.0
-Guy says: Burt sold 3 cookies today
-Guy says: Burt sold a Clue to customer 6 for $52.0
-Guy says: Burt sold a Life to customer 6 for $33.0
+Guy says: Burt sold a Catan to Vardhini for $15.6
+Guy says: Burt sold a Gloomhaven to Vardhini for $14.5
+Guy says: Burt sold a Connect Four to Jon for $27.0
 
-Guy says: Burt bought 3 Catan games for the store.
-Guy says: Burt bought 3 Connect Four games for the store.
-Guy says: Burt bought 3 Netrunner games for the store.
-Guy says: Burt bought 3 Life games for the store.
+Guy says: Alice the demonstrator is leaving the store!
+Guy says: Burt bought 3 Gloomhaven games for the store.
 
 Guy says: Burt the cashier is leaving the store.
 Guy is leaving the store.
 =====================================
 
+Guy arrived on day 7
+Guy says: Bart the cashier has arrived.
+Guy says: Three Gloomhaven games arrived at the store
+Guy says: Good morning! The amount on the cash register is $1367.55
+Guy says: Bart is vacuuming the store 
+
+Guy says: Bart stacks 2 Catan games in shelf position 1. Game width is: 15.0"
+Guy says: Bart stacks 2 Connect Four games in shelf position 2. Game width is: 8.0"
+Guy says: Bart stacks 3 Gloomhaven games in shelf position 3. Game width is: 7.0"
+Guy says: Bart stacks 2 Netrunner games in shelf position 4. Game width is: 5.0"
+Guy says: Bart stacks 2 Risk games in shelf position 5. Game width is: 5.0"
+Guy says: Bart stacks 3 Clue games in shelf position 6. Game width is: 5.0"
+Guy says: Bart stacks 2 Life games in shelf position 7. Game width is: 3.0"
+Guy says: Bart stacks 2 Pokémon games in shelf position 8. Game width is: 2.0"
+Guy says: Bart stacks 3 Candyland games in shelf position 9. Game width is: 2.0"
+Guy says: Bart stacks 3 Monopoly games in shelf position 10. Game width is: 2.0"
+Guy says: Bart stacks 3 Magic games in shelf position 11. Game width is: 1.0"
+Guy says: Bart stacks 1 Mousetrap games in shelf position 12. Game width is: 4.0"
+Guy says: Bart opened the store. Welcome!
+Guy says: Alice the demonstrator arrived at the store!
+Guy says: 3 customers are in store today!
+Guy says: Alice is demonstrating Monopoly to Mathew
+Guy says: Alice is recommending Clue to Mathew
+Guy says: Bart sold a Catan to Mathew for $15.6
+Guy says: Bart sold a Monopoly to Mathew for $42.0
+Guy says: Alice is demonstrating Netrunner to Julia
+Guy says: Alice is recommending Netrunner to Julia
+Guy says: Bart sold 1 cookies today
+Guy says: Bart sold a Gloomhaven to Julia for $14.5
+Guy says: Bart sold a Netrunner to Julia for $12.5
+Guy says: Bart sold 3 cookies today
+Guy says: Bart sold a Netrunner to Andrew for $12.5
+Guy says: Bart sold a Pokémon to Andrew for $125.99
+
+Guy says: Alice the demonstrator is leaving the store!
+Guy says: Bart bought 3 Netrunner games for the store.
+
+Guy says: Bart the cashier is leaving the store.
+Guy is leaving the store.
+=====================================
+
 Guy arrived on day 8
 Guy says: Ernie the cashier has arrived.
-Guy says: Three Catan games arrived at the store
-Guy says: Three Connect Four games arrived at the store
 Guy says: Three Netrunner games arrived at the store
-Guy says: Three Life games arrived at the store
-Guy says: Good morning! The amount on the cash register is $1861.3799999999994
-Guy says: Gonger the baker has arrived a the store
-Guy says: Gonger droped off 1 cookie packeges.
-Guy says: Gonger received $36.0
-Guy says: Gonger is leaving the store for today.
+Guy says: Good morning! The amount on the cash register is $1559.8899999999999
 Guy says: Ernie is vacuuming the store 
 
 Guy says: Ernie stacks 1 Pokémon games in shelf position 1. Game width is: 2.0"
 Guy says: Ernie stacks 3 Magic games in shelf position 2. Game width is: 1.0"
-Guy says: Ernie stacks 1 Risk games in shelf position 3. Game width is: 5.0"
-Guy says: Ernie stacks 3 Netrunner games in shelf position 4. Game width is: 5.0"
-Guy says: Ernie stacks 1 Clue games in shelf position 5. Game width is: 5.0"
-Guy says: Ernie stacks 2 Gloomhaven games in shelf position 6. Game width is: 7.0"
-Guy says: Ernie stacks 2 Monopoly games in shelf position 7. Game width is: 2.0"
-Guy says: Ernie stacks 3 Candyland games in shelf position 8. Game width is: 2.0"
-Guy says: Ernie stacks 2 Mousetrap games in shelf position 9. Game width is: 4.0"
-Guy says: Ernie stacks 3 Life games in shelf position 10. Game width is: 3.0"
-Guy says: Ernie stacks 3 Catan games in shelf position 11. Game width is: 15.0"
-Guy says: Ernie stacks 3 Connect Four games in shelf position 12. Game width is: 8.0"
+Guy says: Ernie stacks 1 Catan games in shelf position 3. Game width is: 15.0"
+Guy says: Ernie stacks 1 Mousetrap games in shelf position 4. Game width is: 4.0"
+Guy says: Ernie stacks 3 Netrunner games in shelf position 5. Game width is: 5.0"
+Guy says: Ernie stacks 2 Life games in shelf position 6. Game width is: 3.0"
+Guy says: Ernie stacks 2 Gloomhaven games in shelf position 7. Game width is: 7.0"
+Guy says: Ernie stacks 2 Monopoly games in shelf position 8. Game width is: 2.0"
+Guy says: Ernie stacks 3 Candyland games in shelf position 9. Game width is: 2.0"
+Guy says: Ernie stacks 2 Risk games in shelf position 10. Game width is: 5.0"
+Guy says: Ernie stacks 2 Connect Four games in shelf position 11. Game width is: 8.0"
+Guy says: Ernie stacks 3 Clue games in shelf position 12. Game width is: 5.0"
 Guy says: Ernie opened the store. Welcome!
-Guy says: 3 customer are in store today!
-Guy says: Ernie sold 3 cookies today
-Guy says: Ernie sold a Magic to customer 1 for $5.0
-Guy says: Ernie sold a Netrunner to customer 1 for $12.5
-Guy says: Ernie sold 3 cookies today
-Guy says: Ernie sold a Risk to customer 2 for $11.0
-Guy says: Ernie sold a Clue to customer 2 for $52.0
-Guy says: Ernie sold 2 cookies today
-Guy says: Ernie sold a Magic to customer 3 for $5.0
-Guy says: Ernie sold a Candyland to customer 3 for $22.0
+Guy says: Alice the demonstrator arrived at the store!
+Guy says: 2 customers are in store today!
+Guy says: Ernie sold a Pokémon to Aspen for $125.99
+Guy says: Alice is demonstrating Netrunner to Kate
+Guy says: Alice is recommending Magic to Kate
+Guy says: Ernie sold a Magic to Kate for $5.0
+Guy says: Ernie sold a Catan to Kate for $15.6
 
-Guy says: Ernie bought 3 Risk games for the store.
-Guy says: Ernie bought 3 Clue games for the store.
+Guy says: Alice the demonstrator is leaving the store!
+Guy says: Ernie bought 3 Pokémon games for the store.
+Guy says: Ernie bought 3 Catan games for the store.
 
 Guy says: Ernie the cashier is leaving the store.
 Guy is leaving the store.
@@ -341,329 +294,289 @@ Guy is leaving the store.
 
 Guy arrived on day 9
 Guy says: Bart the cashier has arrived.
-Guy says: Three Risk games arrived at the store
-Guy says: Three Clue games arrived at the store
-Guy says: Good morning! The amount on the cash register is $1886.3799999999994
-Guy says: Gonger the baker has arrived a the store
-Guy says: Gonger droped off 1 cookie packeges.
-Guy says: Gonger received $36.0
-Guy says: Gonger is leaving the store for today.
+Guy says: Three Pokémon games arrived at the store
+Guy says: Three Catan games arrived at the store
+Guy says: Good morning! The amount on the cash register is $1458.0949999999998
 Guy says: Bart is vacuuming the store 
 
 Guy says: Bart stacks 3 Catan games in shelf position 1. Game width is: 15.0"
-Guy says: Bart stacks 3 Connect Four games in shelf position 2. Game width is: 8.0"
+Guy says: Bart stacks 2 Connect Four games in shelf position 2. Game width is: 8.0"
 Guy says: Bart stacks 2 Gloomhaven games in shelf position 3. Game width is: 7.0"
-Guy says: Bart stacks 3 Risk games in shelf position 4. Game width is: 5.0"
-Guy says: Bart stacks 2 Netrunner games in shelf position 5. Game width is: 5.0"
+Guy says: Bart stacks 3 Netrunner games in shelf position 4. Game width is: 5.0"
+Guy says: Bart stacks 2 Risk games in shelf position 5. Game width is: 5.0"
 Guy says: Bart stacks 3 Clue games in shelf position 6. Game width is: 5.0"
-Guy says: Bart stacks 2 Mousetrap games in shelf position 7. Game width is: 4.0"
-Guy says: Bart stacks 3 Life games in shelf position 8. Game width is: 3.0"
+Guy says: Bart stacks 2 Life games in shelf position 7. Game width is: 3.0"
+Guy says: Bart stacks 3 Pokémon games in shelf position 8. Game width is: 2.0"
 Guy says: Bart stacks 2 Monopoly games in shelf position 9. Game width is: 2.0"
-Guy says: Bart stacks 2 Candyland games in shelf position 10. Game width is: 2.0"
-Guy says: Bart stacks 1 Pokémon games in shelf position 11. Game width is: 2.0"
-Guy says: Bart stacks 1 Magic games in shelf position 12. Game width is: 1.0"
+Guy says: Bart stacks 3 Candyland games in shelf position 10. Game width is: 2.0"
+Guy says: Bart stacks 2 Magic games in shelf position 11. Game width is: 1.0"
+Guy says: Bart stacks 1 Mousetrap games in shelf position 12. Game width is: 4.0"
 Guy says: Bart opened the store. Welcome!
-Guy says: 3 customer are in store today!
-Guy says: Bart sold 1 cookies today
-Guy says: Bart sold a Catan to customer 1 for $15.6
-Guy says: Bart sold a Mousetrap to customer 1 for $50.0
-Guy says: Bart sold a Catan to customer 2 for $15.6
-Guy says: Bart sold a Clue to customer 2 for $52.0
-Guy says: Bart sold 3 cookies today
-Guy says: Bart sold a Connect Four to customer 3 for $27.0
-Guy says: Bart sold a Gloomhaven to customer 3 for $14.5
+Guy says: Alice the demonstrator arrived at the store!
+Guy says: 1 customers are in store today!
+Guy says: Bart sold a Connect Four to Danny for $27.0
 
+Guy says: Alice the demonstrator is leaving the store!
 
 Guy says: Bart the cashier is leaving the store.
 Guy is leaving the store.
 =====================================
 
 Guy arrived on day 10
-Guy says: Bart the cashier has arrived.
-Guy says: Good morning! The amount on the cash register is $2055.0499999999993
-Guy says: Gonger the baker has arrived a the store
-Guy says: Gonger droped off 1 cookie packeges.
-Guy says: Gonger received $36.0
-Guy says: Gonger is leaving the store for today.
-Guy says: Bart is vacuuming the store 
+Guy says: Ernie the cashier has arrived.
+Guy says: Good morning! The amount on the cash register is $1449.0949999999998
+Guy says: Ernie is vacuuming the store 
 
-Guy says: Bart stacks 2 Connect Four games in shelf position 1. Game width is: 8.0"
-Guy says: Bart stacks 3 Risk games in shelf position 2. Game width is: 5.0"
-Guy says: Bart stacks 2 Netrunner games in shelf position 3. Game width is: 5.0"
-Guy says: Bart stacks 2 Clue games in shelf position 4. Game width is: 5.0"
-Guy says: Bart stacks 3 Life games in shelf position 5. Game width is: 3.0"
-Guy says: Bart stacks 2 Monopoly games in shelf position 6. Game width is: 2.0"
-Guy says: Bart stacks 2 Candyland games in shelf position 7. Game width is: 2.0"
-Guy says: Bart stacks 1 Catan games in shelf position 8. Game width is: 15.0"
-Guy says: Bart stacks 1 Gloomhaven games in shelf position 9. Game width is: 7.0"
-Guy says: Bart stacks 1 Mousetrap games in shelf position 10. Game width is: 4.0"
-Guy says: Bart stacks 1 Pokémon games in shelf position 11. Game width is: 2.0"
-Guy says: Bart stacks 1 Magic games in shelf position 12. Game width is: 1.0"
-Guy says: Bart opened the store. Welcome!
-Guy says: 3 customer are in store today!
-Guy says: Bart sold a Connect Four to customer 1 for $27.0
-Guy says: Customer 2 did not buy any game.
-Guy says: Bart sold a Candyland to customer 3 for $22.0
+Guy says: Ernie stacks 3 Pokémon games in shelf position 1. Game width is: 2.0"
+Guy says: Ernie stacks 2 Magic games in shelf position 2. Game width is: 1.0"
+Guy says: Ernie stacks 1 Mousetrap games in shelf position 3. Game width is: 4.0"
+Guy says: Ernie stacks 3 Netrunner games in shelf position 4. Game width is: 5.0"
+Guy says: Ernie stacks 2 Life games in shelf position 5. Game width is: 3.0"
+Guy says: Ernie stacks 1 Connect Four games in shelf position 6. Game width is: 8.0"
+Guy says: Ernie stacks 2 Gloomhaven games in shelf position 7. Game width is: 7.0"
+Guy says: Ernie stacks 2 Monopoly games in shelf position 8. Game width is: 2.0"
+Guy says: Ernie stacks 3 Candyland games in shelf position 9. Game width is: 2.0"
+Guy says: Ernie stacks 2 Risk games in shelf position 10. Game width is: 5.0"
+Guy says: Ernie stacks 3 Catan games in shelf position 11. Game width is: 15.0"
+Guy says: Ernie stacks 3 Clue games in shelf position 12. Game width is: 5.0"
+Guy says: Ernie opened the store. Welcome!
+Guy says: Alice the demonstrator arrived at the store!
+Guy says: 2 customers are in store today!
+Guy says: Ernie sold 3 cookies today
+Guy says: Ernie sold a Pokémon to Peter for $125.99
+Guy says: Ernie sold a Magic to Peter for $5.0
+Guy says: Alice is recommending Netrunner to Alice
+Guy says: Ernie sold 2 cookies today
+Guy says: Ernie sold a Netrunner to Alice for $12.5
+Guy says: Ernie sold a Life to Alice for $33.0
 
+Guy says: Alice the demonstrator is leaving the store!
 
-Guy says: Bart the cashier is leaving the store.
+Guy says: Ernie the cashier is leaving the store.
 Guy is leaving the store.
 =====================================
 
 Guy arrived on day 11
 Guy says: Ernie the cashier has arrived.
-Guy says: Good morning! The amount on the cash register is $2068.0499999999993
-Guy says: Gonger the baker has arrived a the store
-Guy says: Gonger droped off 1 cookie packeges.
-Guy says: Gonger received $36.0
-Guy says: Gonger is leaving the store for today.
+Guy says: Good morning! The amount on the cash register is $1679.5249999999999
 Guy says: Ernie is vacuuming the store 
 
-Guy says: Ernie stacks 1 Pokémon games in shelf position 1. Game width is: 2.0"
+Guy says: Ernie stacks 2 Pokémon games in shelf position 1. Game width is: 2.0"
 Guy says: Ernie stacks 1 Magic games in shelf position 2. Game width is: 1.0"
-Guy says: Ernie stacks 1 Candyland games in shelf position 3. Game width is: 2.0"
-Guy says: Ernie stacks 1 Gloomhaven games in shelf position 4. Game width is: 7.0"
-Guy says: Ernie stacks 2 Netrunner games in shelf position 5. Game width is: 5.0"
-Guy says: Ernie stacks 1 Catan games in shelf position 6. Game width is: 15.0"
-Guy says: Ernie stacks 1 Mousetrap games in shelf position 7. Game width is: 4.0"
-Guy says: Ernie stacks 1 Connect Four games in shelf position 8. Game width is: 8.0"
-Guy says: Ernie stacks 2 Monopoly games in shelf position 9. Game width is: 2.0"
-Guy says: Ernie stacks 3 Life games in shelf position 10. Game width is: 3.0"
-Guy says: Ernie stacks 2 Clue games in shelf position 11. Game width is: 5.0"
-Guy says: Ernie stacks 3 Risk games in shelf position 12. Game width is: 5.0"
+Guy says: Ernie stacks 1 Life games in shelf position 3. Game width is: 3.0"
+Guy says: Ernie stacks 2 Netrunner games in shelf position 4. Game width is: 5.0"
+Guy says: Ernie stacks 1 Mousetrap games in shelf position 5. Game width is: 4.0"
+Guy says: Ernie stacks 1 Connect Four games in shelf position 6. Game width is: 8.0"
+Guy says: Ernie stacks 2 Gloomhaven games in shelf position 7. Game width is: 7.0"
+Guy says: Ernie stacks 2 Monopoly games in shelf position 8. Game width is: 2.0"
+Guy says: Ernie stacks 3 Candyland games in shelf position 9. Game width is: 2.0"
+Guy says: Ernie stacks 2 Risk games in shelf position 10. Game width is: 5.0"
+Guy says: Ernie stacks 3 Catan games in shelf position 11. Game width is: 15.0"
+Guy says: Ernie stacks 3 Clue games in shelf position 12. Game width is: 5.0"
 Guy says: Ernie opened the store. Welcome!
-Guy says: 4 customer are in store today!
-Guy says: Customer 1 did not buy any game.
+Guy says: Alice the demonstrator arrived at the store!
+Guy says: 3 customers are in store today!
+Guy says: Alice is demonstrating Connect Four to Amanda
+Guy says: Alice is recommending Mousetrap to Amanda
 Guy says: Ernie sold 1 cookies today
-Guy says: Ernie sold a Candyland to customer 2 for $22.0
-Guy says: Ernie sold a Risk to customer 2 for $11.0
-Guy says: Ernie sold a Gloomhaven to customer 3 for $14.5
-Guy says: Ernie sold a Catan to customer 3 for $15.6
+Guy says: Ernie sold a Magic to Amanda for $5.0
+Guy says: Ernie sold a Life to Amanda for $33.0
 Guy says: Ernie sold 3 cookies today
-Guy says: Ernie sold a Pokémon to customer 4 for $125.99
-Guy says: Ernie sold a Magic to customer 4 for $5.0
+Guy says: Ernie sold a Pokémon to Chris for $125.99
+Guy says: Ernie sold a Connect Four to Chris for $27.0
+Guy says: Alice is recommending Catan to Tylor
+Guy says: Ernie sold 1 cookies today
+Guy says: Ernie sold a Gloomhaven to Tylor for $14.5
+Guy says: Ernie sold a Catan to Tylor for $15.6
 
-Guy says: Ernie bought 3 Pokémon games for the store.
+Guy says: Alice the demonstrator is leaving the store!
 Guy says: Ernie bought 3 Magic games for the store.
-Guy says: Ernie bought 3 Candyland games for the store.
-Guy says: Ernie bought 3 Gloomhaven games for the store.
-Guy says: Ernie bought 3 Catan games for the store.
+Guy says: Ernie bought 3 Life games for the store.
+Guy says: Ernie bought 3 Connect Four games for the store.
 
 Guy says: Ernie the cashier is leaving the store.
 Guy is leaving the store.
 =====================================
 
 Guy arrived on day 12
-Guy says: Bart the cashier has arrived.
-Guy says: Three Pokémon games arrived at the store
-Guy says: Three Magic games arrived at the store
-Guy says: Three Candyland games arrived at the store
-Guy says: Three Gloomhaven games arrived at the store
-Guy says: Three Catan games arrived at the store
-Guy says: Good morning! The amount on the cash register is $1975.5049999999987
-Guy says: Gonger the baker has arrived a the store
-Guy says: Gonger droped off 1 cookie packeges.
-Guy says: Gonger received $36.0
-Guy says: Gonger is leaving the store for today.
-Guy says: Bart is vacuuming the store 
-
-Guy says: Bart stacks 3 Catan games in shelf position 1. Game width is: 15.0"
-Guy says: Bart stacks 3 Gloomhaven games in shelf position 2. Game width is: 7.0"
-Guy says: Bart stacks 2 Netrunner games in shelf position 3. Game width is: 5.0"
-Guy says: Bart stacks 2 Clue games in shelf position 4. Game width is: 5.0"
-Guy says: Bart stacks 2 Risk games in shelf position 5. Game width is: 5.0"
-Guy says: Bart stacks 3 Life games in shelf position 6. Game width is: 3.0"
-Guy says: Bart stacks 3 Pokémon games in shelf position 7. Game width is: 2.0"
-Guy says: Bart stacks 3 Candyland games in shelf position 8. Game width is: 2.0"
-Guy says: Bart stacks 2 Monopoly games in shelf position 9. Game width is: 2.0"
-Guy says: Bart stacks 3 Magic games in shelf position 10. Game width is: 1.0"
-Guy says: Bart stacks 1 Connect Four games in shelf position 11. Game width is: 8.0"
-Guy says: Bart stacks 1 Mousetrap games in shelf position 12. Game width is: 4.0"
-Guy says: Bart opened the store. Welcome!
-Guy says: 4 customer are in store today!
-Guy says: Bart sold a Gloomhaven to customer 1 for $14.5
-Guy says: Bart sold a Risk to customer 2 for $11.0
-Guy says: Bart sold a Candyland to customer 2 for $22.0
-Guy says: Bart sold 1 cookies today
-Guy says: Bart sold a Clue to customer 3 for $52.0
-Guy says: Bart sold a Pokémon to customer 3 for $125.99
-Guy says: Bart sold 3 cookies today
-Guy says: Bart sold a Catan to customer 4 for $15.6
-Guy says: Bart sold a Gloomhaven to customer 4 for $14.5
-
-
-Guy says: Bart the cashier is leaving the store.
-Guy is leaving the store.
-=====================================
-
-Guy arrived on day 13
 Guy says: Burt the cashier has arrived.
-Guy says: Good morning! The amount on the cash register is $2273.0249999999987
-Guy says: Gonger the baker has arrived a the store
-Guy says: Gonger droped off 1 cookie packeges.
-Guy says: Gonger received $36.0
-Guy says: Gonger is leaving the store for today.
+Guy says: Three Magic games arrived at the store
+Guy says: Three Life games arrived at the store
+Guy says: Three Connect Four games arrived at the store
+Guy says: Good morning! The amount on the cash register is $1807.1049999999998
 Guy says: Burt is vacuuming the store 
 
 Guy says: Burt stacks 2 Catan games in shelf position 1. Game width is: 15.0"
-Guy says: Burt stacks 1 Connect Four games in shelf position 2. Game width is: 8.0"
+Guy says: Burt stacks 3 Connect Four games in shelf position 2. Game width is: 8.0"
 Guy says: Burt stacks 1 Gloomhaven games in shelf position 3. Game width is: 7.0"
 Guy says: Burt stacks 2 Netrunner games in shelf position 4. Game width is: 5.0"
-Guy says: Burt stacks 1 Clue games in shelf position 5. Game width is: 5.0"
-Guy says: Burt stacks 1 Risk games in shelf position 6. Game width is: 5.0"
+Guy says: Burt stacks 2 Risk games in shelf position 5. Game width is: 5.0"
+Guy says: Burt stacks 3 Clue games in shelf position 6. Game width is: 5.0"
 Guy says: Burt stacks 1 Mousetrap games in shelf position 7. Game width is: 4.0"
 Guy says: Burt stacks 3 Life games in shelf position 8. Game width is: 3.0"
-Guy says: Burt stacks 2 Pokémon games in shelf position 9. Game width is: 2.0"
-Guy says: Burt stacks 2 Candyland games in shelf position 10. Game width is: 2.0"
-Guy says: Burt stacks 2 Monopoly games in shelf position 11. Game width is: 2.0"
+Guy says: Burt stacks 1 Pokémon games in shelf position 9. Game width is: 2.0"
+Guy says: Burt stacks 2 Monopoly games in shelf position 10. Game width is: 2.0"
+Guy says: Burt stacks 3 Candyland games in shelf position 11. Game width is: 2.0"
 Guy says: Burt stacks 3 Magic games in shelf position 12. Game width is: 1.0"
 Guy says: Burt opened the store. Welcome!
-Guy says: 3 customer are in store today!
-Guy says: Burt sold 3 cookies today
-Guy says: Burt sold a Connect Four to customer 1 for $27.0
-Guy says: Burt sold a Risk to customer 1 for $11.0
+Guy says: Alice the demonstrator arrived at the store!
+Guy says: 3 customers are in store today!
+Guy says: Alice is recommending Clue to Cooper
+Guy says: Burt sold 2 cookies today
+Guy says: Burt sold a Gloomhaven to Cooper for $14.5
+Guy says: Burt sold a Mousetrap to Cooper for $50.0
+Guy says: Burt sold a Life to Noah for $33.0
+Guy says: Burt sold a Pokémon to Noah for $125.99
+Guy says: Alice is demonstrating Netrunner to Ali
 Guy says: Burt sold 1 cookies today
-Guy says: Burt sold a Catan to customer 2 for $15.6
-Guy says: Burt sold a Netrunner to customer 2 for $12.5
-Guy says: Burt sold a Catan to customer 3 for $15.6
-Guy says: Burt sold a Clue to customer 3 for $52.0
+Guy says: Burt sold a Netrunner to Ali for $12.5
+Guy says: Burt sold a Risk to Ali for $11.0
 
-Guy says: Burt bought 3 Catan games for the store.
-Guy says: Burt bought 3 Connect Four games for the store.
-Guy says: Burt bought 3 Clue games for the store.
-Guy says: Burt bought 3 Risk games for the store.
+Guy says: Alice the demonstrator is leaving the store!
+Guy says: Burt bought 3 Gloomhaven games for the store.
+Guy says: Burt bought 3 Mousetrap games for the store.
+Guy says: Burt bought 3 Pokémon games for the store.
 
 Guy says: Burt the cashier is leaving the store.
 Guy is leaving the store.
 =====================================
 
-Guy arrived on day 14
+Guy arrived on day 13
 Guy says: Ernie the cashier has arrived.
-Guy says: Three Catan games arrived at the store
-Guy says: Three Connect Four games arrived at the store
-Guy says: Three Clue games arrived at the store
-Guy says: Three Risk games arrived at the store
-Guy says: Good morning! The amount on the cash register is $2236.3249999999985
-Guy says: Gonger the baker has arrived a the store
-Guy says: Gonger droped off 1 cookie packeges.
-Guy says: Gonger received $36.0
-Guy says: Gonger is leaving the store for today.
+Guy says: Three Gloomhaven games arrived at the store
+Guy says: Three Mousetrap games arrived at the store
+Guy says: Three Pokémon games arrived at the store
+Guy says: Good morning! The amount on the cash register is $1750.36
 Guy says: Ernie is vacuuming the store 
 
-Guy says: Ernie stacks 2 Pokémon games in shelf position 1. Game width is: 2.0"
+Guy says: Ernie stacks 3 Pokémon games in shelf position 1. Game width is: 2.0"
 Guy says: Ernie stacks 1 Netrunner games in shelf position 2. Game width is: 5.0"
 Guy says: Ernie stacks 3 Magic games in shelf position 3. Game width is: 1.0"
-Guy says: Ernie stacks 1 Gloomhaven games in shelf position 4. Game width is: 7.0"
-Guy says: Ernie stacks 1 Mousetrap games in shelf position 5. Game width is: 4.0"
-Guy says: Ernie stacks 2 Candyland games in shelf position 6. Game width is: 2.0"
-Guy says: Ernie stacks 2 Monopoly games in shelf position 7. Game width is: 2.0"
-Guy says: Ernie stacks 3 Life games in shelf position 8. Game width is: 3.0"
-Guy says: Ernie stacks 3 Catan games in shelf position 9. Game width is: 15.0"
-Guy says: Ernie stacks 3 Risk games in shelf position 10. Game width is: 5.0"
+Guy says: Ernie stacks 1 Risk games in shelf position 4. Game width is: 5.0"
+Guy says: Ernie stacks 2 Life games in shelf position 5. Game width is: 3.0"
+Guy says: Ernie stacks 2 Monopoly games in shelf position 6. Game width is: 2.0"
+Guy says: Ernie stacks 2 Catan games in shelf position 7. Game width is: 15.0"
+Guy says: Ernie stacks 3 Candyland games in shelf position 8. Game width is: 2.0"
+Guy says: Ernie stacks 3 Gloomhaven games in shelf position 9. Game width is: 7.0"
+Guy says: Ernie stacks 3 Mousetrap games in shelf position 10. Game width is: 4.0"
 Guy says: Ernie stacks 3 Clue games in shelf position 11. Game width is: 5.0"
 Guy says: Ernie stacks 3 Connect Four games in shelf position 12. Game width is: 8.0"
 Guy says: Ernie opened the store. Welcome!
-Guy says: 1 customer are in store today!
-Guy says: Ernie sold 2 cookies today
-Guy says: Ernie sold a Netrunner to customer 1 for $12.5
-Guy says: Ernie sold a Mousetrap to customer 1 for $50.0
+Guy says: Alice the demonstrator arrived at the store!
+Guy says: 4 customers are in store today!
+Guy says: Ernie sold a Catan to Katie for $15.6
+Guy says: Ernie sold a Netrunner to Lauren for $12.5
+Guy says: Alice is recommending Magic to Juliana
+Guy says: Ernie sold a Gloomhaven to Juliana for $14.5
+Guy says: Ernie sold a Clue to Juliana for $52.0
+Guy says: Ernie sold a Magic to Pedro for $5.0
+Guy says: Ernie sold a Risk to Pedro for $11.0
 
+Guy says: Alice the demonstrator is leaving the store!
 Guy says: Ernie bought 3 Netrunner games for the store.
-Guy says: Ernie bought 3 Mousetrap games for the store.
+Guy says: Ernie bought 3 Risk games for the store.
 
 Guy says: Ernie the cashier is leaving the store.
 Guy is leaving the store.
 =====================================
 
-Guy arrived on day 15
+Guy arrived on day 14
 Guy says: Bart the cashier has arrived.
 Guy says: Three Netrunner games arrived at the store
-Guy says: Three Mousetrap games arrived at the store
-Guy says: Good morning! The amount on the cash register is $2181.0749999999985
-Guy says: Gonger the baker has arrived a the store
-Guy says: Gonger droped off 1 cookie packeges.
-Guy says: Gonger received $36.0
-Guy says: Gonger is leaving the store for today.
+Guy says: Three Risk games arrived at the store
+Guy says: Good morning! The amount on the cash register is $1809.6899999999998
 Guy says: Bart is vacuuming the store 
 
-Guy says: Bart stacks 3 Catan games in shelf position 1. Game width is: 15.0"
-Guy says: Bart stacks 3 Connect Four games in shelf position 2. Game width is: 8.0"
+Guy says: Bart stacks 3 Connect Four games in shelf position 1. Game width is: 8.0"
+Guy says: Bart stacks 2 Gloomhaven games in shelf position 2. Game width is: 7.0"
 Guy says: Bart stacks 3 Netrunner games in shelf position 3. Game width is: 5.0"
 Guy says: Bart stacks 3 Risk games in shelf position 4. Game width is: 5.0"
-Guy says: Bart stacks 3 Clue games in shelf position 5. Game width is: 5.0"
+Guy says: Bart stacks 2 Clue games in shelf position 5. Game width is: 5.0"
 Guy says: Bart stacks 3 Mousetrap games in shelf position 6. Game width is: 4.0"
-Guy says: Bart stacks 3 Life games in shelf position 7. Game width is: 3.0"
-Guy says: Bart stacks 2 Pokémon games in shelf position 8. Game width is: 2.0"
-Guy says: Bart stacks 2 Candyland games in shelf position 9. Game width is: 2.0"
-Guy says: Bart stacks 2 Monopoly games in shelf position 10. Game width is: 2.0"
-Guy says: Bart stacks 3 Magic games in shelf position 11. Game width is: 1.0"
-Guy says: Bart stacks 1 Gloomhaven games in shelf position 12. Game width is: 7.0"
+Guy says: Bart stacks 2 Life games in shelf position 7. Game width is: 3.0"
+Guy says: Bart stacks 3 Pokémon games in shelf position 8. Game width is: 2.0"
+Guy says: Bart stacks 2 Monopoly games in shelf position 9. Game width is: 2.0"
+Guy says: Bart stacks 3 Candyland games in shelf position 10. Game width is: 2.0"
+Guy says: Bart stacks 2 Magic games in shelf position 11. Game width is: 1.0"
+Guy says: Bart stacks 1 Catan games in shelf position 12. Game width is: 15.0"
 Guy says: Bart opened the store. Welcome!
-Guy says: 3 customer are in store today!
-Guy says: Customer 1 did not buy any game.
-Guy says: Bart sold 1 cookies today
-Guy says: Bart sold a Magic to customer 2 for $5.0
-Guy says: Bart sold a Gloomhaven to customer 2 for $14.5
-Guy says: Bart sold a Catan to customer 3 for $15.6
-Guy says: Bart sold a Netrunner to customer 3 for $12.5
+Guy says: Alice the demonstrator arrived at the store!
+Guy says: 2 customers are in store today!
+Guy says: Alice is demonstrating Monopoly to Sherlock
+Guy says: Bart sold 2 cookies today
+Guy says: Bart sold a Connect Four to Sherlock for $27.0
+Guy says: Bart sold a Netrunner to Sherlock for $12.5
+Guy says: Bart sold 3 cookies today
+Guy says: Bart sold a Netrunner to Gaia for $12.5
+Guy says: Bart sold a Mousetrap to Gaia for $50.0
 
-Guy says: Bart bought 3 Gloomhaven games for the store.
+Guy says: Alice the demonstrator is leaving the store!
 
 Guy says: Bart the cashier is leaving the store.
 Guy is leaving the store.
 =====================================
 
+Guy arrived on day 15
+Guy says: Ernie the cashier has arrived.
+Guy says: Good morning! The amount on the cash register is $1917.6799999999998
+Guy says: Ernie is vacuuming the store 
+
+Guy says: Ernie stacks 3 Pokémon games in shelf position 1. Game width is: 2.0"
+Guy says: Ernie stacks 2 Magic games in shelf position 2. Game width is: 1.0"
+Guy says: Ernie stacks 1 Netrunner games in shelf position 3. Game width is: 5.0"
+Guy says: Ernie stacks 1 Catan games in shelf position 4. Game width is: 15.0"
+Guy says: Ernie stacks 2 Life games in shelf position 5. Game width is: 3.0"
+Guy says: Ernie stacks 2 Gloomhaven games in shelf position 6. Game width is: 7.0"
+Guy says: Ernie stacks 2 Monopoly games in shelf position 7. Game width is: 2.0"
+Guy says: Ernie stacks 3 Candyland games in shelf position 8. Game width is: 2.0"
+Guy says: Ernie stacks 2 Mousetrap games in shelf position 9. Game width is: 4.0"
+Guy says: Ernie stacks 2 Clue games in shelf position 10. Game width is: 5.0"
+Guy says: Ernie stacks 2 Connect Four games in shelf position 11. Game width is: 8.0"
+Guy says: Ernie stacks 3 Risk games in shelf position 12. Game width is: 5.0"
+Guy says: Ernie opened the store. Welcome!
+Guy says: Alice the demonstrator arrived at the store!
+Guy says: 2 customers are in store today!
+Guy says: Ernie sold 2 cookies today
+Guy says: Ernie sold a Magic to Ayla for $5.0
+Guy says: Ernie sold a Netrunner to Ayla for $12.5
+Guy says: Ernie sold 3 cookies today
+Guy says: Ernie sold a Pokémon to Melissa for $125.99
+Guy says: Ernie sold a Magic to Melissa for $5.0
+
+Guy says: Alice the demonstrator is leaving the store!
+Guy says: Ernie bought 3 Magic games for the store.
+Guy says: Ernie bought 3 Netrunner games for the store.
+
+Guy says: Ernie the cashier is leaving the store.
+Guy is leaving the store.
+=====================================
+
 Guy arrived on day 16
 Guy says: Ernie the cashier has arrived.
-Guy says: Three Gloomhaven games arrived at the store
-Guy says: Good morning! The amount on the cash register is $2176.9249999999984
-Guy says: Gonger the baker has arrived a the store
-Guy says: Gonger droped off 1 cookie packeges.
-Guy says: Gonger received $36.0
-Guy says: Gonger is leaving the store for today.
+Guy says: Three Magic games arrived at the store
+Guy says: Three Netrunner games arrived at the store
+Guy says: Good morning! The amount on the cash register is $2033.9199999999996
 Guy says: Ernie is vacuuming the store 
 
 Guy says: Ernie stacks 2 Pokémon games in shelf position 1. Game width is: 2.0"
-Guy says: Ernie stacks 2 Magic games in shelf position 2. Game width is: 1.0"
-Guy says: Ernie stacks 2 Netrunner games in shelf position 3. Game width is: 5.0"
-Guy says: Ernie stacks 2 Candyland games in shelf position 4. Game width is: 2.0"
-Guy says: Ernie stacks 2 Monopoly games in shelf position 5. Game width is: 2.0"
-Guy says: Ernie stacks 2 Catan games in shelf position 6. Game width is: 15.0"
-Guy says: Ernie stacks 3 Life games in shelf position 7. Game width is: 3.0"
-Guy says: Ernie stacks 3 Gloomhaven games in shelf position 8. Game width is: 7.0"
-Guy says: Ernie stacks 3 Risk games in shelf position 9. Game width is: 5.0"
-Guy says: Ernie stacks 3 Mousetrap games in shelf position 10. Game width is: 4.0"
-Guy says: Ernie stacks 3 Clue games in shelf position 11. Game width is: 5.0"
-Guy says: Ernie stacks 3 Connect Four games in shelf position 12. Game width is: 8.0"
+Guy says: Ernie stacks 3 Magic games in shelf position 2. Game width is: 1.0"
+Guy says: Ernie stacks 1 Catan games in shelf position 3. Game width is: 15.0"
+Guy says: Ernie stacks 3 Netrunner games in shelf position 4. Game width is: 5.0"
+Guy says: Ernie stacks 2 Life games in shelf position 5. Game width is: 3.0"
+Guy says: Ernie stacks 2 Gloomhaven games in shelf position 6. Game width is: 7.0"
+Guy says: Ernie stacks 2 Monopoly games in shelf position 7. Game width is: 2.0"
+Guy says: Ernie stacks 3 Candyland games in shelf position 8. Game width is: 2.0"
+Guy says: Ernie stacks 2 Mousetrap games in shelf position 9. Game width is: 4.0"
+Guy says: Ernie stacks 2 Clue games in shelf position 10. Game width is: 5.0"
+Guy says: Ernie stacks 2 Connect Four games in shelf position 11. Game width is: 8.0"
+Guy says: Ernie stacks 3 Risk games in shelf position 12. Game width is: 5.0"
 Guy says: Ernie opened the store. Welcome!
-Guy says: 9 customer are in store today!
-Guy says: Ernie sold 1 cookies today
-Guy says: Ernie sold a Netrunner to customer 1 for $12.5
-Guy says: Ernie sold a Candyland to customer 1 for $22.0
-Guy says: Ernie sold 2 cookies today
-Guy says: Ernie sold a Pokémon to customer 2 for $125.99
-Guy says: Ernie sold a Magic to customer 2 for $5.0
-Guy says: Ernie sold a Magic to customer 3 for $5.0
-Guy says: Ernie sold a Netrunner to customer 3 for $12.5
-Guy says: Ernie sold a Life to customer 4 for $33.0
-Guy says: Ernie sold a Clue to customer 4 for $52.0
-Guy says: Ernie sold a Pokémon to customer 5 for $125.99
-Guy says: Ernie sold 3 cookies today
-Guy says: Ernie sold a Clue to customer 6 for $52.0
-Guy says: Ernie sold 3 cookies today
-Guy says: Ernie sold a Monopoly to customer 7 for $42.0
-Guy says: Ernie sold a Catan to customer 7 for $15.6
-Guy says: Ernie sold 3 cookies today
-Guy says: Ernie sold a Candyland to customer 8 for $22.0
-Guy says: Ernie sold a Monopoly to customer 8 for $42.0
-Guy says: Ernie sold a Catan to customer 9 for $15.6
+Guy says: Alice the demonstrator arrived at the store!
+Guy says: 1 customers are in store today!
+Guy says: Ernie sold a Pokémon to Sophie for $125.99
+Guy says: Ernie sold a Magic to Sophie for $5.0
 
-Guy says: Ernie bought 3 Pokémon games for the store.
-Guy says: Ernie bought 3 Magic games for the store.
-Guy says: Ernie bought 3 Netrunner games for the store.
-Guy says: Ernie bought 3 Candyland games for the store.
-Guy says: Ernie bought 3 Monopoly games for the store.
-Guy says: Ernie bought 3 Catan games for the store.
+Guy says: Alice the demonstrator is leaving the store!
 
 Guy says: Ernie the cashier is leaving the store.
 Guy is leaving the store.
@@ -671,124 +584,105 @@ Guy is leaving the store.
 
 Guy arrived on day 17
 Guy says: Ernie the cashier has arrived.
-Guy says: Three Pokémon games arrived at the store
-Guy says: Three Magic games arrived at the store
-Guy says: Three Netrunner games arrived at the store
-Guy says: Three Candyland games arrived at the store
-Guy says: Three Monopoly games arrived at the store
-Guy says: Three Catan games arrived at the store
-Guy says: Good morning! The amount on the cash register is $2536.9899999999975
-Guy says: Gonger the baker has arrived a the store
-Guy says: Gonger droped off 2 cookie packeges.
-Guy says: Gonger received $72.0
-Guy says: Gonger is leaving the store for today.
+Guy says: Good morning! The amount on the cash register is $2128.9099999999994
 Guy says: Ernie is vacuuming the store 
 
-Guy says: Ernie stacks 3 Pokémon games in shelf position 1. Game width is: 2.0"
-Guy says: Ernie stacks 3 Magic games in shelf position 2. Game width is: 1.0"
-Guy says: Ernie stacks 3 Netrunner games in shelf position 3. Game width is: 5.0"
-Guy says: Ernie stacks 1 Clue games in shelf position 4. Game width is: 5.0"
+Guy says: Ernie stacks 1 Pokémon games in shelf position 1. Game width is: 2.0"
+Guy says: Ernie stacks 2 Magic games in shelf position 2. Game width is: 1.0"
+Guy says: Ernie stacks 1 Catan games in shelf position 3. Game width is: 15.0"
+Guy says: Ernie stacks 3 Netrunner games in shelf position 4. Game width is: 5.0"
 Guy says: Ernie stacks 2 Life games in shelf position 5. Game width is: 3.0"
-Guy says: Ernie stacks 3 Candyland games in shelf position 6. Game width is: 2.0"
-Guy says: Ernie stacks 3 Gloomhaven games in shelf position 7. Game width is: 7.0"
-Guy says: Ernie stacks 3 Monopoly games in shelf position 8. Game width is: 2.0"
-Guy says: Ernie stacks 3 Catan games in shelf position 9. Game width is: 15.0"
-Guy says: Ernie stacks 3 Risk games in shelf position 10. Game width is: 5.0"
-Guy says: Ernie stacks 3 Mousetrap games in shelf position 11. Game width is: 4.0"
-Guy says: Ernie stacks 3 Connect Four games in shelf position 12. Game width is: 8.0"
+Guy says: Ernie stacks 2 Gloomhaven games in shelf position 6. Game width is: 7.0"
+Guy says: Ernie stacks 2 Monopoly games in shelf position 7. Game width is: 2.0"
+Guy says: Ernie stacks 3 Candyland games in shelf position 8. Game width is: 2.0"
+Guy says: Ernie stacks 2 Mousetrap games in shelf position 9. Game width is: 4.0"
+Guy says: Ernie stacks 2 Clue games in shelf position 10. Game width is: 5.0"
+Guy says: Ernie stacks 2 Connect Four games in shelf position 11. Game width is: 8.0"
+Guy says: Ernie stacks 3 Risk games in shelf position 12. Game width is: 5.0"
 Guy says: Ernie opened the store. Welcome!
-Guy says: 4 customer are in store today!
-Guy says: Ernie sold 2 cookies today
-Guy says: Ernie sold a Pokémon to customer 1 for $125.99
-Guy says: Ernie sold a Clue to customer 1 for $52.0
-Guy says: Ernie sold a Magic to customer 2 for $5.0
-Guy says: Ernie sold a Pokémon to customer 3 for $125.99
-Guy says: Ernie sold a Life to customer 3 for $33.0
-Guy says: Ernie sold a Pokémon to customer 4 for $125.99
-Guy says: Ernie sold a Catan to customer 4 for $15.6
+Guy says: Alice the demonstrator arrived at the store!
+Guy says: 1 customers are in store today!
+Guy says: Alice is demonstrating Magic to Max
+Guy says: Alice is recommending Pokémon to Max
+Guy says: Ernie sold a Pokémon to Max for $125.99
+Guy says: Ernie sold a Netrunner to Max for $12.5
 
+Guy says: Alice the demonstrator is leaving the store!
 Guy says: Ernie bought 3 Pokémon games for the store.
-Guy says: Ernie bought 3 Clue games for the store.
 
 Guy says: Ernie the cashier is leaving the store.
 Guy is leaving the store.
 =====================================
 
 Guy arrived on day 18
-Guy says: Burt the cashier has arrived.
+Guy says: Ernie the cashier has arrived.
 Guy says: Three Pokémon games arrived at the store
-Guy says: Three Clue games arrived at the store
-Guy says: Good morning! The amount on the cash register is $2733.5349999999967
-Guy says: Gonger the baker has arrived a the store
-Guy says: Gonger droped off 1 cookie packeges.
-Guy says: Gonger received $36.0
-Guy says: Gonger is leaving the store for today.
-Guy says: Burt is vacuuming the store 
+Guy says: Good morning! The amount on the cash register is $2062.394999999999
+Guy says: Ernie is vacuuming the store 
 
-Guy says: Burt stacks 2 Catan games in shelf position 1. Game width is: 15.0"
-Guy says: Burt stacks 3 Connect Four games in shelf position 2. Game width is: 8.0"
-Guy says: Burt stacks 3 Gloomhaven games in shelf position 3. Game width is: 7.0"
-Guy says: Burt stacks 3 Netrunner games in shelf position 4. Game width is: 5.0"
-Guy says: Burt stacks 3 Clue games in shelf position 5. Game width is: 5.0"
-Guy says: Burt stacks 3 Risk games in shelf position 6. Game width is: 5.0"
-Guy says: Burt stacks 3 Mousetrap games in shelf position 7. Game width is: 4.0"
-Guy says: Burt stacks 1 Life games in shelf position 8. Game width is: 3.0"
-Guy says: Burt stacks 3 Pokémon games in shelf position 9. Game width is: 2.0"
-Guy says: Burt stacks 3 Candyland games in shelf position 10. Game width is: 2.0"
-Guy says: Burt stacks 3 Monopoly games in shelf position 11. Game width is: 2.0"
-Guy says: Burt stacks 2 Magic games in shelf position 12. Game width is: 1.0"
-Guy says: Burt opened the store. Welcome!
-Guy says: 5 customer are in store today!
-Guy says: Burt sold 1 cookies today
-Guy says: Burt sold a Candyland to customer 1 for $22.0
-Guy says: Burt sold a Monopoly to customer 1 for $42.0
-Guy says: Burt sold 2 cookies today
-Guy says: Burt sold a Netrunner to customer 2 for $12.5
-Guy says: Burt sold a Pokémon to customer 2 for $125.99
-Guy says: Burt sold a Risk to customer 3 for $11.0
-Guy says: Burt sold a Life to customer 3 for $33.0
-Guy says: Burt sold a Risk to customer 4 for $11.0
-Guy says: Burt sold a Monopoly to customer 4 for $42.0
-Guy says: Burt sold a Catan to customer 5 for $15.6
-Guy says: Burt sold a Gloomhaven to customer 5 for $14.5
+Guy says: Ernie stacks 3 Pokémon games in shelf position 1. Game width is: 2.0"
+Guy says: Ernie stacks 2 Magic games in shelf position 2. Game width is: 1.0"
+Guy says: Ernie stacks 2 Netrunner games in shelf position 3. Game width is: 5.0"
+Guy says: Ernie stacks 1 Catan games in shelf position 4. Game width is: 15.0"
+Guy says: Ernie stacks 2 Life games in shelf position 5. Game width is: 3.0"
+Guy says: Ernie stacks 2 Gloomhaven games in shelf position 6. Game width is: 7.0"
+Guy says: Ernie stacks 2 Monopoly games in shelf position 7. Game width is: 2.0"
+Guy says: Ernie stacks 3 Candyland games in shelf position 8. Game width is: 2.0"
+Guy says: Ernie stacks 2 Mousetrap games in shelf position 9. Game width is: 4.0"
+Guy says: Ernie stacks 2 Clue games in shelf position 10. Game width is: 5.0"
+Guy says: Ernie stacks 2 Connect Four games in shelf position 11. Game width is: 8.0"
+Guy says: Ernie stacks 3 Risk games in shelf position 12. Game width is: 5.0"
+Guy says: Ernie opened the store. Welcome!
+Guy says: Alice the demonstrator arrived at the store!
+Guy says: 2 customers are in store today!
+Guy says: Ernie sold a Catan to Madi for $15.6
+Guy says: Ernie sold a Monopoly to Madi for $42.0
+Guy says: Ernie sold 3 cookies today
+Guy says: Ernie sold a Netrunner to Allie for $12.5
+Guy says: Ernie sold a Mousetrap to Allie for $50.0
 
-Guy says: Burt bought 3 Life games for the store.
+Guy says: Alice the demonstrator is leaving the store!
+Guy says: Ernie bought 3 Catan games for the store.
 
-Guy says: Burt the cashier is leaving the store.
+Guy says: Ernie the cashier is leaving the store.
 Guy is leaving the store.
 =====================================
 
 Guy arrived on day 19
 Guy says: Burt the cashier has arrived.
-Guy says: Three Life games arrived at the store
-Guy says: Good morning! The amount on the cash register is $2995.6249999999964
-Guy says: Gonger the baker has arrived a the store
-Guy says: Gonger droped off 1 cookie packeges.
-Guy says: Gonger received $36.0
-Guy says: Gonger is leaving the store for today.
+Guy says: Three Catan games arrived at the store
+Guy says: Good morning! The amount on the cash register is $2146.684999999999
 Guy says: Burt is vacuuming the store 
 
-Guy says: Burt stacks 1 Catan games in shelf position 1. Game width is: 15.0"
-Guy says: Burt stacks 3 Connect Four games in shelf position 2. Game width is: 8.0"
+Guy says: Burt stacks 3 Catan games in shelf position 1. Game width is: 15.0"
+Guy says: Burt stacks 2 Connect Four games in shelf position 2. Game width is: 8.0"
 Guy says: Burt stacks 2 Gloomhaven games in shelf position 3. Game width is: 7.0"
-Guy says: Burt stacks 2 Netrunner games in shelf position 4. Game width is: 5.0"
-Guy says: Burt stacks 3 Clue games in shelf position 5. Game width is: 5.0"
-Guy says: Burt stacks 1 Risk games in shelf position 6. Game width is: 5.0"
-Guy says: Burt stacks 3 Mousetrap games in shelf position 7. Game width is: 4.0"
-Guy says: Burt stacks 3 Life games in shelf position 8. Game width is: 3.0"
-Guy says: Burt stacks 2 Pokémon games in shelf position 9. Game width is: 2.0"
-Guy says: Burt stacks 2 Candyland games in shelf position 10. Game width is: 2.0"
-Guy says: Burt stacks 1 Monopoly games in shelf position 11. Game width is: 2.0"
+Guy says: Burt stacks 1 Netrunner games in shelf position 4. Game width is: 5.0"
+Guy says: Burt stacks 2 Clue games in shelf position 5. Game width is: 5.0"
+Guy says: Burt stacks 3 Risk games in shelf position 6. Game width is: 5.0"
+Guy says: Burt stacks 1 Mousetrap games in shelf position 7. Game width is: 4.0"
+Guy says: Burt stacks 2 Life games in shelf position 8. Game width is: 3.0"
+Guy says: Burt stacks 3 Pokémon games in shelf position 9. Game width is: 2.0"
+Guy says: Burt stacks 1 Monopoly games in shelf position 10. Game width is: 2.0"
+Guy says: Burt stacks 3 Candyland games in shelf position 11. Game width is: 2.0"
 Guy says: Burt stacks 2 Magic games in shelf position 12. Game width is: 1.0"
 Guy says: Burt opened the store. Welcome!
-Guy says: 3 customer are in store today!
-Guy says: Burt said that a cookie monster visited the store. Oh no!
-Guy says: The game Pokémon was damaged by the cookie monster and placed on the Damaged Game Container
-Guy says: The game Pokémon was damaged by the cookie monster and placed on the Damaged Game Container
-Guy says: Customer 2 did not buy any game.
-Guy says: Customer 3 did not buy any game.
+Guy says: Alice the demonstrator arrived at the store!
+Guy says: 3 customers are in store today!
+Guy says: Alice is demonstrating Monopoly to Sammie
+Guy says: Alice is recommending Clue to Sammie
+Guy says: Customer 0 (Sammie) did not buy any game.
+Guy says: Alice is demonstrating Magic to Alice
+Guy says: Burt sold a Connect Four to Alice for $27.0
+Guy says: Burt sold a Pokémon to Alice for $125.99
+Guy says: Alice is explaning Risk to Bob
+Guy says: Burt sold 1 cookies today
+Guy says: Burt sold a Connect Four to Bob for $27.0
+Guy says: Burt sold a Netrunner to Bob for $12.5
 
-Guy says: Burt bought 3 Pokémon games for the store.
+Guy says: Alice the demonstrator is leaving the store!
+Guy says: Burt bought 3 Connect Four games for the store.
+Guy says: Burt bought 3 Netrunner games for the store.
 
 Guy says: Burt the cashier is leaving the store.
 Guy is leaving the store.
@@ -796,35 +690,31 @@ Guy is leaving the store.
 
 Guy arrived on day 20
 Guy says: Bart the cashier has arrived.
-Guy says: Three Pokémon games arrived at the store
-Guy says: Good morning! The amount on the cash register is $2770.6399999999962
-Guy says: Gonger the baker has arrived a the store
-Guy says: Gonger droped off 2 cookie packeges.
-Guy says: Gonger received $72.0
-Guy says: Gonger is leaving the store for today.
+Guy says: Three Connect Four games arrived at the store
+Guy says: Three Netrunner games arrived at the store
+Guy says: Good morning! The amount on the cash register is $2289.884999999999
 Guy says: Bart is vacuuming the store 
-Guy says: The game Catan is damaged and placed on the Damaged Game Container
 
-Guy says: Bart stacks 0 Catan games in shelf position 1. Game width is: 15.0"
+Guy says: Bart stacks 3 Catan games in shelf position 1. Game width is: 15.0"
 Guy says: Bart stacks 3 Connect Four games in shelf position 2. Game width is: 8.0"
 Guy says: Bart stacks 2 Gloomhaven games in shelf position 3. Game width is: 7.0"
-Guy says: Bart stacks 2 Netrunner games in shelf position 4. Game width is: 5.0"
-Guy says: Bart stacks 3 Clue games in shelf position 5. Game width is: 5.0"
-Guy says: Bart stacks 3 Mousetrap games in shelf position 6. Game width is: 4.0"
-Guy says: Bart stacks 3 Life games in shelf position 7. Game width is: 3.0"
-Guy says: Bart stacks 3 Pokémon games in shelf position 8. Game width is: 2.0"
-Guy says: Bart stacks 2 Candyland games in shelf position 9. Game width is: 2.0"
+Guy says: Bart stacks 3 Netrunner games in shelf position 4. Game width is: 5.0"
+Guy says: Bart stacks 2 Clue games in shelf position 5. Game width is: 5.0"
+Guy says: Bart stacks 3 Risk games in shelf position 6. Game width is: 5.0"
+Guy says: Bart stacks 2 Life games in shelf position 7. Game width is: 3.0"
+Guy says: Bart stacks 2 Pokémon games in shelf position 8. Game width is: 2.0"
+Guy says: Bart stacks 3 Candyland games in shelf position 9. Game width is: 2.0"
 Guy says: Bart stacks 2 Magic games in shelf position 10. Game width is: 1.0"
-Guy says: Bart stacks 1 Risk games in shelf position 11. Game width is: 5.0"
+Guy says: Bart stacks 1 Mousetrap games in shelf position 11. Game width is: 4.0"
 Guy says: Bart stacks 1 Monopoly games in shelf position 12. Game width is: 2.0"
 Guy says: Bart opened the store. Welcome!
-Guy says: 2 customer are in store today!
-Guy says: Customer 1 did not buy any game.
-Guy says: Bart sold 2 cookies today
-Guy says: Bart sold a Connect Four to customer 2 for $27.0
-Guy says: Bart sold a Clue to customer 2 for $52.0
+Guy says: Alice the demonstrator arrived at the store!
+Guy says: 1 customers are in store today!
+Guy says: Bart sold 3 cookies today
+Guy says: Bart sold a Gloomhaven to Devin for $14.5
+Guy says: Bart sold a Clue to Devin for $52.0
 
-Guy says: Bart bought 3 Catan games for the store.
+Guy says: Alice the demonstrator is leaving the store!
 
 Guy says: Bart the cashier is leaving the store.
 Guy is leaving the store.
@@ -832,44 +722,34 @@ Guy is leaving the store.
 
 Guy arrived on day 21
 Guy says: Ernie the cashier has arrived.
-Guy says: Three Catan games arrived at the store
-Guy says: Good morning! The amount on the cash register is $2766.239999999996
-Guy says: Gonger the baker has arrived a the store
-Guy says: Gonger droped off 1 cookie packeges.
-Guy says: Gonger received $36.0
-Guy says: Gonger is leaving the store for today.
+Guy says: Good morning! The amount on the cash register is $2338.384999999999
 Guy says: Ernie is vacuuming the store 
 
-Guy says: Ernie stacks 3 Pokémon games in shelf position 1. Game width is: 2.0"
+Guy says: Ernie stacks 2 Pokémon games in shelf position 1. Game width is: 2.0"
 Guy says: Ernie stacks 2 Magic games in shelf position 2. Game width is: 1.0"
-Guy says: Ernie stacks 2 Netrunner games in shelf position 3. Game width is: 5.0"
+Guy says: Ernie stacks 1 Gloomhaven games in shelf position 3. Game width is: 7.0"
 Guy says: Ernie stacks 1 Monopoly games in shelf position 4. Game width is: 2.0"
-Guy says: Ernie stacks 1 Risk games in shelf position 5. Game width is: 5.0"
-Guy says: Ernie stacks 2 Candyland games in shelf position 6. Game width is: 2.0"
-Guy says: Ernie stacks 2 Gloomhaven games in shelf position 7. Game width is: 7.0"
-Guy says: Ernie stacks 3 Life games in shelf position 8. Game width is: 3.0"
-Guy says: Ernie stacks 2 Clue games in shelf position 9. Game width is: 5.0"
+Guy says: Ernie stacks 1 Mousetrap games in shelf position 5. Game width is: 4.0"
+Guy says: Ernie stacks 3 Netrunner games in shelf position 6. Game width is: 5.0"
+Guy says: Ernie stacks 1 Clue games in shelf position 7. Game width is: 5.0"
+Guy says: Ernie stacks 2 Life games in shelf position 8. Game width is: 3.0"
+Guy says: Ernie stacks 3 Candyland games in shelf position 9. Game width is: 2.0"
 Guy says: Ernie stacks 3 Catan games in shelf position 10. Game width is: 15.0"
-Guy says: Ernie stacks 2 Connect Four games in shelf position 11. Game width is: 8.0"
-Guy says: Ernie stacks 3 Mousetrap games in shelf position 12. Game width is: 4.0"
+Guy says: Ernie stacks 3 Risk games in shelf position 11. Game width is: 5.0"
+Guy says: Ernie stacks 3 Connect Four games in shelf position 12. Game width is: 8.0"
 Guy says: Ernie opened the store. Welcome!
-Guy says: 6 customer are in store today!
-Guy says: Ernie sold a Pokémon to customer 1 for $125.99
-Guy says: Ernie sold a Pokémon to customer 2 for $125.99
-Guy says: Ernie sold a Netrunner to customer 2 for $12.5
-Guy says: Ernie sold 2 cookies today
-Guy says: Ernie sold a Monopoly to customer 3 for $42.0
-Guy says: Ernie sold a Magic to customer 4 for $5.0
-Guy says: Ernie sold a Connect Four to customer 4 for $27.0
-Guy says: Ernie sold 3 cookies today
-Guy says: Ernie sold a Magic to customer 5 for $5.0
-Guy says: Ernie sold a Risk to customer 5 for $11.0
-Guy says: Ernie sold a Gloomhaven to customer 6 for $14.5
-Guy says: Ernie sold a Clue to customer 6 for $52.0
+Guy says: Alice the demonstrator arrived at the store!
+Guy says: 2 customers are in store today!
+Guy says: Ernie sold a Pokémon to Lucas for $125.99
+Guy says: Ernie sold a Monopoly to Lucas for $42.0
+Guy says: Alice is demonstrating Pokémon to Felipe
+Guy says: Ernie sold a Gloomhaven to Felipe for $14.5
+Guy says: Ernie sold a Mousetrap to Felipe for $50.0
 
-Guy says: Ernie bought 3 Magic games for the store.
+Guy says: Alice the demonstrator is leaving the store!
+Guy says: Ernie bought 3 Gloomhaven games for the store.
 Guy says: Ernie bought 3 Monopoly games for the store.
-Guy says: Ernie bought 3 Risk games for the store.
+Guy says: Ernie bought 3 Mousetrap games for the store.
 
 Guy says: Ernie the cashier is leaving the store.
 Guy is leaving the store.
@@ -877,456 +757,405 @@ Guy is leaving the store.
 
 Guy arrived on day 22
 Guy says: Ernie the cashier has arrived.
-Guy says: Three Magic games arrived at the store
+Guy says: Three Gloomhaven games arrived at the store
 Guy says: Three Monopoly games arrived at the store
-Guy says: Three Risk games arrived at the store
-Guy says: Good morning! The amount on the cash register is $3129.779999999996
-Guy says: Gonger the baker has arrived a the store
-Guy says: Gonger droped off 1 cookie packeges.
-Guy says: Gonger received $36.0
-Guy says: Gonger is leaving the store for today.
+Guy says: Three Mousetrap games arrived at the store
+Guy says: Good morning! The amount on the cash register is $2375.1249999999986
 Guy says: Ernie is vacuuming the store 
 
 Guy says: Ernie stacks 1 Pokémon games in shelf position 1. Game width is: 2.0"
-Guy says: Ernie stacks 1 Netrunner games in shelf position 2. Game width is: 5.0"
-Guy says: Ernie stacks 3 Magic games in shelf position 3. Game width is: 1.0"
-Guy says: Ernie stacks 1 Gloomhaven games in shelf position 4. Game width is: 7.0"
-Guy says: Ernie stacks 2 Candyland games in shelf position 5. Game width is: 2.0"
-Guy says: Ernie stacks 1 Clue games in shelf position 6. Game width is: 5.0"
-Guy says: Ernie stacks 1 Connect Four games in shelf position 7. Game width is: 8.0"
-Guy says: Ernie stacks 3 Life games in shelf position 8. Game width is: 3.0"
-Guy says: Ernie stacks 3 Monopoly games in shelf position 9. Game width is: 2.0"
-Guy says: Ernie stacks 3 Catan games in shelf position 10. Game width is: 15.0"
+Guy says: Ernie stacks 2 Magic games in shelf position 2. Game width is: 1.0"
+Guy says: Ernie stacks 3 Netrunner games in shelf position 3. Game width is: 5.0"
+Guy says: Ernie stacks 1 Clue games in shelf position 4. Game width is: 5.0"
+Guy says: Ernie stacks 2 Life games in shelf position 5. Game width is: 3.0"
+Guy says: Ernie stacks 3 Candyland games in shelf position 6. Game width is: 2.0"
+Guy says: Ernie stacks 3 Gloomhaven games in shelf position 7. Game width is: 7.0"
+Guy says: Ernie stacks 3 Monopoly games in shelf position 8. Game width is: 2.0"
+Guy says: Ernie stacks 3 Catan games in shelf position 9. Game width is: 15.0"
+Guy says: Ernie stacks 3 Mousetrap games in shelf position 10. Game width is: 4.0"
 Guy says: Ernie stacks 3 Risk games in shelf position 11. Game width is: 5.0"
-Guy says: Ernie stacks 3 Mousetrap games in shelf position 12. Game width is: 4.0"
+Guy says: Ernie stacks 3 Connect Four games in shelf position 12. Game width is: 8.0"
 Guy says: Ernie opened the store. Welcome!
-Guy says: 3 customer are in store today!
-Guy says: Ernie sold 1 cookies today
-Guy says: Ernie sold a Pokémon to customer 1 for $125.99
-Guy says: Ernie sold a Netrunner to customer 1 for $12.5
-Guy says: Ernie sold a Magic to customer 2 for $5.0
-Guy says: Ernie sold a Clue to customer 2 for $52.0
-Guy says: Ernie sold a Magic to customer 3 for $5.0
-Guy says: Ernie sold a Connect Four to customer 3 for $27.0
+Guy says: Alice the demonstrator arrived at the store!
+Guy says: 4 customers are in store today!
+Guy says: Alice is demonstrating Life to Bruce Montgomery
+Guy says: Alice is explaning Clue to Bruce Montgomery
+Guy says: Ernie sold a Netrunner to Bruce Montgomery for $12.5
+Guy says: Ernie sold a Life to Bruce Montgomery for $33.0
+Guy says: Alice is explaning Candyland to Zach
+Guy says: Ernie sold a Mousetrap to Zach for $50.0
+Guy says: Ernie sold 2 cookies today
+Guy says: Ernie sold a Pokémon to Murray Cox for $125.99
+Guy says: Ernie sold a Life to Murray Cox for $33.0
+Guy says: Alice is recommending Catan to Rachel Cox
+Guy says: Ernie sold a Gloomhaven to Rachel Cox for $14.5
+Guy says: Ernie sold a Monopoly to Rachel Cox for $42.0
 
+Guy says: Alice the demonstrator is leaving the store!
 Guy says: Ernie bought 3 Pokémon games for the store.
-Guy says: Ernie bought 3 Netrunner games for the store.
-Guy says: Ernie bought 3 Clue games for the store.
-Guy says: Ernie bought 3 Connect Four games for the store.
+Guy says: Ernie bought 3 Life games for the store.
 
 Guy says: Ernie the cashier is leaving the store.
 Guy is leaving the store.
 =====================================
 
 Guy arrived on day 23
-Guy says: Bart the cashier has arrived.
+Guy says: Ernie the cashier has arrived.
 Guy says: Three Pokémon games arrived at the store
-Guy says: Three Netrunner games arrived at the store
-Guy says: Three Clue games arrived at the store
-Guy says: Three Connect Four games arrived at the store
-Guy says: Good morning! The amount on the cash register is $3001.0349999999958
-Guy says: Gonger the baker has arrived a the store
-Guy says: Gonger droped off 1 cookie packeges.
-Guy says: Gonger received $36.0
-Guy says: Gonger is leaving the store for today.
-Guy says: Bart is vacuuming the store 
+Guy says: Three Life games arrived at the store
+Guy says: Good morning! The amount on the cash register is $2471.1799999999985
+Guy says: Ernie is vacuuming the store 
 
-Guy says: Bart stacks 3 Catan games in shelf position 1. Game width is: 15.0"
-Guy says: Bart stacks 3 Connect Four games in shelf position 2. Game width is: 8.0"
-Guy says: Bart stacks 3 Netrunner games in shelf position 3. Game width is: 5.0"
-Guy says: Bart stacks 3 Clue games in shelf position 4. Game width is: 5.0"
-Guy says: Bart stacks 3 Risk games in shelf position 5. Game width is: 5.0"
-Guy says: Bart stacks 3 Mousetrap games in shelf position 6. Game width is: 4.0"
-Guy says: Bart stacks 3 Life games in shelf position 7. Game width is: 3.0"
-Guy says: Bart stacks 3 Pokémon games in shelf position 8. Game width is: 2.0"
-Guy says: Bart stacks 2 Candyland games in shelf position 9. Game width is: 2.0"
-Guy says: Bart stacks 3 Monopoly games in shelf position 10. Game width is: 2.0"
-Guy says: Bart stacks 1 Gloomhaven games in shelf position 11. Game width is: 7.0"
-Guy says: Bart stacks 1 Magic games in shelf position 12. Game width is: 1.0"
-Guy says: Bart opened the store. Welcome!
-Guy says: 4 customer are in store today!
-Guy says: Bart sold a Connect Four to customer 1 for $27.0
-Guy says: Bart sold a Netrunner to customer 1 for $12.5
-Guy says: Customer 2 did not buy any game.
-Guy says: Bart sold 3 cookies today
-Guy says: Bart sold a Catan to customer 3 for $15.6
-Guy says: Bart sold a Catan to customer 4 for $15.6
-Guy says: Bart sold a Connect Four to customer 4 for $27.0
+Guy says: Ernie stacks 3 Pokémon games in shelf position 1. Game width is: 2.0"
+Guy says: Ernie stacks 2 Magic games in shelf position 2. Game width is: 1.0"
+Guy says: Ernie stacks 2 Netrunner games in shelf position 3. Game width is: 5.0"
+Guy says: Ernie stacks 1 Clue games in shelf position 4. Game width is: 5.0"
+Guy says: Ernie stacks 2 Gloomhaven games in shelf position 5. Game width is: 7.0"
+Guy says: Ernie stacks 2 Monopoly games in shelf position 6. Game width is: 2.0"
+Guy says: Ernie stacks 3 Candyland games in shelf position 7. Game width is: 2.0"
+Guy says: Ernie stacks 3 Life games in shelf position 8. Game width is: 3.0"
+Guy says: Ernie stacks 2 Mousetrap games in shelf position 9. Game width is: 4.0"
+Guy says: Ernie stacks 3 Catan games in shelf position 10. Game width is: 15.0"
+Guy says: Ernie stacks 3 Risk games in shelf position 11. Game width is: 5.0"
+Guy says: Ernie stacks 3 Connect Four games in shelf position 12. Game width is: 8.0"
+Guy says: Ernie opened the store. Welcome!
+Guy says: Alice the demonstrator arrived at the store!
+Guy says: 2 customers are in store today!
+Guy says: Alice is demonstrating Pokémon to Dwight
+Guy says: Alice is explaning Pokémon to Dwight
+Guy says: Ernie sold 1 cookies today
+Guy says: Ernie sold a Pokémon to Dwight for $125.99
+Guy says: Ernie sold a Magic to Dwight for $5.0
+Guy says: Alice is demonstrating Gloomhaven to Max
+Guy says: Alice is recommending Gloomhaven to Max
+Guy says: Alice is explaning Gloomhaven to Max
+Guy says: Ernie sold 2 cookies today
+Guy says: Ernie sold a Pokémon to Max for $125.99
+Guy says: Ernie sold a Gloomhaven to Max for $14.5
 
+Guy says: Alice the demonstrator is leaving the store!
 
-Guy says: Bart the cashier is leaving the store.
+Guy says: Ernie the cashier is leaving the store.
 Guy is leaving the store.
 =====================================
 
 Guy arrived on day 24
 Guy says: Ernie the cashier has arrived.
-Guy says: Good morning! The amount on the cash register is $3080.7349999999956
-Guy says: Gonger the baker has arrived a the store
-Guy says: Gonger droped off 1 cookie packeges.
-Guy says: Gonger received $36.0
-Guy says: Gonger is leaving the store for today.
+Guy says: Good morning! The amount on the cash register is $2724.659999999998
 Guy says: Ernie is vacuuming the store 
 
-Guy says: Ernie stacks 1 Magic games in shelf position 1. Game width is: 1.0"
-Guy says: Ernie stacks 3 Pokémon games in shelf position 2. Game width is: 2.0"
+Guy says: Ernie stacks 1 Pokémon games in shelf position 1. Game width is: 2.0"
+Guy says: Ernie stacks 1 Magic games in shelf position 2. Game width is: 1.0"
 Guy says: Ernie stacks 1 Gloomhaven games in shelf position 3. Game width is: 7.0"
 Guy says: Ernie stacks 2 Netrunner games in shelf position 4. Game width is: 5.0"
-Guy says: Ernie stacks 1 Catan games in shelf position 5. Game width is: 15.0"
-Guy says: Ernie stacks 2 Candyland games in shelf position 6. Game width is: 2.0"
-Guy says: Ernie stacks 1 Connect Four games in shelf position 7. Game width is: 8.0"
+Guy says: Ernie stacks 1 Clue games in shelf position 5. Game width is: 5.0"
+Guy says: Ernie stacks 2 Monopoly games in shelf position 6. Game width is: 2.0"
+Guy says: Ernie stacks 3 Candyland games in shelf position 7. Game width is: 2.0"
 Guy says: Ernie stacks 3 Life games in shelf position 8. Game width is: 3.0"
-Guy says: Ernie stacks 3 Monopoly games in shelf position 9. Game width is: 2.0"
-Guy says: Ernie stacks 3 Risk games in shelf position 10. Game width is: 5.0"
-Guy says: Ernie stacks 3 Mousetrap games in shelf position 11. Game width is: 4.0"
-Guy says: Ernie stacks 3 Clue games in shelf position 12. Game width is: 5.0"
+Guy says: Ernie stacks 2 Mousetrap games in shelf position 9. Game width is: 4.0"
+Guy says: Ernie stacks 3 Catan games in shelf position 10. Game width is: 15.0"
+Guy says: Ernie stacks 3 Risk games in shelf position 11. Game width is: 5.0"
+Guy says: Ernie stacks 3 Connect Four games in shelf position 12. Game width is: 8.0"
 Guy says: Ernie opened the store. Welcome!
-Guy says: 5 customer are in store today!
-Guy says: Ernie sold 3 cookies today
-Guy says: Ernie sold a Candyland to customer 1 for $22.0
-Guy says: Ernie sold a Connect Four to customer 1 for $27.0
-Guy says: Ernie sold 3 cookies today
-Guy says: Ernie sold a Magic to customer 2 for $5.0
-Guy says: Ernie sold a Gloomhaven to customer 2 for $14.5
-Guy says: Ernie sold 3 cookies today
-Guy says: Ernie sold a Mousetrap to customer 3 for $50.0
+Guy says: Alice the demonstrator arrived at the store!
+Guy says: 2 customers are in store today!
+Guy says: Alice is demonstrating Monopoly to Roshan
+Guy says: Alice is recommending Clue to Roshan
 Guy says: Ernie sold 1 cookies today
-Guy says: Ernie sold a Pokémon to customer 4 for $125.99
-Guy says: Ernie sold a Catan to customer 4 for $15.6
-Guy says: Ernie sold a Pokémon to customer 5 for $125.99
-Guy says: Ernie sold a Netrunner to customer 5 for $12.5
+Guy says: Ernie sold a Magic to Roshan for $5.0
+Guy says: Ernie sold a Netrunner to Roshan for $12.5
+Guy says: Alice is demonstrating Risk to Gayathri
+Guy says: Ernie sold a Pokémon to Gayathri for $125.99
+Guy says: Ernie sold a Life to Gayathri for $33.0
 
+Guy says: Alice the demonstrator is leaving the store!
+Guy says: Ernie bought 3 Pokémon games for the store.
 Guy says: Ernie bought 3 Magic games for the store.
-Guy says: Ernie bought 3 Gloomhaven games for the store.
-Guy says: Ernie bought 3 Catan games for the store.
-Guy says: Ernie bought 3 Connect Four games for the store.
 
 Guy says: Ernie the cashier is leaving the store.
 Guy is leaving the store.
 =====================================
 
 Guy arrived on day 25
-Guy says: Ernie the cashier has arrived.
+Guy says: Bart the cashier has arrived.
+Guy says: Three Pokémon games arrived at the store
 Guy says: Three Magic games arrived at the store
-Guy says: Three Gloomhaven games arrived at the store
-Guy says: Three Catan games arrived at the store
-Guy says: Three Connect Four games arrived at the store
-Guy says: Good morning! The amount on the cash register is $3414.144999999995
-Guy says: Gonger the baker has arrived a the store
-Guy says: Gonger droped off 1 cookie packeges.
-Guy says: Gonger received $36.0
-Guy says: Gonger is leaving the store for today.
+Guy says: Good morning! The amount on the cash register is $2674.6649999999977
+Guy says: Bart is vacuuming the store 
+
+Guy says: Bart stacks 3 Catan games in shelf position 1. Game width is: 15.0"
+Guy says: Bart stacks 3 Connect Four games in shelf position 2. Game width is: 8.0"
+Guy says: Bart stacks 3 Risk games in shelf position 3. Game width is: 5.0"
+Guy says: Bart stacks 2 Mousetrap games in shelf position 4. Game width is: 4.0"
+Guy says: Bart stacks 2 Life games in shelf position 5. Game width is: 3.0"
+Guy says: Bart stacks 3 Pokémon games in shelf position 6. Game width is: 2.0"
+Guy says: Bart stacks 2 Monopoly games in shelf position 7. Game width is: 2.0"
+Guy says: Bart stacks 3 Candyland games in shelf position 8. Game width is: 2.0"
+Guy says: Bart stacks 3 Magic games in shelf position 9. Game width is: 1.0"
+Guy says: Bart stacks 1 Gloomhaven games in shelf position 10. Game width is: 7.0"
+Guy says: Bart stacks 1 Netrunner games in shelf position 11. Game width is: 5.0"
+Guy says: Bart stacks 1 Clue games in shelf position 12. Game width is: 5.0"
+Guy says: Bart opened the store. Welcome!
+Guy says: Alice the demonstrator arrived at the store!
+Guy says: 1 customers are in store today!
+Guy says: Alice is recommending Pokémon to Vardhini
+Guy says: Bart sold 2 cookies today
+Guy says: Customer 0 (Vardhini) did not buy any game.
+
+Guy says: Alice the demonstrator is leaving the store!
+
+Guy says: Bart the cashier is leaving the store.
+Guy is leaving the store.
+=====================================
+
+Guy arrived on day 26
+Guy says: Ernie the cashier has arrived.
+Guy says: Good morning! The amount on the cash register is $2650.6649999999977
 Guy says: Ernie is vacuuming the store 
 
-Guy says: Ernie stacks 1 Pokémon games in shelf position 1. Game width is: 2.0"
+Guy says: Ernie stacks 3 Pokémon games in shelf position 1. Game width is: 2.0"
 Guy says: Ernie stacks 1 Netrunner games in shelf position 2. Game width is: 5.0"
 Guy says: Ernie stacks 3 Magic games in shelf position 3. Game width is: 1.0"
-Guy says: Ernie stacks 1 Candyland games in shelf position 4. Game width is: 2.0"
-Guy says: Ernie stacks 3 Life games in shelf position 5. Game width is: 3.0"
-Guy says: Ernie stacks 2 Mousetrap games in shelf position 6. Game width is: 4.0"
-Guy says: Ernie stacks 3 Gloomhaven games in shelf position 7. Game width is: 7.0"
-Guy says: Ernie stacks 3 Monopoly games in shelf position 8. Game width is: 2.0"
-Guy says: Ernie stacks 3 Catan games in shelf position 9. Game width is: 15.0"
-Guy says: Ernie stacks 3 Risk games in shelf position 10. Game width is: 5.0"
-Guy says: Ernie stacks 3 Clue games in shelf position 11. Game width is: 5.0"
+Guy says: Ernie stacks 1 Gloomhaven games in shelf position 4. Game width is: 7.0"
+Guy says: Ernie stacks 1 Clue games in shelf position 5. Game width is: 5.0"
+Guy says: Ernie stacks 2 Life games in shelf position 6. Game width is: 3.0"
+Guy says: Ernie stacks 2 Monopoly games in shelf position 7. Game width is: 2.0"
+Guy says: Ernie stacks 3 Candyland games in shelf position 8. Game width is: 2.0"
+Guy says: Ernie stacks 2 Mousetrap games in shelf position 9. Game width is: 4.0"
+Guy says: Ernie stacks 3 Catan games in shelf position 10. Game width is: 15.0"
+Guy says: Ernie stacks 3 Risk games in shelf position 11. Game width is: 5.0"
 Guy says: Ernie stacks 3 Connect Four games in shelf position 12. Game width is: 8.0"
 Guy says: Ernie opened the store. Welcome!
-Guy says: 2 customer are in store today!
-Guy says: Ernie sold a Magic to customer 1 for $5.0
-Guy says: Ernie sold a Pokémon to customer 2 for $125.99
+Guy says: Alice the demonstrator arrived at the store!
+Guy says: 1 customers are in store today!
+Guy says: Alice is recommending Gloomhaven to Jon
+Guy says: Ernie sold 2 cookies today
+Guy says: Ernie sold a Netrunner to Jon for $12.5
+Guy says: Ernie sold a Gloomhaven to Jon for $14.5
 
-Guy says: Ernie bought 3 Pokémon games for the store.
+Guy says: Alice the demonstrator is leaving the store!
+Guy says: Ernie bought 3 Netrunner games for the store.
+Guy says: Ernie bought 3 Gloomhaven games for the store.
 
 Guy says: Ernie the cashier is leaving the store.
 Guy is leaving the store.
 =====================================
 
-Guy arrived on day 26
-Guy says: Bart the cashier has arrived.
-Guy says: Three Pokémon games arrived at the store
-Guy says: Good morning! The amount on the cash register is $3320.1499999999946
-Guy says: Gonger the baker has arrived a the store
-Guy says: Gonger droped off 1 cookie packeges.
-Guy says: Gonger received $36.0
-Guy says: Gonger is leaving the store for today.
-Guy says: Bart is vacuuming the store 
-
-Guy says: Bart stacks 3 Catan games in shelf position 1. Game width is: 15.0"
-Guy says: Bart stacks 3 Connect Four games in shelf position 2. Game width is: 8.0"
-Guy says: Bart stacks 3 Gloomhaven games in shelf position 3. Game width is: 7.0"
-Guy says: Bart stacks 3 Risk games in shelf position 4. Game width is: 5.0"
-Guy says: Bart stacks 3 Clue games in shelf position 5. Game width is: 5.0"
-Guy says: Bart stacks 2 Mousetrap games in shelf position 6. Game width is: 4.0"
-Guy says: Bart stacks 3 Life games in shelf position 7. Game width is: 3.0"
-Guy says: Bart stacks 3 Pokémon games in shelf position 8. Game width is: 2.0"
-Guy says: Bart stacks 3 Monopoly games in shelf position 9. Game width is: 2.0"
-Guy says: Bart stacks 2 Magic games in shelf position 10. Game width is: 1.0"
-Guy says: Bart stacks 1 Netrunner games in shelf position 11. Game width is: 5.0"
-Guy says: Bart stacks 1 Candyland games in shelf position 12. Game width is: 2.0"
-Guy says: Bart opened the store. Welcome!
-Guy says: 3 customer are in store today!
-Guy says: Bart sold 2 cookies today
-Guy says: Bart sold a Connect Four to customer 1 for $27.0
-Guy says: Bart sold a Risk to customer 1 for $11.0
-Guy says: Bart sold a Catan to customer 2 for $15.6
-Guy says: Bart sold a Connect Four to customer 2 for $27.0
-Guy says: Bart sold a Gloomhaven to customer 3 for $14.5
-Guy says: Bart sold a Clue to customer 3 for $52.0
-
-
-Guy says: Bart the cashier is leaving the store.
-Guy is leaving the store.
-=====================================
-
 Guy arrived on day 27
-Guy says: Burt the cashier has arrived.
-Guy says: Good morning! The amount on the cash register is $3443.2499999999945
-Guy says: Gonger the baker has arrived a the store
-Guy says: Gonger droped off 1 cookie packeges.
-Guy says: Gonger received $36.0
-Guy says: Gonger is leaving the store for today.
-Guy says: Burt is vacuuming the store 
+Guy says: Ernie the cashier has arrived.
+Guy says: Three Netrunner games arrived at the store
+Guy says: Three Gloomhaven games arrived at the store
+Guy says: Good morning! The amount on the cash register is $2613.1649999999977
+Guy says: Ernie is vacuuming the store 
 
-Guy says: Burt stacks 2 Catan games in shelf position 1. Game width is: 15.0"
-Guy says: Burt stacks 1 Connect Four games in shelf position 2. Game width is: 8.0"
-Guy says: Burt stacks 2 Gloomhaven games in shelf position 3. Game width is: 7.0"
-Guy says: Burt stacks 2 Risk games in shelf position 4. Game width is: 5.0"
-Guy says: Burt stacks 2 Clue games in shelf position 5. Game width is: 5.0"
-Guy says: Burt stacks 1 Netrunner games in shelf position 6. Game width is: 5.0"
-Guy says: Burt stacks 2 Mousetrap games in shelf position 7. Game width is: 4.0"
-Guy says: Burt stacks 3 Life games in shelf position 8. Game width is: 3.0"
-Guy says: Burt stacks 3 Pokémon games in shelf position 9. Game width is: 2.0"
-Guy says: Burt stacks 3 Monopoly games in shelf position 10. Game width is: 2.0"
-Guy says: Burt stacks 1 Candyland games in shelf position 11. Game width is: 2.0"
-Guy says: Burt stacks 2 Magic games in shelf position 12. Game width is: 1.0"
-Guy says: Burt opened the store. Welcome!
-Guy says: 2 customer are in store today!
-Guy says: Burt sold a Risk to customer 1 for $11.0
-Guy says: Burt sold 3 cookies today
-Guy says: Burt sold a Risk to customer 2 for $11.0
-Guy says: Burt sold a Netrunner to customer 2 for $12.5
+Guy says: Ernie stacks 3 Pokémon games in shelf position 1. Game width is: 2.0"
+Guy says: Ernie stacks 3 Magic games in shelf position 2. Game width is: 1.0"
+Guy says: Ernie stacks 3 Netrunner games in shelf position 3. Game width is: 5.0"
+Guy says: Ernie stacks 1 Clue games in shelf position 4. Game width is: 5.0"
+Guy says: Ernie stacks 2 Life games in shelf position 5. Game width is: 3.0"
+Guy says: Ernie stacks 2 Monopoly games in shelf position 6. Game width is: 2.0"
+Guy says: Ernie stacks 3 Candyland games in shelf position 7. Game width is: 2.0"
+Guy says: Ernie stacks 2 Mousetrap games in shelf position 8. Game width is: 4.0"
+Guy says: Ernie stacks 3 Gloomhaven games in shelf position 9. Game width is: 7.0"
+Guy says: Ernie stacks 3 Catan games in shelf position 10. Game width is: 15.0"
+Guy says: Ernie stacks 3 Risk games in shelf position 11. Game width is: 5.0"
+Guy says: Ernie stacks 3 Connect Four games in shelf position 12. Game width is: 8.0"
+Guy says: Ernie opened the store. Welcome!
+Guy says: Alice the demonstrator arrived at the store!
+Guy says: 2 customers are in store today!
+Guy says: Alice is explaning Mousetrap to Mathew
+Guy says: Ernie sold 1 cookies today
+Guy says: Ernie sold a Clue to Mathew for $52.0
+Guy says: Ernie sold a Candyland to Mathew for $22.0
+Guy says: Ernie sold a Pokémon to Julia for $125.99
+Guy says: Ernie sold a Magic to Julia for $5.0
 
-Guy says: Burt bought 3 Risk games for the store.
-Guy says: Burt bought 3 Netrunner games for the store.
+Guy says: Alice the demonstrator is leaving the store!
+Guy says: Ernie bought 3 Clue games for the store.
 
-Guy says: Burt the cashier is leaving the store.
+Guy says: Ernie the cashier is leaving the store.
 Guy is leaving the store.
 =====================================
 
 Guy arrived on day 28
-Guy says: Bart the cashier has arrived.
-Guy says: Three Risk games arrived at the store
-Guy says: Three Netrunner games arrived at the store
-Guy says: Good morning! The amount on the cash register is $3424.4999999999945
-Guy says: Gonger the baker has arrived a the store
-Guy says: Gonger droped off 1 cookie packeges.
-Guy says: Gonger received $36.0
-Guy says: Gonger is leaving the store for today.
-Guy says: Bart is vacuuming the store 
+Guy says: Ernie the cashier has arrived.
+Guy says: Three Clue games arrived at the store
+Guy says: Good morning! The amount on the cash register is $2760.1049999999973
+Guy says: Ernie is vacuuming the store 
 
-Guy says: Bart stacks 2 Catan games in shelf position 1. Game width is: 15.0"
-Guy says: Bart stacks 2 Gloomhaven games in shelf position 2. Game width is: 7.0"
-Guy says: Bart stacks 3 Risk games in shelf position 3. Game width is: 5.0"
-Guy says: Bart stacks 2 Clue games in shelf position 4. Game width is: 5.0"
-Guy says: Bart stacks 3 Netrunner games in shelf position 5. Game width is: 5.0"
-Guy says: Bart stacks 2 Mousetrap games in shelf position 6. Game width is: 4.0"
-Guy says: Bart stacks 3 Life games in shelf position 7. Game width is: 3.0"
-Guy says: Bart stacks 3 Pokémon games in shelf position 8. Game width is: 2.0"
-Guy says: Bart stacks 3 Monopoly games in shelf position 9. Game width is: 2.0"
-Guy says: Bart stacks 2 Magic games in shelf position 10. Game width is: 1.0"
-Guy says: Bart stacks 1 Connect Four games in shelf position 11. Game width is: 8.0"
-Guy says: Bart stacks 1 Candyland games in shelf position 12. Game width is: 2.0"
-Guy says: Bart opened the store. Welcome!
-Guy says: 5 customer are in store today!
-Guy says: Bart sold 2 cookies today
-Guy says: Bart sold a Life to customer 1 for $33.0
-Guy says: Bart sold a Pokémon to customer 1 for $125.99
-Guy says: Bart sold 3 cookies today
-Guy says: Bart sold a Catan to customer 2 for $15.6
-Guy says: Bart sold a Gloomhaven to customer 2 for $14.5
-Guy says: Bart sold 3 cookies today
-Guy says: Bart sold a Gloomhaven to customer 3 for $14.5
-Guy says: Bart sold a Mousetrap to customer 3 for $50.0
-Guy says: Bart sold a Risk to customer 4 for $11.0
-Guy says: Bart sold a Netrunner to customer 4 for $12.5
-Guy says: Bart sold 2 cookies today
-Guy says: Bart sold a Catan to customer 5 for $15.6
-Guy says: Bart sold a Clue to customer 5 for $52.0
+Guy says: Ernie stacks 2 Pokémon games in shelf position 1. Game width is: 2.0"
+Guy says: Ernie stacks 2 Magic games in shelf position 2. Game width is: 1.0"
+Guy says: Ernie stacks 2 Candyland games in shelf position 3. Game width is: 2.0"
+Guy says: Ernie stacks 3 Netrunner games in shelf position 4. Game width is: 5.0"
+Guy says: Ernie stacks 2 Life games in shelf position 5. Game width is: 3.0"
+Guy says: Ernie stacks 2 Monopoly games in shelf position 6. Game width is: 2.0"
+Guy says: Ernie stacks 2 Mousetrap games in shelf position 7. Game width is: 4.0"
+Guy says: Ernie stacks 3 Gloomhaven games in shelf position 8. Game width is: 7.0"
+Guy says: Ernie stacks 3 Catan games in shelf position 9. Game width is: 15.0"
+Guy says: Ernie stacks 3 Risk games in shelf position 10. Game width is: 5.0"
+Guy says: Ernie stacks 3 Clue games in shelf position 11. Game width is: 5.0"
+Guy says: Ernie stacks 3 Connect Four games in shelf position 12. Game width is: 8.0"
+Guy says: Ernie opened the store. Welcome!
+Guy says: Alice the demonstrator arrived at the store!
+Guy says: 1 customers are in store today!
+Guy says: Alice is demonstrating Netrunner to Andrew
+Guy says: Ernie sold a Life to Andrew for $33.0
+Guy says: Ernie sold a Gloomhaven to Andrew for $14.5
 
-Guy says: Bart bought 3 Catan games for the store.
-Guy says: Bart bought 3 Gloomhaven games for the store.
+Guy says: Alice the demonstrator is leaving the store!
 
-Guy says: Bart the cashier is leaving the store.
+Guy says: Ernie the cashier is leaving the store.
 Guy is leaving the store.
 =====================================
 
 Guy arrived on day 29
 Guy says: Bart the cashier has arrived.
-Guy says: Three Catan games arrived at the store
-Guy says: Three Gloomhaven games arrived at the store
-Guy says: Good morning! The amount on the cash register is $3778.009999999994
-Guy says: Gonger the baker has arrived a the store
-Guy says: Gonger droped off 1 cookie packeges.
-Guy says: Gonger received $36.0
-Guy says: Gonger is leaving the store for today.
+Guy says: Good morning! The amount on the cash register is $2771.6049999999973
 Guy says: Bart is vacuuming the store 
 
 Guy says: Bart stacks 3 Catan games in shelf position 1. Game width is: 15.0"
-Guy says: Bart stacks 3 Gloomhaven games in shelf position 2. Game width is: 7.0"
-Guy says: Bart stacks 2 Risk games in shelf position 3. Game width is: 5.0"
-Guy says: Bart stacks 2 Netrunner games in shelf position 4. Game width is: 5.0"
-Guy says: Bart stacks 2 Life games in shelf position 5. Game width is: 3.0"
-Guy says: Bart stacks 2 Pokémon games in shelf position 6. Game width is: 2.0"
-Guy says: Bart stacks 3 Monopoly games in shelf position 7. Game width is: 2.0"
-Guy says: Bart stacks 2 Magic games in shelf position 8. Game width is: 1.0"
-Guy says: Bart stacks 1 Connect Four games in shelf position 9. Game width is: 8.0"
-Guy says: Bart stacks 1 Clue games in shelf position 10. Game width is: 5.0"
-Guy says: Bart stacks 1 Mousetrap games in shelf position 11. Game width is: 4.0"
-Guy says: Bart stacks 1 Candyland games in shelf position 12. Game width is: 2.0"
+Guy says: Bart stacks 3 Connect Four games in shelf position 2. Game width is: 8.0"
+Guy says: Bart stacks 2 Gloomhaven games in shelf position 3. Game width is: 7.0"
+Guy says: Bart stacks 3 Netrunner games in shelf position 4. Game width is: 5.0"
+Guy says: Bart stacks 3 Risk games in shelf position 5. Game width is: 5.0"
+Guy says: Bart stacks 3 Clue games in shelf position 6. Game width is: 5.0"
+Guy says: Bart stacks 2 Mousetrap games in shelf position 7. Game width is: 4.0"
+Guy says: Bart stacks 2 Pokémon games in shelf position 8. Game width is: 2.0"
+Guy says: Bart stacks 2 Candyland games in shelf position 9. Game width is: 2.0"
+Guy says: Bart stacks 2 Monopoly games in shelf position 10. Game width is: 2.0"
+Guy says: Bart stacks 2 Magic games in shelf position 11. Game width is: 1.0"
+Guy says: Bart stacks 1 Life games in shelf position 12. Game width is: 3.0"
 Guy says: Bart opened the store. Welcome!
-Guy says: 5 customer are in store today!
-Guy says: Bart sold a Gloomhaven to customer 1 for $14.5
-Guy says: Bart sold a Catan to customer 2 for $15.6
-Guy says: Bart sold a Risk to customer 2 for $11.0
-Guy says: Bart sold 2 cookies today
-Guy says: Bart sold a Pokémon to customer 3 for $125.99
-Guy says: Bart sold a Mousetrap to customer 3 for $50.0
-Guy says: Bart sold 1 cookies today
-Guy says: Bart sold a Catan to customer 4 for $15.6
-Guy says: Bart sold a Risk to customer 4 for $11.0
-Guy says: Bart sold a Netrunner to customer 5 for $12.5
+Guy says: Alice the demonstrator arrived at the store!
+Guy says: 1 customers are in store today!
+Guy says: Bart sold a Catan to Aspen for $15.6
 
-Guy says: Bart bought 3 Risk games for the store.
-Guy says: Bart bought 3 Mousetrap games for the store.
+Guy says: Alice the demonstrator is leaving the store!
 
 Guy says: Bart the cashier is leaving the store.
 Guy is leaving the store.
 =====================================
 
 Guy arrived on day 30
-Guy says: Ernie the cashier has arrived.
-Guy says: Three Risk games arrived at the store
-Guy says: Three Mousetrap games arrived at the store
-Guy says: Good morning! The amount on the cash register is $3928.6799999999935
-Guy says: Gonger the baker has arrived a the store
-Guy says: Gonger droped off 1 cookie packeges.
-Guy says: Gonger received $36.0
-Guy says: Gonger is leaving the store for today.
-Guy says: Ernie is vacuuming the store 
+Guy says: Burt the cashier has arrived.
+Guy says: Good morning! The amount on the cash register is $2751.204999999997
+Guy says: Burt is vacuuming the store 
 
-Guy says: Ernie stacks 1 Pokémon games in shelf position 1. Game width is: 2.0"
-Guy says: Ernie stacks 2 Magic games in shelf position 2. Game width is: 1.0"
-Guy says: Ernie stacks 1 Netrunner games in shelf position 3. Game width is: 5.0"
-Guy says: Ernie stacks 1 Candyland games in shelf position 4. Game width is: 2.0"
-Guy says: Ernie stacks 1 Catan games in shelf position 5. Game width is: 15.0"
-Guy says: Ernie stacks 1 Clue games in shelf position 6. Game width is: 5.0"
-Guy says: Ernie stacks 2 Life games in shelf position 7. Game width is: 3.0"
-Guy says: Ernie stacks 1 Connect Four games in shelf position 8. Game width is: 8.0"
-Guy says: Ernie stacks 2 Gloomhaven games in shelf position 9. Game width is: 7.0"
-Guy says: Ernie stacks 3 Monopoly games in shelf position 10. Game width is: 2.0"
-Guy says: Ernie stacks 3 Risk games in shelf position 11. Game width is: 5.0"
-Guy says: Ernie stacks 3 Mousetrap games in shelf position 12. Game width is: 4.0"
-Guy says: Ernie opened the store. Welcome!
-Guy says: 3 customer are in store today!
-Guy says: Ernie sold a Pokémon to customer 1 for $125.99
-Guy says: Ernie sold a Gloomhaven to customer 2 for $14.5
-Guy says: Customer 3 did not buy any game.
+Guy says: Burt stacks 2 Catan games in shelf position 1. Game width is: 15.0"
+Guy says: Burt stacks 3 Connect Four games in shelf position 2. Game width is: 8.0"
+Guy says: Burt stacks 2 Gloomhaven games in shelf position 3. Game width is: 7.0"
+Guy says: Burt stacks 3 Netrunner games in shelf position 4. Game width is: 5.0"
+Guy says: Burt stacks 3 Risk games in shelf position 5. Game width is: 5.0"
+Guy says: Burt stacks 3 Clue games in shelf position 6. Game width is: 5.0"
+Guy says: Burt stacks 2 Mousetrap games in shelf position 7. Game width is: 4.0"
+Guy says: Burt stacks 1 Life games in shelf position 8. Game width is: 3.0"
+Guy says: Burt stacks 2 Pokémon games in shelf position 9. Game width is: 2.0"
+Guy says: Burt stacks 2 Candyland games in shelf position 10. Game width is: 2.0"
+Guy says: Burt stacks 2 Monopoly games in shelf position 11. Game width is: 2.0"
+Guy says: Burt stacks 2 Magic games in shelf position 12. Game width is: 1.0"
+Guy says: Burt opened the store. Welcome!
+Guy says: Alice the demonstrator arrived at the store!
+Guy says: 2 customers are in store today!
+Guy says: Burt sold a Connect Four to Kate for $27.0
+Guy says: Burt sold a Gloomhaven to Danny for $14.5
+Guy says: Burt sold a Netrunner to Danny for $12.5
 
-Guy says: Ernie bought 3 Pokémon games for the store.
+Guy says: Alice the demonstrator is leaving the store!
 
-Guy says: Ernie the cashier is leaving the store.
+Guy says: Burt the cashier is leaving the store.
 Guy is leaving the store.
 =====================================
 
 After 30 days, here is the summary of the store: 
 Games on inventory: 
-Pokémon: 0 games on inventory.
-Magic: 2 games on inventory.
-Netrunner: 1 games on inventory.
-Candyland: 1 games on inventory.
-Catan: 1 games on inventory.
-Clue: 1 games on inventory.
-Life: 2 games on inventory.
-Connect Four: 1 games on inventory.
+Catan: 2 games on inventory.
+Connect Four: 2 games on inventory.
 Gloomhaven: 1 games on inventory.
-Monopoly: 3 games on inventory.
+Netrunner: 2 games on inventory.
 Risk: 3 games on inventory.
-Mousetrap: 3 games on inventory.
+Clue: 3 games on inventory.
+Mousetrap: 2 games on inventory.
+Life: 1 games on inventory.
+Pokémon: 2 games on inventory.
+Candyland: 2 games on inventory.
+Monopoly: 2 games on inventory.
+Magic: 2 games on inventory.
 
 Games sold: 
-Pokémon: 19 games sold.
-Magic: 16 games sold.
-Netrunner: 17 games sold.
-Candyland: 11 games sold.
-Catan: 24 games sold.
-Clue: 17 games sold.
-Life: 10 games sold.
-Connect Four: 17 games sold.
-Gloomhaven: 20 games sold.
-Monopoly: 6 games sold.
-Risk: 21 games sold.
-Mousetrap: 6 games sold.
+Catan: 7 games sold.
+Connect Four: 7 games sold.
+Gloomhaven: 14 games sold.
+Netrunner: 19 games sold.
+Risk: 3 games sold.
+Clue: 3 games sold.
+Mousetrap: 7 games sold.
+Life: 11 games sold.
+Pokémon: 16 games sold.
+Candyland: 4 games sold.
+Monopoly: 4 games sold.
+Magic: 13 games sold.
 
 Total sales: 
-Pokémon: $2393.81.
-Magic: $80.0.
-Netrunner: $212.5.
-Candyland: $242.0.
-Catan: $374.4.
-Clue: $884.0.
-Life: $330.0.
-Connect Four: $459.0.
-Gloomhaven: $290.0.
-Monopoly: $252.0.
-Risk: $231.0.
-Mousetrap: $300.0.
+Catan: $109.2.
+Connect Four: $189.0.
+Gloomhaven: $203.0.
+Netrunner: $237.5.
+Risk: $33.0.
+Clue: $156.0.
+Mousetrap: $350.0.
+Life: $363.0.
+Pokémon: $2015.84.
+Candyland: $88.0.
+Monopoly: $168.0.
+Magic: $65.0.
 
 Damage Container: 
-Pokémon: 2
-Magic: 0
-Netrunner: 0
-Candyland: 0
-Catan: 1
-Clue: 0
-Life: 0
+Catan: 0
 Connect Four: 0
 Gloomhaven: 0
-Monopoly: 0
+Netrunner: 0
 Risk: 0
+Clue: 0
 Mousetrap: 0
+Life: 0
+Pokémon: 0
+Candyland: 0
+Monopoly: 0
+Magic: 0
 
-Cash Register Blance: 3844.184999999993
+Cash Register Blance: 2829.1449999999973
 Times money was added to the registerd: 1
 List of cookies sold per day: 
 Day [1] 0 cookies sold
-Day [2] 7 cookies sold
-Day [3] 5 cookies sold
-Day [4] 0 cookies sold
-Day [5] 0 cookies sold
-Day [6] 1 cookies sold
-Day [7] 9 cookies sold
-Day [8] 9 cookies sold
-Day [9] 8 cookies sold
-Day [10] 4 cookies sold
-Day [11] 0 cookies sold
-Day [12] 4 cookies sold
-Day [13] 4 cookies sold
-Day [14] 4 cookies sold
-Day [15] 2 cookies sold
-Day [16] 1 cookies sold
-Day [17] 12 cookies sold
-Day [18] 2 cookies sold
-Day [19] 3 cookies sold
-Day [20] 0 cookies sold
-Day [21] 2 cookies sold
-Day [22] 5 cookies sold
-Day [23] 1 cookies sold
-Day [24] 3 cookies sold
-Day [25] 10 cookies sold
-Day [26] 0 cookies sold
-Day [27] 2 cookies sold
-Day [28] 3 cookies sold
-Day [29] 10 cookies sold
-Day [30] 3 cookies sold
-Total number of cookies sold: 114
-The cookie moster stole: 12
-Total amount of money paid to Gonger: 1152.0
+Day [2] 0 cookies sold
+Day [3] 1 cookies sold
+Day [4] 3 cookies sold
+Day [5] 7 cookies sold
+Day [6] 3 cookies sold
+Day [7] 4 cookies sold
+Day [8] 0 cookies sold
+Day [9] 0 cookies sold
+Day [10] 5 cookies sold
+Day [11] 5 cookies sold
+Day [12] 3 cookies sold
+Day [13] 0 cookies sold
+Day [14] 5 cookies sold
+Day [15] 5 cookies sold
+Day [16] 0 cookies sold
+Day [17] 0 cookies sold
+Day [18] 3 cookies sold
+Day [19] 1 cookies sold
+Day [20] 3 cookies sold
+Day [21] 0 cookies sold
+Day [22] 2 cookies sold
+Day [23] 3 cookies sold
+Day [24] 1 cookies sold
+Day [25] 2 cookies sold
+Day [26] 2 cookies sold
+Day [27] 1 cookies sold
+Day [28] 0 cookies sold
+Day [29] 0 cookies sold
+Day [30] 0 cookies sold
+Total number of cookies sold: 59
+The cookie moster stole: 0
+Total amount of money paid to Gonger: 1080.0

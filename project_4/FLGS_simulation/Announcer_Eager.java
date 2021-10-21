@@ -13,12 +13,15 @@ public class Announcer_Eager extends Employee implements Observer{
     private Announcer_Eager() {}
 
 
-    public void Announcer_set(String name, Subject cashier, Subject baker, Subject demonstrator){ //This is an example of ENCAPSULATION
+    public void Announcer_set(String name, Subject baker, Subject demonstrator){ //This is an example of ENCAPSULATION
         set_employee_name(name);
         employee_name = get_employee_name();
-        cashier.registerObserver(this); //register the cashier of the day as an observer
         baker.registerObserver(this); //registers the baker as an observer
         demonstrator.registerObserver(this); //demonstrator the baker as an observer
+    }
+
+    public void Emp_set(Subject cashier){
+        cashier.registerObserver(this); //register the cashier of the day as an observer
     }
 
 
